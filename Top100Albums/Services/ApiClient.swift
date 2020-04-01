@@ -95,7 +95,8 @@ final class ApiClient: ApiClientProtocol {
 #if DEBUG
 extension ApiClient {
   private func logJson(_ data: Data) {
-    if let json = try? JSONSerialization.jsonObject(with: data, options: .mutableContainers), let jsonData = try? JSONSerialization.data(withJSONObject: json, options: .prettyPrinted) {
+    if let json = try? JSONSerialization.jsonObject(with: data, options: .mutableContainers),
+      let jsonData = try? JSONSerialization.data(withJSONObject: json, options: .prettyPrinted) {
         print(String(decoding: jsonData, as: UTF8.self))
     } else {
         print("json data malformed")
@@ -103,4 +104,3 @@ extension ApiClient {
   }
 }
 #endif
-

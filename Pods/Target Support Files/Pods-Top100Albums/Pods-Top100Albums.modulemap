@@ -1,0 +1,6 @@
+framework module Pods_Top100Albums {
+  umbrella header "Pods-Top100Albums-umbrella.h"
+
+  export *
+  module * { export * }
+}

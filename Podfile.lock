@@ -1,0 +1,52 @@
+PODS:
+  - CocoaLumberjack/Core (3.6.1)
+  - CocoaLumberjack/Swift (3.6.1):
+    - CocoaLumberjack/Core
+  - Kingfisher (5.13.1):
+    - Kingfisher/Core (= 5.13.1)
+  - Kingfisher/Core (5.13.1)
+  - OHHTTPStubs/Core (9.0.0)
+  - OHHTTPStubs/Default (9.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.0.0)
+  - OHHTTPStubs/Swift (9.0.0):
+    - OHHTTPStubs/Default
+  - SnapKit (5.0.1)
+  - SnapshotTesting (1.7.2)
+  - SwiftLint (0.39.1)
+
+DEPENDENCIES:
+  - CocoaLumberjack/Swift
+  - Kingfisher (~> 5.0)
+  - OHHTTPStubs/Swift
+  - SnapKit (~> 5.0.0)
+  - SnapshotTesting (~> 1.7.2)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - Kingfisher
+    - OHHTTPStubs
+    - SnapKit
+    - SnapshotTesting
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  Kingfisher: f33a848445e33c543620812158dc5d47f6bf90df
+  OHHTTPStubs: cb29d2a9d09a828ecb93349a2b0c64f99e0db89f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SnapshotTesting: 8caa6661fea7c8019d5b46de77c16bab99c36c5c
+  SwiftLint: 55e96a4a4d537d4a3156859fc1c54bd24851a046
+
+PODFILE CHECKSUM: 187ce4d465ffdba043cba427d2ea292fed676b07
+
+COCOAPODS: 1.9.0
