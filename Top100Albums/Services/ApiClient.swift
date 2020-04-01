@@ -14,7 +14,7 @@ typealias DecodableCallback<T: Decodable> = (T) -> Void
 protocol ApiClientProtocol: AnyObject {
   init(urlSession: URLSession)
 
-  // qwe get albums
+  func fetchTopAlbums(onSuccess: DecodableCallback<AlbumResponse>?, onError: ErrorCallback?)
 }
 
 final class ApiClient: ApiClientProtocol {
@@ -28,7 +28,7 @@ final class ApiClient: ApiClientProtocol {
     var request = URLRequest(url: url)
     request.setValue("Content-type", forHTTPHeaderField: "application/json")
 
-    // Add the other headers you need like authorization
+    // Add the other headers you need like authorization.
     return request
   }
 
@@ -39,14 +39,14 @@ final class ApiClient: ApiClientProtocol {
   - parameter onSuccess: DecodableCallback = (Decodable) -> Void
   - parameter onError: ErrorCallback = (Error) -> Void
   */
-  public func makeRequest<T: Decodable>(
+  private func makeRequest<T: Decodable>(
     request: URLRequest,
     decodableType: T.Type,
     onSuccess: DecodableCallback<T>?,
     onError: ErrorCallback?
   ) {
 
-    let task = self.urlSession.dataTask(with: request) { [weak self] data, response, error in
+    let task = self.urlSession.dataTask(with: request) { [weak self] data, _, error in
       if let err = error {
         DispatchQueue.main.async {
           onError?(err)
@@ -80,16 +80,15 @@ final class ApiClient: ApiClientProtocol {
     task.resume()
   }
 
-//  public func getRockets(onSuccess: DecodableCallback<RocketResponse>?, onError: ErrorCallback?) {
-//    let url = ApiRoute.rockets.url
-//    let request = URLRequest(url: url)
-//    self.makeRequest(
-//      request: request,
-//      decodableType: RocketResponse.self,
-//      onSuccess: onSuccess,
-//      onError: onError
-//    )
-//  }
+  public func fetchTopAlbums(onSuccess: DecodableCallback<AlbumResponse>?, onError: ErrorCallback?) {
+    guard let url = ApiRoute.topAlbums.url else {
+      onError?(NetworkError.urlCreation)
+      return
+    }
+
+    let request = URLRequest(url: url)
+    self.makeRequest(request: request, decodableType: AlbumResponse.self, onSuccess: onSuccess, onError: onError)
+  }
 }
 
 #if DEBUG

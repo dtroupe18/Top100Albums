@@ -23,6 +23,9 @@
 		553725B0243536AA009018A8 /* TopAlbumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553725AF243536AA009018A8 /* TopAlbumsViewModel.swift */; };
 		553725B3243537AB009018A8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553725B2243537AB009018A8 /* BaseViewController.swift */; };
 		553725B524353A65009018A8 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553725B424353A65009018A8 /* Factory.swift */; };
+		5599858D2435401C00DB1E51 /* AlbumResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599858C2435401C00DB1E51 /* AlbumResponse.swift */; };
+		559985902435465A00DB1E51 /* FailableDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599858F2435465A00DB1E51 /* FailableDecodable.swift */; };
+		55998592243548D300DB1E51 /* ApiRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55998591243548D300DB1E51 /* ApiRoute.swift */; };
 		55C9BFB024353D650053774A /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 55C9BFAF24353D640053774A /* .swiftlint.yml */; };
 		5610A00D3411D39439525BE4 /* Pods_Top100Albums.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA70065FE584F16FA16C9C8 /* Pods_Top100Albums.framework */; };
 		5BDBEF75B0A34EE07BF087CD /* Pods_Top100AlbumsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCE342FBCC924E8D4506C57 /* Pods_Top100AlbumsTests.framework */; };
@@ -71,6 +74,9 @@
 		553725AF243536AA009018A8 /* TopAlbumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsViewModel.swift; sourceTree = "<group>"; };
 		553725B2243537AB009018A8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		553725B424353A65009018A8 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		5599858C2435401C00DB1E51 /* AlbumResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumResponse.swift; sourceTree = "<group>"; };
+		5599858F2435465A00DB1E51 /* FailableDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailableDecodable.swift; sourceTree = "<group>"; };
+		55998591243548D300DB1E51 /* ApiRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRoute.swift; sourceTree = "<group>"; };
 		55C9BFAF24353D640053774A /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		705302173E95A94F813FD203 /* Pods-Top100Albums.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top100Albums.release.xcconfig"; path = "Target Support Files/Pods-Top100Albums/Pods-Top100Albums.release.xcconfig"; sourceTree = "<group>"; };
 		8C6BD38A9CFDB47446E9E85B /* Pods-Top100AlbumsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top100AlbumsTests.release.xcconfig"; path = "Target Support Files/Pods-Top100AlbumsTests/Pods-Top100AlbumsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +143,7 @@
 			children = (
 				553725AC24353431009018A8 /* Constants */,
 				5537259D2435325E009018A8 /* Extensions */,
+				5599858B24353FBE00DB1E51 /* Models */,
 				5537259A2435320D009018A8 /* Services */,
 				553725A624353374009018A8 /* UI */,
 				553725A4243532EB009018A8 /* Supporting Files */,
@@ -216,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				553725AD24353440009018A8 /* NetworkError.swift */,
+				55998591243548D300DB1E51 /* ApiRoute.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -239,6 +247,15 @@
 				8C6BD38A9CFDB47446E9E85B /* Pods-Top100AlbumsTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5599858B24353FBE00DB1E51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5599858C2435401C00DB1E51 /* AlbumResponse.swift */,
+				5599858F2435465A00DB1E51 /* FailableDecodable.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		AC5FF4F7F17BCE9782CF4F63 /* Frameworks */ = {
@@ -529,7 +546,9 @@
 			files = (
 				553725A8243533B0009018A8 /* TopAlbumsViewController.swift in Sources */,
 				5537256B24340C63009018A8 /* AppDelegate.swift in Sources */,
+				5599858D2435401C00DB1E51 /* AlbumResponse.swift in Sources */,
 				553725B3243537AB009018A8 /* BaseViewController.swift in Sources */,
+				55998592243548D300DB1E51 /* ApiRoute.swift in Sources */,
 				5537259F24353273009018A8 /* URLRequest+Utils.swift in Sources */,
 				553725A3243532A3009018A8 /* Data+Utils.swift in Sources */,
 				553725AB243533F0009018A8 /* AppCoordinator.swift in Sources */,
@@ -537,6 +556,7 @@
 				553725B0243536AA009018A8 /* TopAlbumsViewModel.swift in Sources */,
 				553725B524353A65009018A8 /* Factory.swift in Sources */,
 				553725AE24353440009018A8 /* NetworkError.swift in Sources */,
+				559985902435465A00DB1E51 /* FailableDecodable.swift in Sources */,
 				5537259C24353227009018A8 /* ApiClient.swift in Sources */,
 				553725A12435328A009018A8 /* Dictionary+Utils.swift in Sources */,
 			);
