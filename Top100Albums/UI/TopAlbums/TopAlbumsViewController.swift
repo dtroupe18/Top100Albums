@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 final class TopAlbumsViewController: BaseViewController {
   private let viewModel: TopAlbumsViewModelProtocol
@@ -14,6 +15,7 @@ final class TopAlbumsViewController: BaseViewController {
   init(viewModel: TopAlbumsViewModelProtocol) {
     self.viewModel = viewModel
     super.init(nibName: nil, bundle: nil)
+    self.viewModel.viewDelegate = self
   }
 
   @available(*, unavailable)
@@ -24,5 +26,19 @@ final class TopAlbumsViewController: BaseViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     view.backgroundColor = .red
+
+    self.viewModel.fetchTopAlbums()
+  }
+}
+
+extension TopAlbumsViewController: TopAlbumsViewModelViewDelegate {
+  func topAlbumsViewModel(_ viewModel: TopAlbumsViewModelProtocol, gotError error: Error) {
+    DispatchQueue.main.async {
+      self.showErrorAlert(msg: error.localizedDescription)
+    }
+  }
+
+  func topAlbumsViewModelGotResults(_ viewModel: TopAlbumsViewModelProtocol) {
+    // qwe
   }
 }
