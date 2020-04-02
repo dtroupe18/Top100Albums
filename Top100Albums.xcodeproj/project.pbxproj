@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5501D9CA24369B4D002EAFB0 /* SFSymbolName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D9C924369B4D002EAFB0 /* SFSymbolName.swift */; };
+		5501D9CE24369C18002EAFB0 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D9CD24369C18002EAFB0 /* UIImage+Utils.swift */; };
+		5501D9D124369CC1002EAFB0 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D9D024369CC1002EAFB0 /* AnimatedButton.swift */; };
 		5537256B24340C63009018A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5537256A24340C63009018A8 /* AppDelegate.swift */; };
 		5537256D24340C63009018A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5537256C24340C63009018A8 /* SceneDelegate.swift */; };
 		5537257424340C65009018A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5537257324340C65009018A8 /* Assets.xcassets */; };
@@ -23,11 +26,19 @@
 		553725B0243536AA009018A8 /* TopAlbumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553725AF243536AA009018A8 /* TopAlbumsViewModel.swift */; };
 		553725B3243537AB009018A8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553725B2243537AB009018A8 /* BaseViewController.swift */; };
 		553725B524353A65009018A8 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553725B424353A65009018A8 /* Factory.swift */; };
+		5558E42B24361BF2001A45E8 /* UIButton+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558E42A24361BF2001A45E8 /* UIButton+Utils.swift */; };
+		5558E42D24361C5D001A45E8 /* HapticCapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558E42C24361C5D001A45E8 /* HapticCapsuleButton.swift */; };
+		558D061A24369177003E7ED8 /* AnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D061924369177003E7ED8 /* AnimationCircleStrokeSpin.swift */; };
+		558D061C24369192003E7ED8 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D061B24369192003E7ED8 /* ActivityIndicatorView.swift */; };
 		5599858D2435401C00DB1E51 /* AlbumResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599858C2435401C00DB1E51 /* AlbumResponse.swift */; };
 		559985902435465A00DB1E51 /* FailableDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599858F2435465A00DB1E51 /* FailableDecodable.swift */; };
 		55998592243548D300DB1E51 /* ApiRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55998591243548D300DB1E51 /* ApiRoute.swift */; };
 		559985942435545200DB1E51 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559985932435545200DB1E51 /* AlbumTableViewCell.swift */; };
 		5599859624355AA800DB1E51 /* UIStackView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599859524355AA800DB1E51 /* UIStackView+Utils.swift */; };
+		5599859B2436050800DB1E51 /* AlbumDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599859A2436050800DB1E51 /* AlbumDetailsViewController.swift */; };
+		5599859D2436053200DB1E51 /* AlbumDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599859C2436053200DB1E51 /* AlbumDetailsViewModel.swift */; };
+		5599859F243608C300DB1E51 /* AlbumDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599859E243608C300DB1E51 /* AlbumDetailsCoordinator.swift */; };
+		559985A224360EF100DB1E51 /* TopAlbumsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559985A124360EF100DB1E51 /* TopAlbumsCoordinator.swift */; };
 		55C9BFB024353D650053774A /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 55C9BFAF24353D640053774A /* .swiftlint.yml */; };
 		5610A00D3411D39439525BE4 /* Pods_Top100Albums.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA70065FE584F16FA16C9C8 /* Pods_Top100Albums.framework */; };
 		5BDBEF75B0A34EE07BF087CD /* Pods_Top100AlbumsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCE342FBCC924E8D4506C57 /* Pods_Top100AlbumsTests.framework */; };
@@ -54,6 +65,9 @@
 /* Begin PBXFileReference section */
 		364AE739FA338B46378E7F3B /* Pods-Top100Albums-Top100AlbumsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top100Albums-Top100AlbumsUITests.release.xcconfig"; path = "Target Support Files/Pods-Top100Albums-Top100AlbumsUITests/Pods-Top100Albums-Top100AlbumsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4810CE2849C621CFDBDF2AD1 /* Pods-Top100Albums-Top100AlbumsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top100Albums-Top100AlbumsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Top100Albums-Top100AlbumsUITests/Pods-Top100Albums-Top100AlbumsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5501D9C924369B4D002EAFB0 /* SFSymbolName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolName.swift; sourceTree = "<group>"; };
+		5501D9CD24369C18002EAFB0 /* UIImage+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
+		5501D9D024369CC1002EAFB0 /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
 		5537256724340C63009018A8 /* Top100Albums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Top100Albums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5537256A24340C63009018A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5537256C24340C63009018A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,11 +90,19 @@
 		553725AF243536AA009018A8 /* TopAlbumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsViewModel.swift; sourceTree = "<group>"; };
 		553725B2243537AB009018A8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		553725B424353A65009018A8 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		5558E42A24361BF2001A45E8 /* UIButton+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Utils.swift"; sourceTree = "<group>"; };
+		5558E42C24361C5D001A45E8 /* HapticCapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCapsuleButton.swift; sourceTree = "<group>"; };
+		558D061924369177003E7ED8 /* AnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
+		558D061B24369192003E7ED8 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		5599858C2435401C00DB1E51 /* AlbumResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumResponse.swift; sourceTree = "<group>"; };
 		5599858F2435465A00DB1E51 /* FailableDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailableDecodable.swift; sourceTree = "<group>"; };
 		55998591243548D300DB1E51 /* ApiRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRoute.swift; sourceTree = "<group>"; };
 		559985932435545200DB1E51 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
 		5599859524355AA800DB1E51 /* UIStackView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Utils.swift"; sourceTree = "<group>"; };
+		5599859A2436050800DB1E51 /* AlbumDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewController.swift; sourceTree = "<group>"; };
+		5599859C2436053200DB1E51 /* AlbumDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewModel.swift; sourceTree = "<group>"; };
+		5599859E243608C300DB1E51 /* AlbumDetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsCoordinator.swift; sourceTree = "<group>"; };
+		559985A124360EF100DB1E51 /* TopAlbumsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsCoordinator.swift; sourceTree = "<group>"; };
 		55C9BFAF24353D640053774A /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		705302173E95A94F813FD203 /* Pods-Top100Albums.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top100Albums.release.xcconfig"; path = "Target Support Files/Pods-Top100Albums/Pods-Top100Albums.release.xcconfig"; sourceTree = "<group>"; };
 		8C6BD38A9CFDB47446E9E85B /* Pods-Top100AlbumsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top100AlbumsTests.release.xcconfig"; path = "Target Support Files/Pods-Top100AlbumsTests/Pods-Top100AlbumsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +141,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5501D9CF24369C88002EAFB0 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5501D9D024369CC1002EAFB0 /* AnimatedButton.swift */,
+				5558E42C24361C5D001A45E8 /* HapticCapsuleButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		5537255E24340C62009018A8 = {
 			isa = PBXGroup;
 			children = (
@@ -179,8 +210,8 @@
 		5537259A2435320D009018A8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				5537259B24353227009018A8 /* ApiClient.swift */,
 				553725AA243533F0009018A8 /* AppCoordinator.swift */,
+				5537259B24353227009018A8 /* ApiClient.swift */,
 				553725B424353A65009018A8 /* Factory.swift */,
 			);
 			path = Services;
@@ -191,6 +222,8 @@
 			children = (
 				553725A2243532A3009018A8 /* Data+Utils.swift */,
 				553725A02435328A009018A8 /* Dictionary+Utils.swift */,
+				5558E42A24361BF2001A45E8 /* UIButton+Utils.swift */,
+				5501D9CD24369C18002EAFB0 /* UIImage+Utils.swift */,
 				5599859524355AA800DB1E51 /* UIStackView+Utils.swift */,
 				5537259E24353273009018A8 /* URLRequest+Utils.swift */,
 			);
@@ -209,8 +242,8 @@
 		553725A624353374009018A8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				5558E42824361BC0001A45E8 /* Screens */,
 				553725B124353793009018A8 /* Components */,
-				553725A9243533C3009018A8 /* TopAlbums */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -218,6 +251,7 @@
 		553725A9243533C3009018A8 /* TopAlbums */ = {
 			isa = PBXGroup;
 			children = (
+				559985A124360EF100DB1E51 /* TopAlbumsCoordinator.swift */,
 				553725A7243533B0009018A8 /* TopAlbumsViewController.swift */,
 				553725AF243536AA009018A8 /* TopAlbumsViewModel.swift */,
 			);
@@ -227,8 +261,9 @@
 		553725AC24353431009018A8 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				553725AD24353440009018A8 /* NetworkError.swift */,
 				55998591243548D300DB1E51 /* ApiRoute.swift */,
+				553725AD24353440009018A8 /* NetworkError.swift */,
+				5501D9C924369B4D002EAFB0 /* SFSymbolName.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -236,10 +271,21 @@
 		553725B124353793009018A8 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				553725B2243537AB009018A8 /* BaseViewController.swift */,
+				558D061824369163003E7ED8 /* ActivityIndicator */,
+				5501D9CF24369C88002EAFB0 /* Buttons */,
 				559985932435545200DB1E51 /* AlbumTableViewCell.swift */,
+				553725B2243537AB009018A8 /* BaseViewController.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		5558E42824361BC0001A45E8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				55998599243604E600DB1E51 /* AlbumDetails */,
+				553725A9243533C3009018A8 /* TopAlbums */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		55751E28EA4457D28841D21A /* Pods */ = {
@@ -255,6 +301,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		558D061824369163003E7ED8 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				558D061924369177003E7ED8 /* AnimationCircleStrokeSpin.swift */,
+				558D061B24369192003E7ED8 /* ActivityIndicatorView.swift */,
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
 		5599858B24353FBE00DB1E51 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +317,16 @@
 				5599858F2435465A00DB1E51 /* FailableDecodable.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		55998599243604E600DB1E51 /* AlbumDetails */ = {
+			isa = PBXGroup;
+			children = (
+				5599859E243608C300DB1E51 /* AlbumDetailsCoordinator.swift */,
+				5599859A2436050800DB1E51 /* AlbumDetailsViewController.swift */,
+				5599859C2436053200DB1E51 /* AlbumDetailsViewModel.swift */,
+			);
+			path = AlbumDetails;
 			sourceTree = "<group>";
 		};
 		AC5FF4F7F17BCE9782CF4F63 /* Frameworks */ = {
@@ -552,20 +617,31 @@
 			files = (
 				553725A8243533B0009018A8 /* TopAlbumsViewController.swift in Sources */,
 				5537256B24340C63009018A8 /* AppDelegate.swift in Sources */,
+				5501D9D124369CC1002EAFB0 /* AnimatedButton.swift in Sources */,
 				5599859624355AA800DB1E51 /* UIStackView+Utils.swift in Sources */,
+				5599859F243608C300DB1E51 /* AlbumDetailsCoordinator.swift in Sources */,
+				5599859D2436053200DB1E51 /* AlbumDetailsViewModel.swift in Sources */,
 				5599858D2435401C00DB1E51 /* AlbumResponse.swift in Sources */,
+				5558E42D24361C5D001A45E8 /* HapticCapsuleButton.swift in Sources */,
 				553725B3243537AB009018A8 /* BaseViewController.swift in Sources */,
 				55998592243548D300DB1E51 /* ApiRoute.swift in Sources */,
+				559985A224360EF100DB1E51 /* TopAlbumsCoordinator.swift in Sources */,
 				5537259F24353273009018A8 /* URLRequest+Utils.swift in Sources */,
 				553725A3243532A3009018A8 /* Data+Utils.swift in Sources */,
 				559985942435545200DB1E51 /* AlbumTableViewCell.swift in Sources */,
 				553725AB243533F0009018A8 /* AppCoordinator.swift in Sources */,
 				5537256D24340C63009018A8 /* SceneDelegate.swift in Sources */,
+				5501D9CA24369B4D002EAFB0 /* SFSymbolName.swift in Sources */,
 				553725B0243536AA009018A8 /* TopAlbumsViewModel.swift in Sources */,
+				558D061C24369192003E7ED8 /* ActivityIndicatorView.swift in Sources */,
 				553725B524353A65009018A8 /* Factory.swift in Sources */,
 				553725AE24353440009018A8 /* NetworkError.swift in Sources */,
+				5501D9CE24369C18002EAFB0 /* UIImage+Utils.swift in Sources */,
+				5558E42B24361BF2001A45E8 /* UIButton+Utils.swift in Sources */,
 				559985902435465A00DB1E51 /* FailableDecodable.swift in Sources */,
 				5537259C24353227009018A8 /* ApiClient.swift in Sources */,
+				5599859B2436050800DB1E51 /* AlbumDetailsViewController.swift in Sources */,
+				558D061A24369177003E7ED8 /* AnimationCircleStrokeSpin.swift in Sources */,
 				553725A12435328A009018A8 /* Dictionary+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -663,7 +739,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -717,7 +793,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -734,7 +810,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DE8BN3U97V;
+				DEVELOPMENT_TEAM = D3D7B5BPEZ;
 				INFOPLIST_FILE = Top100Albums/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -754,7 +830,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DE8BN3U97V;
+				DEVELOPMENT_TEAM = D3D7B5BPEZ;
 				INFOPLIST_FILE = Top100Albums/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

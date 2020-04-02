@@ -15,6 +15,7 @@ protocol TopAlbumsViewModelViewDelegate: class {
 }
 
 protocol TopAlbumsViewModelProtocol: UITableViewDataSourcePrefetching {
+  var coordinatorDelegate: TopAlbumsCoordinatorDelegate? { get set }
   var viewDelegate: TopAlbumsViewModelViewDelegate? { get set }
   var albums: [Album] { get }
   var numberOfSections: Int { get }
@@ -23,10 +24,13 @@ protocol TopAlbumsViewModelProtocol: UITableViewDataSourcePrefetching {
   init(apiClient: ApiClientProtocol)
 
   func fetchTopAlbums()
+  func userDidSelectAlbum(_ album: Album)
 }
 
 final class TopAlbumsViewModel: NSObject, TopAlbumsViewModelProtocol {
+  weak var coordinatorDelegate: TopAlbumsCoordinatorDelegate?
   weak var viewDelegate: TopAlbumsViewModelViewDelegate?
+
   private let apiClient: ApiClientProtocol
   private(set) var albums: [Album] = []
   let numberOfSections: Int = 1
@@ -51,6 +55,10 @@ final class TopAlbumsViewModel: NSObject, TopAlbumsViewModelProtocol {
 
         self.viewDelegate?.topAlbumsViewModel(self, gotError: error)
     })
+  }
+
+  func userDidSelectAlbum(_ album: Album) {
+    coordinatorDelegate?.topAlbumsUserDidSelectAlbum(album)
   }
 }
 

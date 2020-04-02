@@ -8,11 +8,7 @@
 
 import UIKit
 
-typealias Factory = DependencyContainerProtocol & ViewControllerFactoryProtocol
-
-protocol ViewControllerFactoryProtocol {
-  func makeTopAlbumsViewController() -> TopAlbumsViewController
-}
+typealias Factory = DependencyContainerProtocol
 
 protocol DependencyContainerProtocol {
   var apiClient: ApiClientProtocol { get }
@@ -29,13 +25,4 @@ final class DependencyContainer: DependencyContainerProtocol {
   private(set) lazy var apiClient: ApiClientProtocol = {
     return ApiClient(urlSession: self.urlSession)
   }()
-}
-
-// MARK: ViewControllerFactory
-
-extension DependencyContainer: ViewControllerFactoryProtocol {
-  func makeTopAlbumsViewController() -> TopAlbumsViewController {
-    let viewModel = TopAlbumsViewModel(apiClient: self.apiClient)
-    return TopAlbumsViewController(viewModel: viewModel)
-  }
 }

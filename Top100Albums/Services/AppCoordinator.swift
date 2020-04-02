@@ -8,28 +8,34 @@
 
 import UIKit
 
-protocol AppCoordinatorProtocol: AnyObject {
-  init(factory: Factory, navigationController: UINavigationController, window: UIWindow)
-
+protocol CoordinatorProtocol: AnyObject {
   func start()
+}
+
+protocol AppCoordinatorProtocol: CoordinatorProtocol {
+  init(factory: Factory, navigationController: UINavigationController, window: UIWindow)
 }
 
 final class AppCoordinator: AppCoordinatorProtocol {
   private let factory: Factory
   private let navigationController: UINavigationController
   private let window: UIWindow
+  private let topAlbumsCoordinator: TopAlbumsCoordinatorProtocol
 
   init(factory: Factory, navigationController: UINavigationController, window: UIWindow) {
     self.factory = factory
     self.navigationController = navigationController
     self.window = window
+
+    self.topAlbumsCoordinator = TopAlbumsCoordinator(
+      apiClient: factory.apiClient,
+      navigationController: navigationController
+    )
   }
 
   public func start() {
-    let topAlbumsVC = self.factory.makeTopAlbumsViewController()
-    self.navigationController.pushViewController(topAlbumsVC, animated: false)
-
-    self.window.rootViewController = self.navigationController
-    self.window.makeKeyAndVisible()
+    window.rootViewController = navigationController
+    topAlbumsCoordinator.start()
+    window.makeKeyAndVisible()
   }
 }

@@ -82,7 +82,7 @@ final class AlbumTableViewCell: UITableViewCell {
   }
 
   public func configureWith(_ album: Album) {
-    imageDownloadTask = self.albumImageView.kf.setImage(with: URL(string: album.artworkUrl100))
+    imageDownloadTask = albumImageView.kf.setImage(with: URL(string: album.artworkUrl100))
     albumTitleLabel.text = album.name
     artistNameLabel.text = album.artistName
   }

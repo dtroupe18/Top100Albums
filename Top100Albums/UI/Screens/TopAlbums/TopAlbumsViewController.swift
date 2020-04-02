@@ -40,10 +40,16 @@ final class TopAlbumsViewController: BaseViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+
+    navigationController?.navigationBar.barTintColor = UIColor.systemGray5
+    navigationController?.navigationBar.titleTextAttributes =
+      [NSAttributedString.Key.foregroundColor: UIColor.systemBlue]
+    title = "Top 100 Albums"
     view.backgroundColor = UIColor.systemBackground
 
     self.addTableView()
-    self.viewModel.fetchTopAlbums() // qwe when to call this.
+    self.showActivityIndicator()
+    self.viewModel.fetchTopAlbums()
   }
 
   private func addTableView() {
@@ -60,7 +66,9 @@ final class TopAlbumsViewController: BaseViewController {
 
 extension TopAlbumsViewController: UITableViewDelegate {
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    // qwe
+    let album = viewModel.albums[indexPath.row]
+    viewModel.userDidSelectAlbum(album)
+    tableView.deselectRow(at: indexPath, animated: true)
   }
 
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -86,6 +94,7 @@ extension TopAlbumsViewController: UITableViewDataSource {
         return UITableViewCell()
     }
 
+    cell.accessoryType = .disclosureIndicator
     cell.configureWith(viewModel.albums[indexPath.row])
     return cell
   }
@@ -96,12 +105,14 @@ extension TopAlbumsViewController: UITableViewDataSource {
 extension TopAlbumsViewController: TopAlbumsViewModelViewDelegate {
   func topAlbumsViewModel(_ viewModel: TopAlbumsViewModelProtocol, gotError error: Error) {
     DispatchQueue.main.async {
+      self.hideActivityIndicator()
       self.showErrorAlert(msg: error.localizedDescription)
     }
   }
 
   func topAlbumsViewModelGotResults(_ viewModel: TopAlbumsViewModelProtocol) {
     DispatchQueue.main.async {
+      self.hideActivityIndicator()
       self.tableView.reloadData()
     }
   }
