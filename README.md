@@ -4,8 +4,8 @@ Simple App to Display the top 100 albums across all genres from iTunes `https://
 
 ## Setup Repo
 
-1. `git clone git@github.com:dtroupe18/Top100Albums.git`
-2. `open Top100Albums.xcworkspace`
+1. `git clone git@github.com:dtroupe18/Top100Albums.git`.
+2. open `Top100Albums.xcworkspace`.
 
 
 
@@ -13,7 +13,12 @@ Simple App to Display the top 100 albums across all genres from iTunes `https://
 
 Light was dark mode was handled automatically using [system colors](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color).
 
+![Alt Text](SampleScreenshots/DarkModeList.PNG)
+![Alt Text](SampleScreenshots/LightModeList.PNG)
 
+
+![Alt Text](SampleScreenshots/DarkModeDetails.PNG)
+![Alt Text](SampleScreenshots/LightModeDetails.PNG)
 
 
 
