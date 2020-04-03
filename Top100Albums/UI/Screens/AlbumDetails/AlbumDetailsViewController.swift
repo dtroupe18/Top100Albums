@@ -28,7 +28,7 @@ final class AlbumDetailsViewController: BaseViewController {
   private lazy var itunesButton: HapticCapsuleButton = {
     let button = HapticCapsuleButton()
     button.backgroundColor = UIColor.systemBlue
-    button.setTitle("View in iTunes", for: .normal)
+    button.setTitle("View in Apple Music", for: .normal)
     button.addTarget(self, action: #selector(self.itunesButtonPressed), for: .touchUpInside)
     return button
   }()
