@@ -9,9 +9,7 @@
 import XCTest
 @testable import Top100Albums
 
-/**
- Base class for unit tests.
- */
+/// Base class for unit tests.
 class Top100AlbumsTests: XCTestCase {
 
   override func setUp() {

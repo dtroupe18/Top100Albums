@@ -9,9 +9,7 @@
 import Foundation
 @testable import Top100Albums
 
-/**
- Fake ApiClient that can use used for snapshot testing.
- */
+/// Fake ApiClient that can use used for snapshot testing.
 final class MockApiClient: ApiClientProtocol {
   init(urlSession: URLSession) {
     // Not used.

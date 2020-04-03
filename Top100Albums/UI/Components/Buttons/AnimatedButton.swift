@@ -8,9 +8,7 @@
 
 import UIKit
 
-/**
- Button that animates when highlighted and provides haptic feedback on touchDown events.
- */
+/// Button that animates when highlighted and provides haptic feedback on touchDown events.
 class AnimatedButton: UIButton {
   override var isHighlighted: Bool {
     didSet {
