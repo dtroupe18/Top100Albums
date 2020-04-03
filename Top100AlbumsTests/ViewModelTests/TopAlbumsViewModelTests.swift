@@ -11,7 +11,6 @@ import OHHTTPStubs
 @testable import Top100Albums
 
 final class TopAlbumsViewModelTests: Top100AlbumsTests, StubLoading {
-
   override func setUp() {
     super.setUp()
   }

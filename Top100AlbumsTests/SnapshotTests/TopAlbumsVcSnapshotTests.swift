@@ -19,7 +19,7 @@ final class TopAlbumsVcSnapshotTests: BaseSnapshotTests {
     super.tearDown()
   }
 
-  func testPageOneSnapshots() {
+  func testTopAlbumsSnapshots() {
     let mockApiClient = MockApiClient(urlSession: URLSession(configuration: .default))
     let viewModel = TopAlbumsTestViewModel(apiClient: mockApiClient)
 

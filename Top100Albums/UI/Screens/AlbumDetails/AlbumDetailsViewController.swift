@@ -75,7 +75,7 @@ final class AlbumDetailsViewController: BaseViewController {
   }
 
   private func addImageView() {
-    imageView.kf.setImage(with: viewModel.imageUrl)
+    imageView.kf.setImage(with: viewModel.imageUrl, placeholder: viewModel.placeholder)
     view.addSubview(imageView)
     imageView.snp.makeConstraints({ make in
       make.top.equalTo(view.safeAreaLayoutGuide).offset(8)

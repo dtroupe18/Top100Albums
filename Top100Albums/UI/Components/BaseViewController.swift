@@ -21,7 +21,7 @@ class BaseViewController: UIViewController {
 
   func showActivityIndicator(disableUserInteraction: Bool = true) {
     // Prevent multiple activity indicators from being added to the view.
-    guard !view.subviews.contains(activityIndicator) else { return } // qwe superView?
+    guard !view.subviews.contains(activityIndicator) else { return }
 
     view.addSubview(activityIndicator)
     activityIndicator.snp.makeConstraints { make in
@@ -30,7 +30,7 @@ class BaseViewController: UIViewController {
     }
 
     activityIndicator.startAnimating()
-    activityIndicator.isUserInteractionEnabled = false // qwe
+    activityIndicator.isUserInteractionEnabled = false
     view.isUserInteractionEnabled = !disableUserInteraction
   }
 

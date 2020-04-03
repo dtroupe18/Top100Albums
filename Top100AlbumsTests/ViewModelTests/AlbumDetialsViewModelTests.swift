@@ -10,7 +10,6 @@ import XCTest
 @testable import Top100Albums
 
 final class AlbumDetialsViewModelTests: Top100AlbumsTests, StubLoading {
-
   override func setUp() {
     super.setUp()
   }
@@ -38,6 +37,7 @@ final class AlbumDetialsViewModelTests: Top100AlbumsTests, StubLoading {
       XCTAssertEqual(viewModel.copyright, album.copyright)
       XCTAssertNotNil(viewModel.itunesUrl)
       XCTAssertNotNil(viewModel.imageUrl)
+      XCTAssertNotNil(viewModel.placeholder)
     } catch let err {
       fail(message: err.localizedDescription)
     }

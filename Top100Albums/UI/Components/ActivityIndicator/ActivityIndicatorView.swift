@@ -29,6 +29,7 @@ final class ActivityIndicatorView: UIView {
   public init() {
     super.init(frame: .zero)
     isHidden = true
+    isUserInteractionEnabled = false
     self.setupViews()
   }
 

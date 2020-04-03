@@ -1,35 +1,15 @@
 //
-//  AlbumDetailsViewModel.swift
-//  Top100Albums
+//  AlbumDetialsTestViewModel.swift
+//  Top100AlbumsTests
 //
-//  Created by Dave Troupe on 4/2/20.
+//  Created by Dave Troupe on 4/3/20.
 //  Copyright © 2020 DavidTroupe. All rights reserved.
 //
 
 import UIKit
+@testable import Top100Albums
 
-protocol AlbumDetailsViewModelProtocol: AnyObject {
-  var coordinatorDelegate: AlbumDetialsViewModelCoordinatorDelegate? { get set }
-  var albumName: String { get }
-  var artist: String { get }
-  var genres: [Genre] { get }
-  var genreNamesString: String { get }
-  var releaseDateStr: String { get }
-  var copyright: String { get }
-  var itunesUrl: URL? { get }
-  var imageUrl: URL? { get }
-  var placeholder: UIImage? { get }
-
-  init(album: Album)
-
-  func didFinish()
-}
-
-protocol AlbumDetialsViewModelCoordinatorDelegate: class {
-  func albumDetialsViewModelDidFinish(_: AlbumDetailsViewModelProtocol)
-}
-
-final class AlbumDetialsViewModel: AlbumDetailsViewModelProtocol {
+final class AlbumDetialsTestViewModel: AlbumDetailsViewModelProtocol {
   weak var coordinatorDelegate: AlbumDetialsViewModelCoordinatorDelegate?
   private let album: Album
 
@@ -79,7 +59,8 @@ final class AlbumDetialsViewModel: AlbumDetailsViewModelProtocol {
   }
 
   var imageUrl: URL? {
-    return URL(string: album.artworkUrl100)
+    // Return nil so the placeholder is used in snapshots.
+    return nil
   }
 
   var placeholder: UIImage? {
