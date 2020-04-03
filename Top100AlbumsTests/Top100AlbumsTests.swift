@@ -21,8 +21,12 @@ class Top100AlbumsTests: XCTestCase {
   override func tearDown() {
     super.tearDown()
   }
+}
 
-  public func fail(message: String) {
-    XCTFail("\(String(describing: self)) failed \(message)")
-  }
+public func fail(
+  message: String,
+  filename: String = #file,
+  line: Int = #line
+) {
+  XCTFail("\(filename) failed \(message) line: \(line)")
 }
