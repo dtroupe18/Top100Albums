@@ -10,10 +10,6 @@ import Kingfisher
 import SnapKit
 import UIKit
 
-protocol AlbumTableViewCellViewModelProtocol: AnyObject {
-  init(album: Album) // qwe
-}
-
 final class AlbumTableViewCell: UITableViewCell {
   private let albumImageView: UIImageView = {
     let imgView = UIImageView()
@@ -81,9 +77,13 @@ final class AlbumTableViewCell: UITableViewCell {
     artistNameLabel.text = nil
   }
 
-  public func configureWith(_ album: Album) {
-    imageDownloadTask = albumImageView.kf.setImage(with: URL(string: album.artworkUrl100))
-    albumTitleLabel.text = album.name
-    artistNameLabel.text = album.artistName
+  public func configureWith(_ viewModel: AlbumTableViewCellViewModelProtocol) {
+    imageDownloadTask = albumImageView.kf.setImage(
+      with: viewModel.artworkUrl,
+      placeholder: viewModel.placeholderImage
+    )
+
+    albumTitleLabel.text = viewModel.albumName
+    artistNameLabel.text = viewModel.artistName
   }
 }

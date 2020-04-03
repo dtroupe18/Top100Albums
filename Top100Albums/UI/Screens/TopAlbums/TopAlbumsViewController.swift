@@ -66,8 +66,7 @@ final class TopAlbumsViewController: BaseViewController {
 
 extension TopAlbumsViewController: UITableViewDelegate {
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    let album = viewModel.albums[indexPath.row]
-    viewModel.userDidSelectAlbum(album)
+    viewModel.userDidSelectAlbum(indexPath)
     tableView.deselectRow(at: indexPath, animated: true)
   }
 
@@ -95,7 +94,7 @@ extension TopAlbumsViewController: UITableViewDataSource {
     }
 
     cell.accessoryType = .disclosureIndicator
-    cell.configureWith(viewModel.albums[indexPath.row])
+    cell.configureWith(viewModel.cellViewModels[indexPath.row])
     return cell
   }
 }

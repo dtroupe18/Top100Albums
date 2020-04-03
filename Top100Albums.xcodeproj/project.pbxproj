@@ -17,6 +17,14 @@
 		5501D9DE2436B1EB002EAFB0 /* AlbumResponseDecodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D9DD2436B1EB002EAFB0 /* AlbumResponseDecodeTests.swift */; };
 		5501D9E124374FFD002EAFB0 /* ApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D9E024374FFD002EAFB0 /* ApiClientTests.swift */; };
 		5501D9E324375542002EAFB0 /* TopAlbumsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D9E224375542002EAFB0 /* TopAlbumsViewModelTests.swift */; };
+		5521C0832437A24A00DD329B /* AlbumDetialsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C0822437A24A00DD329B /* AlbumDetialsViewModelTests.swift */; };
+		5521C0872437A70900DD329B /* BaseSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C0862437A70900DD329B /* BaseSnapshotTests.swift */; };
+		5521C0892437A78A00DD329B /* TopAlbumsVcSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C0882437A78A00DD329B /* TopAlbumsVcSnapshotTests.swift */; };
+		5521C08C2437A90000DD329B /* TopAlbumsTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C08B2437A90000DD329B /* TopAlbumsTestViewModel.swift */; };
+		5521C08F2437AB3000DD329B /* MockApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C08E2437AB3000DD329B /* MockApiClient.swift */; };
+		5521C0912437AE8900DD329B /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C0902437AE8900DD329B /* ImageName.swift */; };
+		5521C0942437B43A00DD329B /* AlbumTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C0932437B43A00DD329B /* AlbumTableViewCellViewModel.swift */; };
+		5521C0962437B47A00DD329B /* AlbumTableViewCellTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C0952437B47A00DD329B /* AlbumTableViewCellTestViewModel.swift */; };
 		5537256B24340C63009018A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5537256A24340C63009018A8 /* AppDelegate.swift */; };
 		5537256D24340C63009018A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5537256C24340C63009018A8 /* SceneDelegate.swift */; };
 		5537257424340C65009018A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5537257324340C65009018A8 /* Assets.xcassets */; };
@@ -83,6 +91,14 @@
 		5501D9DD2436B1EB002EAFB0 /* AlbumResponseDecodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumResponseDecodeTests.swift; sourceTree = "<group>"; };
 		5501D9E024374FFD002EAFB0 /* ApiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientTests.swift; sourceTree = "<group>"; };
 		5501D9E224375542002EAFB0 /* TopAlbumsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsViewModelTests.swift; sourceTree = "<group>"; };
+		5521C0822437A24A00DD329B /* AlbumDetialsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetialsViewModelTests.swift; sourceTree = "<group>"; };
+		5521C0862437A70900DD329B /* BaseSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSnapshotTests.swift; sourceTree = "<group>"; };
+		5521C0882437A78A00DD329B /* TopAlbumsVcSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsVcSnapshotTests.swift; sourceTree = "<group>"; };
+		5521C08B2437A90000DD329B /* TopAlbumsTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsTestViewModel.swift; sourceTree = "<group>"; };
+		5521C08E2437AB3000DD329B /* MockApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApiClient.swift; sourceTree = "<group>"; };
+		5521C0902437AE8900DD329B /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
+		5521C0932437B43A00DD329B /* AlbumTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		5521C0952437B47A00DD329B /* AlbumTableViewCellTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCellTestViewModel.swift; sourceTree = "<group>"; };
 		5537256724340C63009018A8 /* Top100Albums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Top100Albums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5537256A24340C63009018A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5537256C24340C63009018A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -181,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				5501D9E224375542002EAFB0 /* TopAlbumsViewModelTests.swift */,
+				5521C0822437A24A00DD329B /* AlbumDetialsViewModelTests.swift */,
 			);
 			path = ViewModelTests;
 			sourceTree = "<group>";
@@ -207,6 +224,41 @@
 				5501D9DD2436B1EB002EAFB0 /* AlbumResponseDecodeTests.swift */,
 			);
 			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		5521C0842437A68D00DD329B /* SnapshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				5521C0862437A70900DD329B /* BaseSnapshotTests.swift */,
+				5521C0882437A78A00DD329B /* TopAlbumsVcSnapshotTests.swift */,
+			);
+			path = SnapshotTests;
+			sourceTree = "<group>";
+		};
+		5521C08A2437A8E800DD329B /* TestViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5521C0952437B47A00DD329B /* AlbumTableViewCellTestViewModel.swift */,
+				5521C08B2437A90000DD329B /* TopAlbumsTestViewModel.swift */,
+			);
+			path = TestViewModels;
+			sourceTree = "<group>";
+		};
+		5521C08D2437AB1A00DD329B /* MockObjects */ = {
+			isa = PBXGroup;
+			children = (
+				5521C08E2437AB3000DD329B /* MockApiClient.swift */,
+			);
+			path = MockObjects;
+			sourceTree = "<group>";
+		};
+		5521C0922437B42600DD329B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				559985932435545200DB1E51 /* AlbumTableViewCell.swift */,
+				5521C0932437B43A00DD329B /* AlbumTableViewCellViewModel.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		5537255E24340C62009018A8 = {
@@ -253,9 +305,12 @@
 			children = (
 				5537258124340C66009018A8 /* Top100AlbumsTests.swift */,
 				5501D9E624375643002EAFB0 /* ApiTests */,
+				5521C08D2437AB1A00DD329B /* MockObjects */,
 				5501D9E724375650002EAFB0 /* ModelTests */,
+				5521C0842437A68D00DD329B /* SnapshotTests */,
 				5501D9E52437562D002EAFB0 /* SpyDelegates */,
 				5501D9D22436AEA7002EAFB0 /* Stubs */,
+				5521C08A2437A8E800DD329B /* TestViewModels */,
 				5501D9E424375624002EAFB0 /* ViewModelTests */,
 				5537258324340C66009018A8 /* Info.plist */,
 			);
@@ -315,6 +370,7 @@
 		553725A9243533C3009018A8 /* TopAlbums */ = {
 			isa = PBXGroup;
 			children = (
+				5521C0922437B42600DD329B /* Components */,
 				559985A124360EF100DB1E51 /* TopAlbumsCoordinator.swift */,
 				553725A7243533B0009018A8 /* TopAlbumsViewController.swift */,
 				553725AF243536AA009018A8 /* TopAlbumsViewModel.swift */,
@@ -326,6 +382,7 @@
 			isa = PBXGroup;
 			children = (
 				55998591243548D300DB1E51 /* ApiRoute.swift */,
+				5521C0902437AE8900DD329B /* ImageName.swift */,
 				553725AD24353440009018A8 /* NetworkError.swift */,
 				5501D9C924369B4D002EAFB0 /* SFSymbolName.swift */,
 			);
@@ -337,7 +394,6 @@
 			children = (
 				558D061824369163003E7ED8 /* ActivityIndicator */,
 				5501D9CF24369C88002EAFB0 /* Buttons */,
-				559985932435545200DB1E51 /* AlbumTableViewCell.swift */,
 				553725B2243537AB009018A8 /* BaseViewController.swift */,
 			);
 			path = Components;
@@ -698,8 +754,10 @@
 				559985942435545200DB1E51 /* AlbumTableViewCell.swift in Sources */,
 				553725AB243533F0009018A8 /* AppCoordinator.swift in Sources */,
 				5537256D24340C63009018A8 /* SceneDelegate.swift in Sources */,
+				5521C0942437B43A00DD329B /* AlbumTableViewCellViewModel.swift in Sources */,
 				5501D9CA24369B4D002EAFB0 /* SFSymbolName.swift in Sources */,
 				553725B0243536AA009018A8 /* TopAlbumsViewModel.swift in Sources */,
+				5521C0912437AE8900DD329B /* ImageName.swift in Sources */,
 				558D061C24369192003E7ED8 /* ActivityIndicatorView.swift in Sources */,
 				553725B524353A65009018A8 /* Factory.swift in Sources */,
 				553725AE24353440009018A8 /* NetworkError.swift in Sources */,
@@ -717,9 +775,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5521C0962437B47A00DD329B /* AlbumTableViewCellTestViewModel.swift in Sources */,
+				5521C08C2437A90000DD329B /* TopAlbumsTestViewModel.swift in Sources */,
 				5501D9DE2436B1EB002EAFB0 /* AlbumResponseDecodeTests.swift in Sources */,
+				5521C0872437A70900DD329B /* BaseSnapshotTests.swift in Sources */,
 				5501D9D42436AF08002EAFB0 /* StubLoading.swift in Sources */,
+				5521C0892437A78A00DD329B /* TopAlbumsVcSnapshotTests.swift in Sources */,
 				5501D9E324375542002EAFB0 /* TopAlbumsViewModelTests.swift in Sources */,
+				5521C08F2437AB3000DD329B /* MockApiClient.swift in Sources */,
+				5521C0832437A24A00DD329B /* AlbumDetialsViewModelTests.swift in Sources */,
 				55D216F4243756D000B455F9 /* TopAlbumsViewModelSpyViewDelegate.swift in Sources */,
 				5537258224340C66009018A8 /* Top100AlbumsTests.swift in Sources */,
 				5501D9E124374FFD002EAFB0 /* ApiClientTests.swift in Sources */,

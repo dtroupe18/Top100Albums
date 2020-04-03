@@ -9,6 +9,10 @@
 import UIKit
 
 extension UIImage {
+  convenience init?(imageName: ImageName) {
+    self.init(named: imageName.description)
+  }
+
   convenience init?(sfSymbolName: SFSymbolName) {
     self.init(systemName: sfSymbolName.description)
   }

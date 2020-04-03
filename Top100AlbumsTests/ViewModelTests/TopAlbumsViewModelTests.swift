@@ -30,7 +30,7 @@ final class TopAlbumsViewModelTests: Top100AlbumsTests, StubLoading {
 
       XCTAssertNil(spyDelegate.error)
       XCTAssertFalse(spyDelegate.calledGotResults)
-      XCTAssertTrue(viewModel.albums.isEmpty)
+      XCTAssertTrue(viewModel.cellViewModels.isEmpty)
       XCTAssertTrue(viewModel.numberOfRows == 0)
       XCTAssertTrue(viewModel.numberOfSections == 1)
 
@@ -51,7 +51,7 @@ final class TopAlbumsViewModelTests: Top100AlbumsTests, StubLoading {
         }
 
         XCTAssertTrue(spyDelegate.calledGotResults)
-        XCTAssertTrue(viewModel.albums.count == 100)
+        XCTAssertTrue(viewModel.cellViewModels.count == 100)
         XCTAssertTrue(viewModel.numberOfRows == 100)
         XCTAssertTrue(viewModel.numberOfSections == 1)
       })

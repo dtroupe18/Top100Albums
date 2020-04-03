@@ -59,4 +59,22 @@ extension StubLoading {
       throw(err)
     }
   }
+
+  func makeSingleAlbum(callingClass: AnyObject) throws -> Album? {
+    return try parseDataFrom(
+      decodableType: AlbumResponse.self,
+      filename: .oneAlbumStub,
+      fileType: .json,
+      callingClass: callingClass
+    ).feed.results.first
+  }
+
+  func make100Albums(callingClass: AnyObject) throws -> [Album] {
+    return try parseDataFrom(
+      decodableType: AlbumResponse.self,
+      filename: .fullStub,
+      fileType: .json,
+      callingClass: callingClass
+    ).feed.results
+  }
 }

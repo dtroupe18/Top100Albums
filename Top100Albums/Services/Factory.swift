@@ -19,7 +19,7 @@ final class DependencyContainer: DependencyContainerProtocol {
     let configuration = URLSessionConfiguration.default
     configuration.timeoutIntervalForRequest = 15 // seconds
     configuration.timeoutIntervalForResource = 30
-    return URLSession(configuration: .default)
+    return URLSession(configuration: configuration)
   }()
 
   private(set) lazy var apiClient: ApiClientProtocol = {
