@@ -17,14 +17,10 @@ struct AlbumResponse: Codable {
 // MARK: - Feed
 
 struct Feed: Codable {
-  let id: String
-  let updated: String
   let results: [Album]
 
   init(from decoder: Decoder) throws {
     let container = try decoder.container(keyedBy: CodingKeys.self)
-    self.id = try container.decode(String.self, forKey: .id)
-    self.updated = try container.decode(String.self, forKey: .updated)
 
     self.results = try container.decode(
       [FailableDecodable<Album>].self,
