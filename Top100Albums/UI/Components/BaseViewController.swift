@@ -10,7 +10,7 @@ import UIKit
 
 /// Parent class for all UIViewControllers.
 class BaseViewController: UIViewController {
-  public lazy var activityIndicator = ActivityIndicatorView()
+  private lazy var activityIndicator = ActivityIndicatorView()
 
   public final func showErrorAlert(title: String = "Error", msg: String) {
     let alertController = UIAlertController(title: title, message: msg, preferredStyle: .alert)
@@ -19,7 +19,7 @@ class BaseViewController: UIViewController {
     present(alertController, animated: true, completion: nil)
   }
 
-  func showActivityIndicator(disableUserInteraction: Bool = true) {
+  public func showActivityIndicator(disableUserInteraction: Bool = true) {
     // Prevent multiple activity indicators from being added to the view.
     guard !view.subviews.contains(activityIndicator) else { return }
 
@@ -34,7 +34,7 @@ class BaseViewController: UIViewController {
     view.isUserInteractionEnabled = !disableUserInteraction
   }
 
-  func hideActivityIndicator() {
+  public func hideActivityIndicator() {
     view.isUserInteractionEnabled = true
 
     if activityIndicator.superview != nil {

@@ -17,7 +17,7 @@ protocol DependencyContainerProtocol {
 final class DependencyContainer: DependencyContainerProtocol {
   private let urlSession: URLSession = {
     let configuration = URLSessionConfiguration.default
-    configuration.timeoutIntervalForRequest = 15 // seconds
+    configuration.timeoutIntervalForRequest = 15 // Seconds.
     configuration.timeoutIntervalForResource = 30
     return URLSession(configuration: configuration)
   }()

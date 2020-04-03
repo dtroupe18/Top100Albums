@@ -10,6 +10,7 @@ import UIKit
 import CocoaLumberjack
 @testable import Top100Albums
 
+/// Test viewModel for UI snapshot) testing only.
 final class TopAlbumsTestViewModel: NSObject, TopAlbumsViewModelProtocol, StubLoading {
   weak var coordinatorDelegate: TopAlbumsCoordinatorDelegate?
   weak var viewDelegate: TopAlbumsViewModelViewDelegate?

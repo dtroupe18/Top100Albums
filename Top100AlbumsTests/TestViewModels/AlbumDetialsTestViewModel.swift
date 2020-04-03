@@ -9,6 +9,7 @@
 import UIKit
 @testable import Top100Albums
 
+/// Test viewModel for UI snapshot) testing only.
 final class AlbumDetialsTestViewModel: AlbumDetailsViewModelProtocol {
   weak var coordinatorDelegate: AlbumDetialsViewModelCoordinatorDelegate?
   private let album: Album

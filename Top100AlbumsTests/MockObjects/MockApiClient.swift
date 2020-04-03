@@ -14,10 +14,10 @@ import Foundation
  */
 final class MockApiClient: ApiClientProtocol {
   init(urlSession: URLSession) {
-    //
+    // Not used.
   }
 
   func fetchTopAlbums(onSuccess: DecodableCallback<AlbumResponse>?, onError: ErrorCallback?) {
-    //
+    // Not used.
   }
 }
