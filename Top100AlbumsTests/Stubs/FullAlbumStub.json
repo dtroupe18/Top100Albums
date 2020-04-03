@@ -1,0 +1,2730 @@
+{
+  "feed" : {
+    "author" : {
+      "name" : "iTunes Store",
+      "uri" : "http:\/\/wwww.apple.com\/us\/itunes\/"
+    },
+    "updated" : "2020-04-02T02:05:09.000-07:00",
+    "country" : "us",
+    "id" : "https:\/\/rss.itunes.apple.com\/api\/v1\/us\/apple-music\/top-albums\/all\/100\/explicit.json",
+    "title" : "Top Albums",
+    "copyright" : "Copyright © 2018 Apple Inc. All rights reserved.",
+    "links" : [
+      {
+        "self" : "https:\/\/rss.itunes.apple.com\/api\/v1\/us\/apple-music\/top-albums\/all\/100\/explicit.json"
+      },
+      {
+        "alternate" : "https:\/\/itunes.apple.com\/WebObjects\/MZStore.woa\/wa\/viewTop?genreId=34&popId=82&app=music"
+      }
+    ],
+    "results" : [
+      {
+        "id" : "1498988850",
+        "copyright" : "Quality Control Music\/Motown Records; ℗ 2020 Quality Control Music, LLC, under exclusive license to UMG Recordings, Inc.",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music124\/v4\/dd\/25\/8c\/dd258c8a-f804-785f-1268-ad3cac0db873\/20UMGIM04591.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-28",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/my-turn\/1498988850?app=music",
+        "artistId" : "1276656483",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/lil-baby\/1276656483?app=music",
+        "name" : "My Turn",
+        "artistName" : "Lil Baby"
+      },
+      {
+        "id" : "1502707380",
+        "copyright" : "℗ 2020 Atlantic Recording Corporation",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/78\/7a\/e3\/787ae30d-0b60-e5b8-87fe-9d43bc157c47\/075679820310.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-13",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/eternal-atake-deluxe-luv-vs-the-world-2\/1502707380?app=music",
+        "artistId" : "940710524",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/lil-uzi-vert\/940710524?app=music",
+        "name" : "Eternal Atake (Deluxe) - LUV vs. The World 2",
+        "artistName" : "Lil Uzi Vert"
+      },
+      {
+        "id" : "1500776322",
+        "copyright" : "℗ 2020 Rimas Entertainment LLC",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music124\/v4\/ca\/0e\/31\/ca0e3104-fe92-1985-65ba-3474808f0948\/195081078724.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-29",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/yhlqmdlg\/1500776322?app=music",
+        "artistId" : "1126808565",
+        "genres" : [
+          {
+            "genreId" : "1119",
+            "name" : "Urbano latino",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1119"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "12",
+            "name" : "Latino",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id12"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/bad-bunny\/1126808565?app=music",
+        "name" : "YHLQMDLG",
+        "artistName" : "Bad Bunny"
+      },
+      {
+        "id" : "1500660135",
+        "copyright" : "℗ 2019, 2020 OVO Sound\/Warner Records Inc.",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/69\/74\/89\/69748929-f8db-42ac-a280-49ddbb9b3e06\/093624894070.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/partymobile\/1500660135?app=music",
+        "artistId" : "666648192",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/partynextdoor\/666648192?app=music",
+        "name" : "PARTYMOBILE",
+        "artistName" : "PARTYNEXTDOOR"
+      },
+      {
+        "id" : "1505237336",
+        "copyright" : "℗ 2020 The Weeknd XO, Inc., marketed by Republic Records, a division of UMG Recordings, Inc.",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/3d\/c3\/84\/3dc384fd-1f26-1df6-47e0-a9af382f2a98\/20UMGIM21166.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-30",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/after-hours-deluxe\/1505237336?app=music",
+        "artistId" : "479756766",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/the-weeknd\/479756766?app=music",
+        "name" : "After Hours (Deluxe)",
+        "artistName" : "The Weeknd"
+      },
+      {
+        "id" : "1499378108",
+        "copyright" : "℗ 2020 The Weeknd XO, Inc., manufactured and marketed by Republic Records, a division of UMG Recordings, Inc.",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music124\/v4\/06\/e5\/8c\/06e58ce4-a813-8d5b-ef64-03a69064773c\/20UMGIM12176.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-20",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/after-hours\/1499378108?app=music",
+        "artistId" : "479756766",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/the-weeknd\/479756766?app=music",
+        "name" : "After Hours",
+        "artistName" : "The Weeknd"
+      },
+      {
+        "id" : "1500821043",
+        "copyright" : "℗ 2020 Def Jam Recordings, a division of UMG Recordings, Inc.",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/a3\/95\/9d\/a3959d3e-cca0-a300-ba5e-637ca57bab84\/20UMGIM09141.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-06",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/chilombo\/1500821043?app=music",
+        "artistId" : "198431322",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/jhen%C3%A9-aiko\/198431322?app=music",
+        "name" : "Chilombo",
+        "artistName" : "Jhené Aiko"
+      },
+      {
+        "id" : "1498288784",
+        "copyright" : "℗ 2020 Never Broke Again, LLC",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music124\/v4\/29\/b7\/5e\/29b75e4e-3354-0cc3-684d-f6f1e65a39ea\/075679824066.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-21",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/still-flexin-still-steppin\/1498288784?app=music",
+        "artistId" : "1168822104",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/youngboy-never-broke-again\/1168822104?app=music",
+        "name" : "Still Flexin, Still Steppin",
+        "artistName" : "YoungBoy Never Broke Again"
+      },
+      {
+        "id" : "1495799403",
+        "copyright" : "℗ 2020  Dua Lipa Limited under exclusive license to Warner Records UK, a division of Warner Music UK Limited, with the exception of track 1 & 2 2019  Dua Lipa Limited under exclusive license to Warner Records UK, a division of Warner Music UK Limited",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/45\/74\/fd\/4574fdb3-2fcf-7f36-fa9c-c7321b55c1b6\/190295286118.jpg\/200x200bb.png",
+        "releaseDate" : "2020-04-03",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/future-nostalgia\/1495799403?app=music",
+        "artistId" : "1031397873",
+        "genres" : [
+          {
+            "genreId" : "14",
+            "name" : "Pop",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id14"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/dua-lipa\/1031397873?app=music",
+        "name" : "Future Nostalgia",
+        "artistName" : "Dua Lipa"
+      },
+      {
+        "id" : "1504552127",
+        "copyright" : "℗ 2020 Twenty Nine Music Group Distributed by Tully",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/73\/b4\/f2\/73b4f218-0f25-2ae6-92d7-1947bc35f929\/195081187631.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/adhd\/1504552127?app=music",
+        "artistId" : "888715002",
+        "genres" : [
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/joyner-lucas\/888715002?app=music",
+        "name" : "ADHD",
+        "artistName" : "Joyner Lucas"
+      },
+      {
+        "id" : "1490463311",
+        "copyright" : "℗ 2019 Atlantic Recording Corporation for the United States and WEA International Inc. for the world outside of the United States. A Warner Music Group Company",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/ec\/4b\/79\/ec4b7992-978e-7ece-208b-c098b7ef4023\/075679829085.jpg\/200x200bb.png",
+        "releaseDate" : "2019-12-06",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/please-excuse-me-for-being-antisocial\/1490463311?app=music",
+        "artistId" : "1212442072",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/roddy-ricch\/1212442072?app=music",
+        "name" : "Please Excuse Me For Being Antisocial",
+        "artistName" : "Roddy Ricch"
+      },
+      {
+        "id" : "1502318851",
+        "copyright" : "℗ 2020 Cactus Jack \/ Atlantic",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/1b\/bb\/11\/1bbb1185-90dd-a940-d80c-668b369a6a3d\/075679823908.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-13",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/heaven-or-hell\/1502318851?app=music",
+        "artistId" : "1237012992",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/don-toliver\/1237012992?app=music",
+        "name" : "Heaven Or Hell",
+        "artistName" : "Don Toliver"
+      },
+      {
+        "id" : "1501843464",
+        "copyright" : "℗ 2020 Atlantic Recording Corporation",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/5a\/cd\/0d\/5acd0df2-8a21-464d-0e9d-1a1500754338\/075679831934.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-06",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/eternal-atake\/1501843464?app=music",
+        "artistId" : "940710524",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/lil-uzi-vert\/940710524?app=music",
+        "name" : "Eternal Atake",
+        "artistName" : "Lil Uzi Vert"
+      },
+      {
+        "id" : "1484584726",
+        "copyright" : "℗ 2019 Alamo Records",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/54\/c4\/c2\/54c4c266-fd4b-b702-4a46-94ff50aa4886\/194690030598_cover.jpg\/200x200bb.png",
+        "releaseDate" : "2019-11-01",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/ghetto-gospel\/1484584726?app=music",
+        "artistId" : "1140623439",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/rod-wave\/1140623439?app=music",
+        "name" : "Ghetto Gospel",
+        "artistName" : "Rod Wave"
+      },
+      {
+        "id" : "1501734515",
+        "copyright" : "℗ 2020 1501 Certified Ent. LLC under exclusive license to 300 Entertainment",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/96\/c3\/43\/96c343c6-c6b3-cce8-6cc9-47b098959f19\/810043680462.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-06",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/suga\/1501734515?app=music",
+        "artistId" : "1258989914",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/megan-thee-stallion\/1258989914?app=music",
+        "name" : "Suga",
+        "artistName" : "Megan Thee Stallion"
+      },
+      {
+        "id" : "1503429894",
+        "copyright" : "℗ 2020 Black Circle \/ EMPIRE",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/de\/1b\/41\/de1b418f-6104-ae90-ebef-064a4ec8627e\/194690160455_cover.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-20",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/state-of-emergency\/1503429894?app=music",
+        "artistId" : "302836005",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/money-man\/302836005?app=music",
+        "name" : "State of Emergency",
+        "artistName" : "Money Man"
+      },
+      {
+        "id" : "1316706552",
+        "copyright" : "℗ 2018 All Money In No Money Out\/Atlantic Recording Corporation for the United States and WEA International Inc. for the world outside of the United States.  A Warner Music Group Company.",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music118\/v4\/aa\/d0\/2c\/aad02cb6-a81c-6554-af9b-4bd3b8f2745d\/075679884732.jpg\/200x200bb.png",
+        "releaseDate" : "2018-02-16",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/victory-lap\/1316706552?app=music",
+        "artistId" : "128860700",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "1078",
+            "name" : "West Coast Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1078"
+          },
+          {
+            "genreId" : "1071",
+            "name" : "Gangsta Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1071"
+          },
+          {
+            "genreId" : "1072",
+            "name" : "Hardcore Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1072"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/nipsey-hussle\/128860700?app=music",
+        "name" : "Victory Lap",
+        "artistName" : "Nipsey Hussle"
+      },
+      {
+        "id" : "1499685209",
+        "copyright" : "℗ 2020 Machine Entertainment Group\/Epic Records",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/69\/14\/07\/691407c2-dec0-01f0-8cba-287d94049a57\/850013391257.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-28",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/ptsd\/1499685209?app=music",
+        "artistId" : "1036753321",
+        "genres" : [
+          {
+            "genreId" : "1073",
+            "name" : "Hip-Hop",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1073"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/g-herbo\/1036753321?app=music",
+        "name" : "PTSD",
+        "artistName" : "G Herbo"
+      },
+      {
+        "id" : "1503832157",
+        "copyright" : "℗ 2020 4PF\/CMG",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/37\/ce\/0a\/37ce0ae4-d3a4-b447-45e9-113bc9b03859\/194690142857_cover.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/young-turnt-vol-2\/1503832157?app=music",
+        "artistId" : "1277595465",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/42-dugg\/1277595465?app=music",
+        "name" : "Young & Turnt, Vol. 2",
+        "artistName" : "42 Dugg"
+      },
+      {
+        "id" : "1481606156",
+        "copyright" : "℗ 2019 LVRN\/Interscope Records",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/41\/52\/7c\/41527cb2-36d2-d992-57ab-597b7e485780\/19UMGIM85343.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2019-10-04",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/over-it\/1481606156?app=music",
+        "artistId" : "990402287",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/summer-walker\/990402287?app=music",
+        "name" : "Over It",
+        "artistName" : "Summer Walker"
+      },
+      {
+        "artistId" : "444520760",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/0f\/16\/dc\/0f16dc27-a647-01ca-ff46-2da95e65c1b8\/20UMGIM10542.rgb.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "1119",
+            "name" : "Urbano latino",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1119"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "12",
+            "name" : "Latino",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id12"
+          }
+        ],
+        "id" : "1500490683",
+        "artistName" : "J Balvin",
+        "copyright" : "Universal Music Latino; ℗ 2020 UMG Recordings, Inc.",
+        "releaseDate" : "2020-03-19",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/j-balvin\/444520760?app=music",
+        "name" : "Colores",
+        "url" : "https:\/\/music.apple.com\/us\/album\/colores\/1500490683?app=music"
+      },
+      {
+        "artistId" : "320569549",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/49\/c1\/04\/49c10497-421b-5480-0e88-2b1b9c7b038c\/20UMGIM03126.rgb.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "14",
+            "name" : "Pop",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id14"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1496639180",
+        "artistName" : "Justin Bieber",
+        "copyright" : "℗ 2020 Def Jam Recordings, a division of UMG Recordings, Inc.",
+        "releaseDate" : "2020-02-14",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/justin-bieber\/320569549?app=music",
+        "name" : "Changes",
+        "url" : "https:\/\/music.apple.com\/us\/album\/changes\/1496639180?app=music"
+      },
+      {
+        "id" : "1497237692",
+        "copyright" : "Victor Victor Worldwide; ℗ 2020 Republic Records, a division of UMG Recordings, Inc. (Victor Victor)",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/13\/14\/af\/1314afe4-1ede-cc43-81d0-8e296a82e043\/20UMGIM07215.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-07",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/meet-the-woo-2\/1497237692?app=music",
+        "artistId" : "1450601383",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/pop-smoke\/1450601383?app=music",
+        "name" : "Meet the Woo 2",
+        "artistName" : "Pop Smoke"
+      },
+      {
+        "id" : "1503554400",
+        "copyright" : "℗ 2020 Agency 99",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/6b\/d2\/3e\/6bd23ecc-1247-af2b-b8b2-7143dc76ab6b\/193436204927_01_img001.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/twenty-20-pyrex-vision\/1503554400?app=music",
+        "artistId" : "276972832",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/jeezy\/276972832?app=music",
+        "name" : "Twenty\/20 Pyrex Vision",
+        "artistName" : "Jeezy"
+      },
+      {
+        "id" : "1488013862",
+        "copyright" : "℗ 2020 Lost Kids",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/8a\/66\/bf\/8a66bf4b-0fd7-44fd-3673-c7f4dd88a459\/193436188333_01_img001.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-07",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/fuck-the-world\/1488013862?app=music",
+        "artistId" : "960127446",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/brent-faiyaz\/960127446?app=music",
+        "name" : "Fuck the World",
+        "artistName" : "Brent Faiyaz"
+      },
+      {
+        "id" : "1498673868",
+        "copyright" : "℗ 2020 Atlantic Recording Corporation and Highbridge The Label, LLC.",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music124\/v4\/92\/0d\/1c\/920d1c7f-4085-b286-b33e-d0c022bf9f55\/075679823359.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-14",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/artist-2-0\/1498673868?app=music",
+        "artistId" : "1068300376",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/a-boogie-wit-da-hoodie\/1068300376?app=music",
+        "name" : "Artist 2.0",
+        "artistName" : "A Boogie wit da Hoodie"
+      },
+      {
+        "id" : "1486262969",
+        "copyright" : "℗ 2019 Kemosabe Records\/RCA Records",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/5f\/5f\/54\/5f5f5492-bc5a-3a38-3bcf-ec5e59bb6c84\/886447991824.jpg\/200x200bb.png",
+        "releaseDate" : "2019-11-07",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/hot-pink\/1486262969?app=music",
+        "artistId" : "830588310",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/doja-cat\/830588310?app=music",
+        "name" : "Hot Pink",
+        "artistName" : "Doja Cat"
+      },
+      {
+        "artistId" : "479756766",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/48\/8e\/f8\/488ef857-e038-ddda-91dc-ade280127889\/20UMGIM11048.rgb.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1499385848",
+        "artistName" : "The Weeknd",
+        "copyright" : "℗ 2020 The Weeknd XO, Inc., manufactured and marketed by Republic Records, a division of UMG Recordings, Inc.",
+        "releaseDate" : "2020-03-20",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/the-weeknd\/479756766?app=music",
+        "name" : "After Hours",
+        "url" : "https:\/\/music.apple.com\/us\/album\/after-hours\/1499385848?app=music"
+      },
+      {
+        "id" : "1502627765",
+        "copyright" : "℗ 2020 FMLY, under exclusive license to Island Records, a division of UMG Recordings, Inc",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/19\/b1\/1e\/19b11eb0-d3c9-95f7-342c-374fce950488\/20UMGIM02942.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/before-love-came-to-kill-us\/1502627765?app=music",
+        "artistId" : "1043591612",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/jessie-reyez\/1043591612?app=music",
+        "name" : "BEFORE LOVE CAME TO KILL US",
+        "artistName" : "Jessie Reyez"
+      },
+      {
+        "artistId" : "36270",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/5d\/ea\/6d\/5dea6db2-aa20-7775-0309-7a6a8fe0be88\/19UM1IM00155.rgb.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "16",
+            "name" : "Soundtrack",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id16"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1487738280",
+        "artistName" : "Various Artists",
+        "copyright" : "℗ 2019 Walt Disney Records",
+        "releaseDate" : "2019-11-15",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/various-artists\/36270?app=music",
+        "name" : "Frozen 2 (Original Motion Picture Soundtrack \/ Deluxe Edition)",
+        "url" : "https:\/\/music.apple.com\/us\/album\/frozen-2-original-motion-picture-soundtrack-deluxe\/1487738280?app=music"
+      },
+      {
+        "id" : "1503282684",
+        "copyright" : "℗ 2020 Rancho Humilde \/ Z Records",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/12\/23\/33\/12233344-f705-492a-a428-c4f3cafb3e57\/195081094700.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/atrapado-en-un-sue%C3%B1o\/1503282684?app=music",
+        "artistId" : "1442059565",
+        "genres" : [
+          {
+            "genreId" : "1123",
+            "name" : "Música Mexicana",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1123"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "12",
+            "name" : "Latino",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id12"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/junior-h\/1442059565?app=music",
+        "name" : "Atrapado en un Sueño",
+        "artistName" : "Junior H"
+      },
+      {
+        "artistId" : "471260289",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/72\/89\/85\/728985d1-9484-7b71-1ea8-0f0654f7dc16\/886448022213.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "14",
+            "name" : "Pop",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id14"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1485802965",
+        "artistName" : "Harry Styles",
+        "copyright" : "℗ 2019 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+        "releaseDate" : "2019-12-13",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/harry-styles\/471260289?app=music",
+        "name" : "Fine Line",
+        "url" : "https:\/\/music.apple.com\/us\/album\/fine-line\/1485802965?app=music"
+      },
+      {
+        "id" : "1494066621",
+        "copyright" : "℗ 2020 N-Less Entertainment\/Interscope Records",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/1b\/6e\/70\/1b6e7060-b568-15dd-3037-abf77777d510\/20UMGIM00345.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-01-10",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/time-served\/1494066621?app=music",
+        "artistId" : "991187319",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/moneybagg-yo\/991187319?app=music",
+        "name" : "Time Served",
+        "artistName" : "Moneybagg Yo"
+      },
+      {
+        "id" : "1482953223",
+        "copyright" : "℗ 2019 Never Broke Again, LLC",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/ba\/33\/14\/ba3314ff-5aa2-c5e8-d1e3-bfb288b83b5c\/075679834003.jpg\/200x200bb.png",
+        "releaseDate" : "2019-10-11",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/ai-youngboy-2\/1482953223?app=music",
+        "artistId" : "1168822104",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/youngboy-never-broke-again\/1168822104?app=music",
+        "name" : "AI YoungBoy 2",
+        "artistName" : "YoungBoy Never Broke Again"
+      },
+      {
+        "id" : "1497416763",
+        "copyright" : "℗ 2020 5 Seconds of Summer, under exclusive license to Interscope Records",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/ca\/e0\/4d\/cae04d81-9d0b-76da-19e9-51a7cd62a433\/20UMGIM06559.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/calm\/1497416763?app=music",
+        "artistId" : "538811449",
+        "genres" : [
+          {
+            "genreId" : "14",
+            "name" : "Pop",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id14"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/5-seconds-of-summer\/538811449?app=music",
+        "name" : "CALM",
+        "artistName" : "5 Seconds of Summer"
+      },
+      {
+        "id" : "1498713274",
+        "copyright" : "Victor Victor Worldwide; ℗ 2020 Republic Records, a division of UMG Recordings, Inc. (Victor Victor)",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/d7\/ed\/04\/d7ed04dc-2f59-b7f6-dc3a-f67647bf395d\/20UMGIM07215.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-07",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/meet-the-woo-2-deluxe\/1498713274?app=music",
+        "artistId" : "1450601383",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/pop-smoke\/1450601383?app=music",
+        "name" : "Meet the Woo 2 (Deluxe)",
+        "artistName" : "Pop Smoke"
+      },
+      {
+        "id" : "1503868246",
+        "copyright" : "℗ 2020 mcDJ Recording, under license to RCA Records, a division of Sony Music Entertainment",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/c4\/a2\/69\/c4a26947-9bc4-7310-a7cf-50c20d3caa1b\/886448371472.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-22",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/3-15-20\/1503868246?app=music",
+        "artistId" : "466842536",
+        "genres" : [
+          {
+            "genreId" : "14",
+            "name" : "Pop",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id14"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/childish-gambino\/466842536?app=music",
+        "name" : "3.15.20",
+        "artistName" : "Childish Gambino"
+      },
+      {
+        "id" : "1492785997",
+        "copyright" : "℗ 2019 Epic Records. With Cactus Jack.",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/49\/c4\/9b\/49c49b79-d271-57b3-5c77-7b91e65e7b3b\/886448209393.jpg\/200x200bb.png",
+        "releaseDate" : "2019-12-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/jackboys\/1492785997?app=music",
+        "artistId" : "1492785998",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/WebObjects\/MZStore.woa\/wa\/viewCollaboration?cc=us&ids=1492785998-549236696&app=music",
+        "name" : "JACKBOYS",
+        "artistName" : "JACKBOYS & Travis Scott"
+      },
+      {
+        "id" : "1480804964",
+        "copyright" : "South Coast Music Group\/Interscope Records; ℗ 2019 Interscope Records",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/c8\/15\/9a\/c8159a1a-c851-5a11-1dd7-139010105b33\/19UMGIM86414.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2019-09-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/kirk\/1480804964?app=music",
+        "artistId" : "1175595427",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/dababy\/1175595427?app=music",
+        "name" : "KIRK",
+        "artistName" : "DaBaby"
+      },
+      {
+        "id" : "1501236040",
+        "copyright" : "℗ 2020 Black Circle \/ EMPIRE",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/64\/96\/80\/649680ff-2256-5b53-8857-bff97f782e0f\/194690150449_cover.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-02",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/epidemic\/1501236040?app=music",
+        "artistId" : "302836005",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/money-man\/302836005?app=music",
+        "name" : "Epidemic",
+        "artistName" : "Money Man"
+      },
+      {
+        "id" : "1477880265",
+        "copyright" : "℗ 2019 Republic Records, a division of UMG Recordings, Inc.",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/be\/41\/46\/be4146f9-d1c1-9756-8b27-fde6e5b91ac4\/19UMGIM78325.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2019-09-06",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/hollywoods-bleeding\/1477880265?app=music",
+        "artistId" : "966309175",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/post-malone\/966309175?app=music",
+        "name" : "Hollywood's Bleeding",
+        "artistName" : "Post Malone"
+      },
+      {
+        "artistId" : "815635315",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/ce\/e8\/eb\/cee8eb1d-5359-033f-a095-85301ab8ef8b\/886447949191.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "6",
+            "name" : "Country",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id6"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1479453822",
+        "artistName" : "Luke Combs",
+        "copyright" : "℗ 2019 River House Artists LLC, under exclusive license to Sony Music Entertainment. All rights reserved.",
+        "releaseDate" : "2019-11-08",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/luke-combs\/815635315?app=music",
+        "name" : "What You See Is What You Get",
+        "url" : "https:\/\/music.apple.com\/us\/album\/what-you-see-is-what-you-get\/1479453822?app=music"
+      },
+      {
+        "artistId" : "479756766",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/3f\/0c\/01\/3f0c01aa-18f4-d8e3-5659-7e6c65bdda02\/20UMGIM21167.rgb.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1505237002",
+        "artistName" : "The Weeknd",
+        "copyright" : "℗ 2020 The Weeknd XO, Inc., marketed by Republic Records, a division of UMG Recordings, Inc.",
+        "releaseDate" : "2020-03-30",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/the-weeknd\/479756766?app=music",
+        "name" : "After Hours (Deluxe)",
+        "url" : "https:\/\/music.apple.com\/us\/album\/after-hours-deluxe\/1505237002?app=music"
+      },
+      {
+        "id" : "1407165109",
+        "copyright" : "℗ 2018 Grade A Productions, LLC, distributed by Interscope Records",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music115\/v4\/da\/4c\/be\/da4cbe57-efda-d693-fd97-e73a2db2e89e\/00602567885580.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2018-05-23",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/goodbye-good-riddance\/1407165109?app=music",
+        "artistId" : "1368733420",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "21",
+            "name" : "Rock",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id21"
+          },
+          {
+            "genreId" : "1068",
+            "name" : "Alternative Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1068"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/juice-wrld\/1368733420?app=music",
+        "name" : "Goodbye & Good Riddance",
+        "artistName" : "Juice WRLD"
+      },
+      {
+        "id" : "1502838762",
+        "copyright" : "℗ 2020 Alamo Records",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/93\/01\/f8\/9301f8ae-ee8e-ab9f-94d3-785ff81ad983\/14294.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/pandemic\/1502838762?app=music",
+        "artistId" : "1142748709",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/comethazine\/1142748709?app=music",
+        "name" : "Pandemic",
+        "artistName" : "Comethazine"
+      },
+      {
+        "artistId" : "996163524",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music69\/v4\/40\/7a\/a4\/407aa4cb-5c81-3adf-e801-64cfe6457d3b\/859714545211_cover.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "4",
+            "name" : "Children's Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id4"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "53",
+            "name" : "Instrumental",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id53"
+          }
+        ],
+        "id" : "1065946325",
+        "artistName" : "Einstein Baby Lullaby Academy",
+        "copyright" : "℗ 2015 Einstein Baby Lullaby Academy",
+        "releaseDate" : "2015-11-24",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/einstein-baby-lullaby-academy\/996163524?app=music",
+        "name" : "Baby Lullaby: Relaxing Piano Lullabies and Natural Sleep Aid for Baby Sleep Music",
+        "url" : "https:\/\/music.apple.com\/us\/album\/baby-lullaby-relaxing-piano-lullabies-natural-sleep\/1065946325?app=music"
+      },
+      {
+        "artistId" : "1065981054",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music124\/v4\/a7\/31\/24\/a731244c-e065-2f44-63a2-d15b6b27fefa\/00602577427657.rgb.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "20",
+            "name" : "Alternative",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id20"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "7",
+            "name" : "Electronic",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id7"
+          },
+          {
+            "genreId" : "21",
+            "name" : "Rock",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id21"
+          }
+        ],
+        "id" : "1450695723",
+        "artistName" : "Billie Eilish",
+        "copyright" : "℗ 2019 Darkroom\/Interscope Records",
+        "releaseDate" : "2019-03-29",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/billie-eilish\/1065981054?app=music",
+        "name" : "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+        "url" : "https:\/\/music.apple.com\/us\/album\/when-we-all-fall-asleep-where-do-we-go\/1450695723?app=music"
+      },
+      {
+        "id" : "1501840447",
+        "copyright" : "℗ 2020 Generation Now\/Atlantic Recording Corporation for the United States and WEA International Inc. for the world outside of the United States.",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/1c\/b2\/8e\/1cb28e29-f3db-b29f-8535-d7ed2d9c6b69\/075679821171.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-13",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/sweet-action\/1501840447?app=music",
+        "artistId" : "1047679432",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/jack-harlow\/1047679432?app=music",
+        "name" : "Sweet Action",
+        "artistName" : "Jack Harlow"
+      },
+      {
+        "artistId" : "198431322",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/a4\/fa\/7f\/a4fa7f4e-495e-3ca4-a0aa-89bea9a2273e\/20UMGIM09141.rgb.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1500825214",
+        "artistName" : "Jhené Aiko",
+        "copyright" : "℗ 2020 Def Jam Recordings, a division of UMG Recordings, Inc.",
+        "releaseDate" : "2020-03-06",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/jhen%C3%A9-aiko\/198431322?app=music",
+        "name" : "Chilombo",
+        "url" : "https:\/\/music.apple.com\/us\/album\/chilombo\/1500825214?app=music"
+      },
+      {
+        "id" : "1501909158",
+        "copyright" : "℗ 2020 South Coast Music Group",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music124\/v4\/29\/1a\/45\/291a45d0-6f25-50f9-7571-405df7a6de60\/20UMGIM17441.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-06",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/platinum-heart\/1501909158?app=music",
+        "artistId" : "1246127386",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/toosii\/1246127386?app=music",
+        "name" : "Platinum Heart",
+        "artistName" : "Toosii"
+      },
+      {
+        "id" : "1502190163",
+        "copyright" : "℗ 2020 Republic Records, a division of UMG Recordings, Inc.",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/a9\/13\/5a\/a9135ae1-19f8-a647-5342-c9283ce1d165\/20UMGIM17436.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-13",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/boss-man\/1502190163?app=music",
+        "artistId" : "561444659",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/rich-the-kid\/561444659?app=music",
+        "name" : "BOSS MAN",
+        "artistName" : "Rich The Kid"
+      },
+      {
+        "id" : "1495267282",
+        "copyright" : "A Shady\/Aftermath\/Interscope Records Release; ℗ 2020 Marshall B. Mathers III",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/b1\/ae\/06\/b1ae0621-a29e-2cd5-8d85-8de7797417df\/20UMGIM02954.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-01-17",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/music-to-be-murdered-by\/1495267282?app=music",
+        "artistId" : "111051",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/eminem\/111051?app=music",
+        "name" : "Music To Be Murdered By",
+        "artistName" : "Eminem"
+      },
+      {
+        "id" : "1503800328",
+        "copyright" : "℗ 2020 ALC \/ EMPIRE",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/a5\/32\/b7\/a532b7aa-72ee-23a6-c125-3436a695bcbc\/194690151705_cover.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-30",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/lulu\/1503800328?app=music",
+        "artistId" : "924551002",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/WebObjects\/MZStore.woa\/wa\/viewCollaboration?cc=us&ids=924551002-28446224&app=music",
+        "name" : "LULU",
+        "artistName" : "Conway the Machine & The Alchemist"
+      },
+      {
+        "id" : "1502152712",
+        "copyright" : "℗ 2020 Asylum Worldwide, LLC",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/36\/04\/79\/360479db-a1e7-367f-2509-2fd9d2961f0b\/075597920376.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-20",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/skuba-sada-2-deluxe\/1502152712?app=music",
+        "artistId" : "947975694",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/sada-baby\/947975694?app=music",
+        "name" : "Skuba Sada 2 (Deluxe)",
+        "artistName" : "Sada Baby"
+      },
+      {
+        "id" : "1454440896",
+        "copyright" : "℗ 2019 Grade A Productions, LLC, under exclusive license to Interscope Records",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/49\/97\/b6\/4997b641-2036-a6c2-cbf3-d49336cc9e0f\/00602577491955.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2019-03-08",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/death-race-for-love\/1454440896?app=music",
+        "artistId" : "1368733420",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/juice-wrld\/1368733420?app=music",
+        "name" : "Death Race for Love",
+        "artistName" : "Juice WRLD"
+      },
+      {
+        "artistId" : "1276656483",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/ec\/d9\/88\/ecd988fa-cd08-4414-a81c-538041368907\/20UMGIM04592.rgb.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1499567361",
+        "artistName" : "Lil Baby",
+        "copyright" : "Quality Control Music\/Motown Records; ℗ 2020 Quality Control Music, LLC, under exclusive license to UMG Recordings, Inc.",
+        "releaseDate" : "2020-02-28",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/lil-baby\/1276656483?app=music",
+        "name" : "My Turn",
+        "url" : "https:\/\/music.apple.com\/us\/album\/my-turn\/1499567361?app=music"
+      },
+      {
+        "id" : "1467462301",
+        "copyright" : "℗ 2019 Alamo Records",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/62\/cc\/c3\/62ccc37f-c007-45f9-405a-a2c8149f5372\/888915917053_cover.jpg\/200x200bb.png",
+        "releaseDate" : "2019-06-14",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/ptsd\/1467462301?app=music",
+        "artistId" : "1140623439",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/rod-wave\/1140623439?app=music",
+        "name" : "PTSD",
+        "artistName" : "Rod Wave"
+      },
+      {
+        "id" : "1500085467",
+        "copyright" : "℗ 2020 Only The Family Entertainment \/ King Von \/ EMPIRE",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/8b\/d2\/28\/8bd2286e-e021-0221-f72d-f102119e545c\/194690125997_cover.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-06",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/levon-james\/1500085467?app=music",
+        "artistId" : "1231467923",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/king-von\/1231467923?app=music",
+        "name" : "Levon James",
+        "artistName" : "King Von"
+      },
+      {
+        "id" : "1499006797",
+        "copyright" : "℗ 2019, 2020 Think It's A Game\/Warner Records Inc.",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/dc\/3f\/69\/dc3f694c-b045-cb61-563a-ff6f9251fd96\/093624893615.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-28",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/history-lost-pages\/1499006797?app=music",
+        "artistId" : "957498371",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/yfn-lucci\/957498371?app=music",
+        "name" : "HIStory, Lost Pages",
+        "artistName" : "YFN Lucci"
+      },
+      {
+        "id" : "1421241217",
+        "copyright" : "℗ 2018 Epic Records\/Sony. With Cactus Jack and Grand Hustle.",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music118\/v4\/72\/5a\/e4\/725ae48d-4405-d4bd-0694-91a1b16035d6\/886447227169.jpg\/200x200bb.png",
+        "releaseDate" : "2018-08-03",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/astroworld\/1421241217?app=music",
+        "artistId" : "549236696",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "1069",
+            "name" : "Dirty South",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1069"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/travis-scott\/549236696?app=music",
+        "name" : "ASTROWORLD",
+        "artistName" : "Travis Scott"
+      },
+      {
+        "id" : "1486710711",
+        "copyright" : "℗ 2019 Mad Love\/Interscope Records",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/74\/a5\/ea\/74a5eab3-7f86-6f78-ef08-04b539b65cc9\/19UMGIM98546.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2019-11-15",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/chixtape-5\/1486710711?app=music",
+        "artistId" : "440458549",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/tory-lanez\/440458549?app=music",
+        "name" : "Chixtape 5",
+        "artistName" : "Tory Lanez"
+      },
+      {
+        "id" : "1482317460",
+        "copyright" : "℗ 2019 Columbia Records, a Division of Sony Music Entertainment",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/0f\/07\/01\/0f070152-6ca1-4a07-4344-ce96105967e5\/886447993224.jpg\/200x200bb.png",
+        "releaseDate" : "2019-10-11",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/true-2-myself\/1482317460?app=music",
+        "artistId" : "1436446949",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/lil-tjay\/1436446949?app=music",
+        "name" : "True 2 Myself",
+        "artistName" : "Lil Tjay"
+      },
+      {
+        "id" : "1481393251",
+        "copyright" : "℗ 2019 Bread Winners' Association",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/59\/a6\/3e\/59a63e8f-a6e4-05d7-9205-f1425abde884\/075679836458.jpg\/200x200bb.png",
+        "releaseDate" : "2019-09-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/im-him\/1481393251?app=music",
+        "artistId" : "298383551",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/kevin-gates\/298383551?app=music",
+        "name" : "I'm Him",
+        "artistName" : "Kevin Gates"
+      },
+      {
+        "id" : "1441035452",
+        "copyright" : "℗ 2018",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music118\/v4\/8b\/53\/07\/8b5307c2-c45e-62c7-90fb-6cd0ff5590b4\/075679860378.jpg\/200x200bb.png",
+        "releaseDate" : "2018-11-02",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/feed-tha-streets-ll\/1441035452?app=music",
+        "artistId" : "1212442072",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/roddy-ricch\/1212442072?app=music",
+        "name" : "Feed Tha Streets ll",
+        "artistName" : "Roddy Ricch"
+      },
+      {
+        "id" : "1500065127",
+        "copyright" : "℗ 2020 Young Nudy, LLC, under exclusive licence to RCA Records",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/6a\/71\/d6\/6a71d678-2af0-2353-49c7-f7e46cbf4186\/886448292586.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/anyways\/1500065127?app=music",
+        "artistId" : "898005271",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/young-nudy\/898005271?app=music",
+        "name" : "Anyways",
+        "artistName" : "Young Nudy"
+      },
+      {
+        "id" : "1497954626",
+        "copyright" : "℗ 2020 Winter's Diary \/ WD Records \/ EMPIRE",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/cb\/cb\/9b\/cbcb9b9f-089e-3513-f16f-a485b6684f9a\/194690123351_cover.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-14",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/hopeless-romantic\/1497954626?app=music",
+        "artistId" : "579974302",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/tink\/579974302?app=music",
+        "name" : "Hopeless Romantic",
+        "artistName" : "Tink"
+      },
+      {
+        "id" : "1473525230",
+        "copyright" : "Victor Victor Worldwide; ℗ 2019 Republic Records, a division of UMG Recordings, Inc. (Victor Victor)",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/af\/dc\/c8\/afdcc83c-40f6-4eea-d812-2089d30be17b\/19UMGIM67514.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2019-07-26",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/meet-the-woo\/1473525230?app=music",
+        "artistId" : "1450601383",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/pop-smoke\/1450601383?app=music",
+        "name" : "Meet the Woo",
+        "artistName" : "Pop Smoke"
+      },
+      {
+        "id" : "1497243820",
+        "copyright" : "℗ 2020 Young Money Records, Inc.",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/77\/23\/15\/772315a8-12e0-05d3-efc5-9a78cc7f6082\/20UMGIM07263.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-01-31",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/funeral\/1497243820?app=music",
+        "artistId" : "5869117",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/lil-wayne\/5869117?app=music",
+        "name" : "Funeral",
+        "artistName" : "Lil Wayne"
+      },
+      {
+        "id" : "1494539195",
+        "copyright" : "℗ 2020 Paper Route EMPIRE",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/1f\/30\/8a\/1f308a3c-3871-8b1a-7d3e-a7214381314c\/194690102554_cover.jpg\/200x200bb.png",
+        "releaseDate" : "2020-01-31",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/yellow-tape\/1494539195?app=music",
+        "artistId" : "1199258326",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/key-glock\/1199258326?app=music",
+        "name" : "Yellow Tape",
+        "artistName" : "Key Glock"
+      },
+      {
+        "artistId" : "829142092",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music128\/v4\/be\/9d\/e6\/be9de62d-d780-de18-f355-da4029f4829c\/842812106569_01_img001.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "6",
+            "name" : "Country",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id6"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "1039",
+            "name" : "Honky Tonk",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1039"
+          },
+          {
+            "genreId" : "14",
+            "name" : "Pop",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id14"
+          },
+          {
+            "genreId" : "1133",
+            "name" : "Pop\/Rock",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1133"
+          },
+          {
+            "genreId" : "1037",
+            "name" : "Contemporary Country",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1037"
+          },
+          {
+            "genreId" : "21",
+            "name" : "Rock",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id21"
+          },
+          {
+            "genreId" : "1161",
+            "name" : "Southern Rock",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1161"
+          }
+        ],
+        "id" : "1440111976",
+        "artistName" : "Morgan Wallen",
+        "copyright" : "℗ 2018 Big Loud Records",
+        "releaseDate" : "2018-04-27",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/morgan-wallen\/829142092?app=music",
+        "name" : "If I Know Me",
+        "url" : "https:\/\/music.apple.com\/us\/album\/if-i-know-me\/1440111976?app=music"
+      },
+      {
+        "id" : "1502677867",
+        "copyright" : "℗ 2020 Roc Nation, LLC",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/26\/c3\/93\/26c3937b-f431-c7fb-239f-02cc4e3590db\/20UMGIM19720.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-13",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/a-written-testimony\/1502677867?app=music",
+        "artistId" : "317406017",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/jay-electronica\/317406017?app=music",
+        "name" : "A Written Testimony",
+        "artistName" : "Jay Electronica"
+      },
+      {
+        "id" : "1494022962",
+        "copyright" : "℗ 2020 Warner Records Inc.",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/60\/67\/ff\/6067ffd1-5a4d-97f7-adb5-c14e405fa321\/093624905981.jpg\/200x200bb.png",
+        "releaseDate" : "2020-01-17",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/circles\/1494022962?app=music",
+        "artistId" : "419944559",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/mac-miller\/419944559?app=music",
+        "name" : "Circles",
+        "artistName" : "Mac Miller"
+      },
+      {
+        "id" : "1486675574",
+        "copyright" : "℗ 2019 TenThousand Projects, LLC",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/9d\/31\/cc\/9d31ccb9-a0d8-f98e-6b3e-c26c03fc3dd2\/19UMGIM99089.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2019-11-22",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/a-love-letter-to-you-4\/1486675574?app=music",
+        "artistId" : "1203172438",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          },
+          {
+            "genreId" : "1068",
+            "name" : "Alternative Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1068"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/trippie-redd\/1203172438?app=music",
+        "name" : "A Love Letter to You 4",
+        "artistName" : "Trippie Redd"
+      },
+      {
+        "id" : "1146195596",
+        "copyright" : "℗ Boys Don't Cry",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music22\/v4\/08\/e1\/da\/08e1dab2-375d-5491-83c1-77754dc2eb37\/BlondCover-Final.jpg\/200x200bb.png",
+        "releaseDate" : "2016-08-20",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/blonde\/1146195596?app=music",
+        "artistId" : "442122051",
+        "genres" : [
+          {
+            "genreId" : "14",
+            "name" : "Pop",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id14"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/frank-ocean\/442122051?app=music",
+        "name" : "Blonde",
+        "artistName" : "Frank Ocean"
+      },
+      {
+        "artistId" : "538811449",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/2c\/c1\/eb\/2cc1eb85-d1b0-0e1b-981b-6c0b29d9a916\/20UMGIM06593.rgb.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "14",
+            "name" : "Pop",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id14"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1497418098",
+        "artistName" : "5 Seconds of Summer",
+        "copyright" : "℗ 2020 5 Seconds of Summer, under exclusive license to Interscope Records",
+        "releaseDate" : "2020-03-27",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/5-seconds-of-summer\/538811449?app=music",
+        "name" : "CALM",
+        "url" : "https:\/\/music.apple.com\/us\/album\/calm\/1497418098?app=music"
+      },
+      {
+        "id" : "1495371272",
+        "copyright" : "℗ 2020 Monkeywrench, Inc., under exclusive license to Republic Records, a division of UMG Recordings, Inc.",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/62\/7d\/33\/627d333e-9c7c-3728-f86b-c606e74f7a6e\/20UMGIM03561.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/gigaton\/1495371272?app=music",
+        "artistId" : "467464",
+        "genres" : [
+          {
+            "genreId" : "21",
+            "name" : "Rock",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id21"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/pearl-jam\/467464?app=music",
+        "name" : "Gigaton",
+        "artistName" : "Pearl Jam"
+      },
+      {
+        "id" : "1373516902",
+        "copyright" : "℗ 2018 Republic Records, a division of UMG Recordings, Inc.",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music128\/v4\/9f\/54\/d0\/9f54d048-2e01-63ff-2efc-4f1c5d8fe1be\/00602567647461.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2018-04-27",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/beerbongs-bentleys\/1373516902?app=music",
+        "artistId" : "966309175",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          },
+          {
+            "genreId" : "1068",
+            "name" : "Alternative Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1068"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/post-malone\/966309175?app=music",
+        "name" : "beerbongs & bentleys",
+        "artistName" : "Post Malone"
+      },
+      {
+        "id" : "1501337739",
+        "copyright" : "℗ 2020 Warner Records Inc.",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/31\/75\/4f\/31754f8e-f68e-eb02-889e-4d957322cb6a\/093624905967.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-19",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/circles-deluxe\/1501337739?app=music",
+        "artistId" : "419944559",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/mac-miller\/419944559?app=music",
+        "name" : "Circles (Deluxe)",
+        "artistName" : "Mac Miller"
+      },
+      {
+        "artistId" : "159260351",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/20\/6f\/b5\/206fb560-6fd5-15f9-0b68-88d309ffc5a6\/19UMGIM53909.rgb.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "14",
+            "name" : "Pop",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id14"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1468058165",
+        "artistName" : "Taylor Swift",
+        "copyright" : "℗ 2019 Taylor Swift",
+        "releaseDate" : "2019-08-23",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/taylor-swift\/159260351?app=music",
+        "name" : "Lover",
+        "url" : "https:\/\/music.apple.com\/us\/album\/lover\/1468058165?app=music"
+      },
+      {
+        "id" : "1465993735",
+        "copyright" : "℗ 2019 Columbia Records, a Division of Sony Music Entertainment",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/49\/bf\/37\/49bf37ad-4494-78e8-42ee-01b1dc142025\/886447727911.jpg\/200x200bb.png",
+        "releaseDate" : "2019-06-07",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/die-a-legend\/1465993735?app=music",
+        "artistId" : "1159371412",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/polo-g\/1159371412?app=music",
+        "name" : "Die a Legend",
+        "artistName" : "Polo G"
+      },
+      {
+        "artistId" : "290242959",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/76\/59\/7e\/76597e3f-906b-66e8-5319-40f64128cb6b\/19UMGIM96748.rgb.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "20",
+            "name" : "Alternative",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id20"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1497230760",
+        "artistName" : "Tame Impala",
+        "copyright" : "An Island Records Australia release; ℗ 2020 Modular Recordings Pty Ltd",
+        "releaseDate" : "2020-02-14",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/tame-impala\/290242959?app=music",
+        "name" : "The Slow Rush",
+        "url" : "https:\/\/music.apple.com\/us\/album\/the-slow-rush\/1497230760?app=music"
+      },
+      {
+        "artistId" : "1464659765",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/35\/89\/6f\/35896f30-787b-5e8c-0388-9b6c3f805872\/050742381813_cover.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "12",
+            "name" : "Latino",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id12"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          }
+        ],
+        "id" : "1505521046",
+        "artistName" : "Ovi",
+        "copyright" : "℗ 2020 Jimmy Humilde Music",
+        "releaseDate" : "2020-04-01",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/ovi\/1464659765?app=music",
+        "name" : "Amen",
+        "url" : "https:\/\/music.apple.com\/us\/album\/amen\/1505521046?app=music"
+      },
+      {
+        "id" : "1498928375",
+        "copyright" : "℗ 2020 Dinero Recio Records",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/a9\/92\/30\/a992302e-0fa2-f121-f15c-d01b1a98b4f7\/artwork.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-14",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/tu-veneno-mortal\/1498928375?app=music",
+        "artistId" : "1482429034",
+        "genres" : [
+          {
+            "genreId" : "12",
+            "name" : "Latino",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id12"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/eslabon-armado\/1482429034?app=music",
+        "name" : "Tu Veneno Mortal",
+        "artistName" : "Eslabon Armado"
+      },
+      {
+        "id" : "1475177816",
+        "copyright" : "℗ 2019 OVO",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/eb\/17\/82\/eb1782e5-602b-383a-69a0-bc58acf6985e\/19UMGIM71793.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2019-08-02",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/care-package\/1475177816?app=music",
+        "artistId" : "271256",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/drake\/271256?app=music",
+        "name" : "Care Package",
+        "artistName" : "Drake"
+      },
+      {
+        "id" : "1447442327",
+        "copyright" : "℗ 2018 Never Broke Again, LLC",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/97\/19\/85\/971985e7-91a3-67cd-f285-920ebd548a8b\/075679855169.jpg\/200x200bb.png",
+        "releaseDate" : "2018-12-20",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/realer\/1447442327?app=music",
+        "artistId" : "1168822104",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "1072",
+            "name" : "Hardcore Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1072"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          },
+          {
+            "genreId" : "1069",
+            "name" : "Dirty South",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1069"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/youngboy-never-broke-again\/1168822104?app=music",
+        "name" : "Realer",
+        "artistName" : "YoungBoy Never Broke Again"
+      },
+      {
+        "id" : "1491987854",
+        "copyright" : "℗ 2020 Republic Records, a division of UMG Recordings, Inc.",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/9b\/e4\/bc\/9be4bc99-bbf0-13ee-8404-fdd7cb00ce73\/19UM1IM12338.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-20",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/kid-krow\/1491987854?app=music",
+        "artistId" : "1168567308",
+        "genres" : [
+          {
+            "genreId" : "14",
+            "name" : "Pop",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id14"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/conan-gray\/1168567308?app=music",
+        "name" : "Kid Krow",
+        "artistName" : "Conan Gray"
+      },
+      {
+        "artistId" : "36270",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/aa\/67\/5a\/aa675a68-dc8a-dec7-334d-d8b99db1a0f9\/19UM1IM09894.rgb.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "16",
+            "name" : "Soundtrack",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id16"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1491075442",
+        "artistName" : "Various Artists",
+        "copyright" : "℗ 2020 Walt Disney Records",
+        "releaseDate" : "2020-02-14",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/various-artists\/36270?app=music",
+        "name" : "ZOMBIES 2 (Original TV Movie Soundtrack)",
+        "url" : "https:\/\/music.apple.com\/us\/album\/zombies-2-original-tv-movie-soundtrack\/1491075442?app=music"
+      },
+      {
+        "id" : "1450330588",
+        "copyright" : "℗ 2019 Republic Records, a division of UMG Recordings, Inc.",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music124\/v4\/4e\/26\/d5\/4e26d5f3-2d62-1b5c-689a-e8de4e6f3797\/00602577465284.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2019-02-08",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/thank-u-next\/1450330588?app=music",
+        "artistId" : "412778295",
+        "genres" : [
+          {
+            "genreId" : "14",
+            "name" : "Pop",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id14"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "17",
+            "name" : "Dance",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id17"
+          },
+          {
+            "genreId" : "21",
+            "name" : "Rock",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id21"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/ariana-grande\/412778295?app=music",
+        "name" : "thank u, next",
+        "artistName" : "Ariana Grande"
+      },
+      {
+        "id" : "1504530666",
+        "copyright" : "℗ 2020 1400 Entertainment, Inc.\/TenThousand Projects, LLC",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/55\/2d\/2d\/552d2db3-e8a8-4405-f27c-c5dcf4a49227\/20UMGIM22678.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2019-11-22",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/a-love-letter-to-you-4-deluxe\/1504530666?app=music",
+        "artistId" : "1203172438",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/trippie-redd\/1203172438?app=music",
+        "name" : "A Love Letter to You 4 (Deluxe)",
+        "artistName" : "Trippie Redd"
+      },
+      {
+        "id" : "1274653476",
+        "copyright" : "℗ 2017 Bad Vibes Forever \/ EMPIRE",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music128\/v4\/e0\/5f\/3f\/e05f3fff-e840-fdfe-0dff-844d1693f69a\/888915443767_cover.jpg\/200x200bb.png",
+        "releaseDate" : "2017-08-25",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/17\/1274653476?app=music",
+        "artistId" : "1082533559",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/xxxtentacion\/1082533559?app=music",
+        "name" : "17",
+        "artistName" : "XXXTENTACION"
+      },
+      {
+        "id" : "1496708667",
+        "copyright" : "℗ 2020 Inevitable II Records, Inc. under exclusive license to Epic Records, a division of Sony Music Entertainment",
+        "artworkUrl100" : "https:\/\/is3-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/ad\/bd\/aa\/adbdaa40-c359-6cc7-6e2c-f737028e02a8\/886448255246.jpg\/200x200bb.png",
+        "releaseDate" : "2020-01-31",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/untrapped\/1496708667?app=music",
+        "artistId" : "62763238",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/yo-gotti\/62763238?app=music",
+        "name" : "Untrapped",
+        "artistName" : "Yo Gotti"
+      },
+      {
+        "id" : "1418213110",
+        "copyright" : "℗ 2018 Young Money\/Cash Money Records",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music128\/v4\/d5\/7d\/47\/d57d4729-3acf-e6d6-1c75-2074e9cb27ec\/00602567892410.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2018-06-29",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/scorpion\/1418213110?app=music",
+        "artistId" : "271256",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          },
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "1136",
+            "name" : "Contemporary R&B",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1136"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/drake\/271256?app=music",
+        "name" : "Scorpion",
+        "artistName" : "Drake"
+      },
+      {
+        "artistId" : "471260298",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/24\/7a\/89\/247a890e-a0c8-2e68-6bce-abdee21be050\/19UM1IM08786.rgb.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "14",
+            "name" : "Pop",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id14"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1497607470",
+        "artistName" : "Niall Horan",
+        "copyright" : "Capitol Records; ℗ 2020 Neon Haze Music Ltd. and Niall Horan, under exclusive license to UMG Recordings, Inc.",
+        "releaseDate" : "2020-03-13",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/niall-horan\/471260298?app=music",
+        "name" : "Heartbreak Weather",
+        "url" : "https:\/\/music.apple.com\/us\/album\/heartbreak-weather\/1497607470?app=music"
+      },
+      {
+        "id" : "1150135681",
+        "copyright" : "℗ 2016 Epic Records, a division of Sony Music Entertainment",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music71\/v4\/29\/e1\/69\/29e1699f-f1d7-0c34-ddea-5d82de459064\/886446074726.jpg\/200x200bb.png",
+        "releaseDate" : "2016-09-02",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/birds-in-the-trap-sing-mcknight\/1150135681?app=music",
+        "artistId" : "549236696",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "1076",
+            "name" : "Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1076"
+          },
+          {
+            "genreId" : "1069",
+            "name" : "Dirty South",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1069"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/travis-scott\/549236696?app=music",
+        "name" : "Birds in the Trap Sing McKnight",
+        "artistName" : "Travis Scott"
+      },
+      {
+        "id" : "1491557690",
+        "copyright" : "℗ 2019 G*STARR ENT.",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/c0\/07\/85\/c00785dd-08eb-2538-21e2-baeb00293e93\/13160.jpg\/200x200bb.png",
+        "releaseDate" : "2019-10-11",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/hood-life-krisis-vol-1\/1491557690?app=music",
+        "artistId" : "1230121001",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/j-i-the-prince-of-n-y\/1230121001?app=music",
+        "name" : "Hood Life Krisis, Vol. 1",
+        "artistName" : "J.I the Prince of N.Y"
+      },
+      {
+        "id" : "1501611515",
+        "copyright" : "℗ 2020 Def Jam Recordings, a division of UMG Recordings, Inc.",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music114\/v4\/75\/2b\/dc\/752bdc8f-dafc-6d2b-7af4-82d72e3096a0\/20UMGIM15381.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-06",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/ignatius\/1501611515?app=music",
+        "artistId" : "109572",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/jadakiss\/109572?app=music",
+        "name" : "Ignatius",
+        "artistName" : "Jadakiss"
+      },
+      {
+        "id" : "1454074600",
+        "copyright" : "South Coast Music Group\/Interscope Records; ℗ 2019 Interscope Records",
+        "artworkUrl100" : "https:\/\/is5-ssl.mzstatic.com\/image\/thumb\/Music124\/v4\/fd\/88\/17\/fd881718-ce7a-c70f-5064-11d7832b0f4e\/00602577528491.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2019-03-01",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/baby-on-baby\/1454074600?app=music",
+        "artistId" : "1175595427",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/dababy\/1175595427?app=music",
+        "name" : "Baby on Baby",
+        "artistName" : "DaBaby"
+      },
+      {
+        "id" : "1462482035",
+        "copyright" : "℗ 2019 Dreamville\/Interscope Records",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/26\/60\/54\/2660547c-d992-daf8-17ae-28cd04c8fda5\/19UMGIM38109.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2019-05-07",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/shea-butter-baby\/1462482035?app=music",
+        "artistId" : "448854570",
+        "genres" : [
+          {
+            "genreId" : "15",
+            "name" : "R&B\/Soul",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id15"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/ari-lennox\/448854570?app=music",
+        "name" : "Shea Butter Baby",
+        "artistName" : "Ari Lennox"
+      },
+      {
+        "artistId" : "907081162",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/7f\/d5\/a7\/7fd5a7de-7bf1-3b09-ae0e-b9a1b606af73\/886448311416.jpg\/200x200bb.png",
+        "genres" : [
+          {
+            "genreId" : "22",
+            "name" : "Christian & Gospel",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id22"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "id" : "1503028577",
+        "artistName" : "Steffany Gretzinger",
+        "copyright" : "℗ 2020 Provident Label Group LLC, a unit of Sony Music Entertainment",
+        "releaseDate" : "2020-03-27",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/steffany-gretzinger\/907081162?app=music",
+        "name" : "Forever Amen",
+        "url" : "https:\/\/music.apple.com\/us\/album\/forever-amen\/1503028577?app=music"
+      },
+      {
+        "id" : "1492389435",
+        "copyright" : "℗ 2019 300 Entertainment \/ Atlantic Recording Corporation",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music113\/v4\/7a\/74\/1a\/7a741adc-211f-1203-f20d-af86f26caa1d\/075679829153.jpg\/200x200bb.png",
+        "releaseDate" : "2019-08-16",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/so-much-fun-deluxe\/1492389435?app=music",
+        "artistId" : "81886939",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/young-thug\/81886939?app=music",
+        "name" : "So Much Fun (Deluxe)",
+        "artistName" : "Young Thug"
+      }
+    ],
+    "icon" : "http:\/\/itunes.apple.com\/favicon.ico"
+  }
+}

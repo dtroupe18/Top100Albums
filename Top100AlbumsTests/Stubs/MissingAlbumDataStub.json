@@ -1,0 +1,91 @@
+{
+  "feed" : {
+    "author" : {
+      "name" : "iTunes Store",
+      "uri" : "http:\/\/wwww.apple.com\/us\/itunes\/"
+    },
+    "updated" : "2020-04-02T02:05:09.000-07:00",
+    "country" : "us",
+    "id" : "https:\/\/rss.itunes.apple.com\/api\/v1\/us\/apple-music\/top-albums\/all\/100\/explicit.json",
+    "title" : "Top Albums",
+    "copyright" : "Copyright © 2018 Apple Inc. All rights reserved.",
+    "links" : [
+      {
+        "self" : "https:\/\/rss.itunes.apple.com\/api\/v1\/us\/apple-music\/top-albums\/all\/100\/explicit.json"
+      },
+      {
+        "alternate" : "https:\/\/itunes.apple.com\/WebObjects\/MZStore.woa\/wa\/viewTop?genreId=34&popId=82&app=music"
+      }
+    ],
+    "results" : [
+      {
+        "id" : "1498988850",
+        "copyright" : "Quality Control Music\/Motown Records; ℗ 2020 Quality Control Music, LLC, under exclusive license to UMG Recordings, Inc.",
+        "artworkUrl100" : "https:\/\/is2-ssl.mzstatic.com\/image\/thumb\/Music124\/v4\/dd\/25\/8c\/dd258c8a-f804-785f-1268-ad3cac0db873\/20UMGIM04591.rgb.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-28",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/my-turn\/1498988850?app=music",
+        "artistId" : "1276656483",
+        "genres" : [
+          {
+            "genreId" : "18",
+            "name" : "Hip-Hop\/Rap",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id18"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/lil-baby\/1276656483?app=music",
+        "name" : "My Turn",
+        "artistName" : "Lil Baby"
+      },
+      {
+        "id" : "1502707380",
+        "copyright" : "℗ 2020 Atlantic Recording Corporation",
+        "artworkUrl100" : "https:\/\/is4-ssl.mzstatic.com\/image\/thumb\/Music123\/v4\/78\/7a\/e3\/787ae30d-0b60-e5b8-87fe-9d43bc157c47\/075679820310.jpg\/200x200bb.png",
+        "releaseDate" : "2020-03-13",
+        "contentAdvisoryRating" : "Explicit",
+        "url" : "https:\/\/music.apple.com\/us\/album\/eternal-atake-deluxe-luv-vs-the-world-2\/1502707380?app=music",
+        "artistId" : "940710524",
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/lil-uzi-vert\/940710524?app=music",
+        "name" : "Eternal Atake (Deluxe) - LUV vs. The World 2",
+        "artistName" : "Lil Uzi Vert"
+      },
+      {
+        "id" : "1500776322",
+        "copyright" : "℗ 2020 Rimas Entertainment LLC",
+        "artworkUrl100" : "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Music124\/v4\/ca\/0e\/31\/ca0e3104-fe92-1985-65ba-3474808f0948\/195081078724.jpg\/200x200bb.png",
+        "releaseDate" : "2020-02-29",
+        "contentAdvisoryRating" : "Explicit",
+        "artistId" : "1126808565",
+        "genres" : [
+          {
+            "genreId" : "1119",
+            "name" : "Urbano latino",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id1119"
+          },
+          {
+            "genreId" : "34",
+            "name" : "Music",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id34"
+          },
+          {
+            "genreId" : "12",
+            "name" : "Latino",
+            "url" : "https:\/\/itunes.apple.com\/us\/genre\/id12"
+          }
+        ],
+        "kind" : "album",
+        "artistUrl" : "https:\/\/music.apple.com\/us\/artist\/bad-bunny\/1126808565?app=music",
+        "name" : "YHLQMDLG",
+        "artistName" : "Bad Bunny"
+      }
+    ],
+    "icon" : "http:\/\/itunes.apple.com\/favicon.ico"
+  }
+}

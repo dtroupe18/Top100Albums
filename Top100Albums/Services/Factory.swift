@@ -8,11 +8,7 @@
 
 import UIKit
 
-typealias Factory = DependencyContainerProtocol & ViewControllerFactoryProtocol
-
-protocol ViewControllerFactoryProtocol {
-  func makeTopAlbumsViewController() -> TopAlbumsViewController
-}
+typealias Factory = DependencyContainerProtocol
 
 protocol DependencyContainerProtocol {
   var apiClient: ApiClientProtocol { get }
@@ -21,21 +17,12 @@ protocol DependencyContainerProtocol {
 final class DependencyContainer: DependencyContainerProtocol {
   private let urlSession: URLSession = {
     let configuration = URLSessionConfiguration.default
-    configuration.timeoutIntervalForRequest = 15 // seconds
+    configuration.timeoutIntervalForRequest = 15 // Seconds.
     configuration.timeoutIntervalForResource = 30
-    return URLSession(configuration: .default)
+    return URLSession(configuration: configuration)
   }()
 
   private(set) lazy var apiClient: ApiClientProtocol = {
     return ApiClient(urlSession: self.urlSession)
   }()
-}
-
-// MARK: ViewControllerFactory
-
-extension DependencyContainer: ViewControllerFactoryProtocol {
-  func makeTopAlbumsViewController() -> TopAlbumsViewController {
-    let viewModel = TopAlbumsViewModel(apiClient: self.apiClient)
-    return TopAlbumsViewController(viewModel: viewModel)
-  }
 }
