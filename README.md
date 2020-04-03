@@ -5,7 +5,10 @@ Simple App to Display the top 100 albums across all genres from iTunes `https://
 ## Setup Repo
 
 1. `git clone git@github.com:dtroupe18/Top100Albums.git`.
-2. open `Top100Albums.xcworkspace`.
+2. `cd Top100Albums`.
+3. `open -a "/Applications/Xcode.app" *.xcworkspace`.
+4. Sign with your certificate.
+5. Run.
 
 
 
