@@ -24,6 +24,7 @@ Light was dark mode was handled automatically using [system colors](https://deve
 
 ## Sample Video
 
+![Alt Text](SampleScreenshots/Sample.gif)
 
 
 ## Architecture
