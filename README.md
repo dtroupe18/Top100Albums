@@ -52,5 +52,6 @@ Pods used:
 
 ## Snapshot Testing
 
-Run tests using the `iPhone 8` simulator.
-The version of iOS on the simulator can cause tests to fail. These snapshots were recorded using iOS 13.3.
+1. Run tests using the `iPhone 8` simulator.
+2. The version of iOS on the simulator can cause tests to fail. 
+3. These snapshots were recorded using iOS 13.3.
