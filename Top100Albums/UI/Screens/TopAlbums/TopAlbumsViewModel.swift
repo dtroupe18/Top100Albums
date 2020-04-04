@@ -32,7 +32,6 @@ final class TopAlbumsViewModel: NSObject, TopAlbumsViewModelProtocol {
   weak var viewDelegate: TopAlbumsViewModelViewDelegate?
 
   private let apiClient: ApiClientProtocol
-  private var albums: [Album] = []
   private(set) var cellViewModels: [AlbumTableViewCellViewModelProtocol] = []
   let numberOfSections: Int = 1
 
@@ -49,8 +48,7 @@ final class TopAlbumsViewModel: NSObject, TopAlbumsViewModelProtocol {
     self.apiClient.fetchTopAlbums(onSuccess: { [weak self] albumResponse in
       guard let self = self else { return }
 
-      self.albums = albumResponse.feed.results
-      self.cellViewModels = self.albums.map { AlbumTableViewCellViewModel(album: $0) }
+      self.cellViewModels = albumResponse.feed.results.map { AlbumTableViewCellViewModel(album: $0) }
       self.viewDelegate?.topAlbumsViewModelGotResults(self)
       }, onError: { [weak self] error in
         guard let self = self else { return }
@@ -60,7 +58,7 @@ final class TopAlbumsViewModel: NSObject, TopAlbumsViewModelProtocol {
   }
 
   func userDidSelectAlbum(_ indexPath: IndexPath) {
-    let album = albums[indexPath.row]
+    let album = cellViewModels[indexPath.row].album
     coordinatorDelegate?.topAlbumsUserDidSelectAlbum(album)
   }
 }

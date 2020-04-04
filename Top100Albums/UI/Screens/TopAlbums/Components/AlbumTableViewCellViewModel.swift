@@ -9,6 +9,7 @@
 import UIKit
 
 protocol AlbumTableViewCellViewModelProtocol: AnyObject {
+  var album: Album { get }
   var albumName: String { get }
   var artistName: String { get }
   var artworkUrl: URL? { get }
@@ -18,7 +19,7 @@ protocol AlbumTableViewCellViewModelProtocol: AnyObject {
 }
 
 final class AlbumTableViewCellViewModel: AlbumTableViewCellViewModelProtocol {
-  private let album: Album
+  let album: Album
 
   var albumName: String {
     return album.name

@@ -13,17 +13,40 @@ final class TopAlbumsViewController: BaseViewController {
   private let cellIdentifier: String = "Cell"
   private let viewModel: TopAlbumsViewModelProtocol
 
-  private lazy var tableView: UITableView = {
+  // MARK: UITableViewDiffableDataSource
+
+  // We have to use Album in the diffable data source because it requires that
+  // the provided types are Hashable. We could make the cellViewModel Hashable, but
+  // then our use of protocol conforming has associated type issues. This occurs because
+  // Hashable requires Equatable as well and `==` requires type `Self`.
+  //
+  // However, as you can see below we diff on the model, but we still configure
+  // the cell with a viewModel so we don't break MVVM.
+  //
+  // Additional note: I am returning an optional UITableViewCell here (to avoid force
+  // unwrapping, but if the cell was `nil` this would still crash.
+  private lazy var dataSource: UITableViewDiffableDataSource<Int, Album> = {
+    return UITableViewDiffableDataSource(
+      tableView: tableView,
+      cellProvider: {  tableView, indexPath, _ in
+        let cell = tableView.dequeueReusableCell(
+          withIdentifier: self.cellIdentifier,
+          for: indexPath
+          ) as? AlbumTableViewCell
+
+        cell?.accessoryType = .disclosureIndicator
+        cell?.configureWith(self.viewModel.cellViewModels[indexPath.row])
+        return cell
+    })
+  }()
+
+  private let tableView: UITableView = {
     let tableView = UITableView()
     tableView.separatorColor = UIColor.systemGray
     tableView.estimatedRowHeight = 66.0
     tableView.rowHeight = UITableView.automaticDimension
     tableView.separatorInset = .zero
     tableView.showsVerticalScrollIndicator = false
-    tableView.delegate = self
-    tableView.dataSource = self
-    tableView.prefetchDataSource = self.viewModel
-    tableView.register(AlbumTableViewCell.self, forCellReuseIdentifier: self.cellIdentifier)
     return tableView
   }()
 
@@ -53,6 +76,11 @@ final class TopAlbumsViewController: BaseViewController {
   }
 
   private func addTableView() {
+    tableView.delegate = self
+    tableView.dataSource = self.dataSource
+    tableView.prefetchDataSource = self.viewModel
+    tableView.register(AlbumTableViewCell.self, forCellReuseIdentifier: self.cellIdentifier)
+
     view.addSubview(tableView)
     tableView.snp.makeConstraints({ make in
       make.top.equalTo(view.safeAreaLayoutGuide)
@@ -75,30 +103,6 @@ extension TopAlbumsViewController: UITableViewDelegate {
   }
 }
 
-// MARK: UITableViewDataSource
-
-extension TopAlbumsViewController: UITableViewDataSource {
-  func numberOfSections(in tableView: UITableView) -> Int {
-    return viewModel.numberOfSections
-  }
-
-  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return viewModel.numberOfRows
-  }
-
-  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    guard let cell = tableView.dequeueReusableCell(
-      withIdentifier: self.cellIdentifier,
-      for: indexPath) as? AlbumTableViewCell else {
-        return UITableViewCell()
-    }
-
-    cell.accessoryType = .disclosureIndicator
-    cell.configureWith(viewModel.cellViewModels[indexPath.row])
-    return cell
-  }
-}
-
 // MARK: TopAlbumsViewModelViewDelegate
 
 extension TopAlbumsViewController: TopAlbumsViewModelViewDelegate {
@@ -112,7 +116,13 @@ extension TopAlbumsViewController: TopAlbumsViewModelViewDelegate {
   func topAlbumsViewModelGotResults(_ viewModel: TopAlbumsViewModelProtocol) {
     DispatchQueue.main.async {
       self.hideActivityIndicator()
-      self.tableView.reloadData()
+
+      // MARK: UITableViewDiffableDataSource
+
+      var snapshot = NSDiffableDataSourceSnapshot<Int, Album>()
+      snapshot.appendSections([0]) // Add a section - this is required.
+      snapshot.appendItems(viewModel.cellViewModels.map { $0.album }) // Add all the albums to that section.
+      self.dataSource.apply(snapshot, animatingDifferences: true, completion: nil) // Add this data to the view.
     }
   }
 }

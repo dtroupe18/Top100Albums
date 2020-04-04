@@ -31,7 +31,7 @@ struct Feed: Codable {
 
 // MARK: - Result
 
-struct Album: Codable {
+struct Album: Codable, Hashable {
   let artistName, id, releaseDate, name: String
   let copyright, artistID: String
   let contentAdvisoryRating: String?
@@ -47,16 +47,64 @@ struct Album: Codable {
     case artistURL = "artistUrl"
     case artworkUrl100, genres, url
   }
+
+  // Note: Hashable requires Equatable as well. Additionally,
+  // you want to make sure that if a == b, then a.hashValue == b.hashValue,
+  // because different objects can have the same hash, Hashable alone is not
+  // enough to tell if two objects are equal.
+  //
+  // if a.hashValue == b.hashValue, then a may or may not equal b.
+
+  func hash(into hasher: inout Hasher) {
+    hasher.combine(artistName)
+    hasher.combine(id)
+    hasher.combine(releaseDate)
+    hasher.combine(name)
+    hasher.combine(copyright)
+    hasher.combine(artistID)
+    hasher.combine(contentAdvisoryRating)
+    hasher.combine(artistURL)
+    hasher.combine(artworkUrl100)
+    hasher.combine(genres)
+    hasher.combine(url)
+  }
+
+  static func == (lhs: Album, rhs: Album) -> Bool {
+    return lhs.artistName == rhs.artistName &&
+      lhs.artistName == rhs.artistName &&
+      lhs.id == rhs.id &&
+      lhs.releaseDate == rhs.releaseDate &&
+      lhs.name == rhs.name &&
+      lhs.copyright == rhs.copyright &&
+      lhs.artistID == rhs.artistID &&
+      lhs.contentAdvisoryRating == rhs.contentAdvisoryRating &&
+      lhs.artistURL == rhs.artistURL &&
+      lhs.artworkUrl100 == rhs.artworkUrl100 &&
+      lhs.genres == rhs.genres &&
+      lhs.url == rhs.url
+  }
 }
 
 // MARK: - Genre
 
-struct Genre: Codable {
+struct Genre: Codable, Hashable {
   let genreID, name: String
   let url: String
 
   enum CodingKeys: String, CodingKey {
     case genreID = "genreId"
     case name, url
+  }
+
+  func hash(into hasher: inout Hasher) {
+    hasher.combine(genreID)
+    hasher.combine(name)
+    hasher.combine(url)
+  }
+
+  static func == (lhs: Genre, rhs: Genre) -> Bool {
+    return lhs.genreID == rhs.genreID &&
+      lhs.name == rhs.name &&
+      lhs.url == rhs.url
   }
 }
