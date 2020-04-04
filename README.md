@@ -1,6 +1,8 @@
 # Top100Albums
 Simple App to Display the top 100 albums across all genres from iTunes `https://rss.itunes.apple.com/en-us`
 
+This project is also implemented using [UITableViewDiffableDataSource](https://developer.apple.com/documentation/uikit/uitableviewdiffabledatasource) if you're interested in that checkout [this branch](https://github.com/dtroupe18/Top100Albums/tree/diffableDataSource) or more specifically this [viewController](https://github.com/dtroupe18/Top100Albums/blob/diffableDataSource/Top100Albums/UI/Screens/TopAlbums/TopAlbumsViewController.swift).
+
 
 ## Setup Repo
 

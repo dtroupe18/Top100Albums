@@ -34,7 +34,6 @@ final class AlbumTableViewCell: UITableViewCell {
   }()
 
   private var imageDownloadTask: DownloadTask?
-  public var viewModel: AlbumTableViewCellViewModelProtocol?
 
   override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
     super.init(style: style, reuseIdentifier: reuseIdentifier)
