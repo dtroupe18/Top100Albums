@@ -10,7 +10,7 @@ import XCTest
 import SnapshotTesting
 @testable import Top100Albums
 
-final class TopAlbumsVcSnapshotTests: BaseSnapshotTests {
+final class TopAlbumsVcSnapshotTests: BaseSnapshotTests, StubLoading {
   override func setUp() {
     super.setUp()
   }
@@ -20,19 +20,24 @@ final class TopAlbumsVcSnapshotTests: BaseSnapshotTests {
   }
 
   func testTopAlbumsSnapshots() {
-    let mockApiClient = MockApiClient(urlSession: URLSession(configuration: .default))
-    let viewModel = TopAlbumsTestViewModel(apiClient: mockApiClient)
+    do {
+      let albums = try make100Albums(callingClass: self)
+      let cellViewModels = albums.map { AlbumTableViewCellTestViewModel(album: $0) }
+      let viewModel = TopAlbumsTestViewModel(cellViewModels: cellViewModels)
 
-    for device in self.snapshotDevices {
-      let viewController = TopAlbumsViewController(viewModel: viewModel)
-      viewController.hideActivityIndicator()
-      let navController = UINavigationController(rootViewController: viewController)
+      for device in self.snapshotDevices {
+        let viewController = TopAlbumsViewController(viewModel: viewModel)
+        viewController.topAlbumsViewModelGotResults(viewModel)
+        let navController = UINavigationController(rootViewController: viewController)
 
-      assertSnapshot(
-        matching: navController,
-        as: .image(on: device.diffImage),
-        named: "\(String(describing: TopAlbumsViewController.self))-\(device.name)"
-      )
+        assertSnapshot(
+          matching: navController,
+          as: .image(on: device.diffImage),
+          named: "\(String(describing: TopAlbumsViewController.self))-\(device.name)"
+        )
+      }
+    } catch let err {
+      fail(message: err.localizedDescription)
     }
   }
 }

@@ -7,15 +7,14 @@
 //
 
 import UIKit
-import CocoaLumberjack
+import XCTest
 @testable import Top100Albums
 
 /// Test viewModel for UI snapshot) testing only.
-final class TopAlbumsTestViewModel: NSObject, TopAlbumsViewModelProtocol, StubLoading {
+final class TopAlbumsTestViewModel: NSObject, TopAlbumsViewModelProtocol {
   weak var coordinatorDelegate: TopAlbumsCoordinatorDelegate?
   weak var viewDelegate: TopAlbumsViewModelViewDelegate?
 
-  private var albums: [Album] = []
   var cellViewModels: [AlbumTableViewCellViewModelProtocol] = []
   var numberOfSections: Int = 1
 
@@ -24,22 +23,19 @@ final class TopAlbumsTestViewModel: NSObject, TopAlbumsViewModelProtocol, StubLo
   }
 
   init(apiClient: ApiClientProtocol) {
-    // No apiClient.
+    fatalError("init(apiClient:) has not been implemented. Use init(expectation:) for testing.")
+  }
+
+  init(cellViewModels: [AlbumTableViewCellViewModelProtocol]) {
+    self.cellViewModels = cellViewModels
   }
 
   func fetchTopAlbums() {
-    do {
-      let albums = try make100Albums(callingClass: self)
-      self.albums = albums
-      cellViewModels = albums.map { AlbumTableViewCellTestViewModel(album: $0) }
-      viewDelegate?.topAlbumsViewModelGotResults(self)
-    } catch let err {
-      DDLogError("🚨 ERROR: \(err.localizedDescription)")
-    }
+    viewDelegate?.topAlbumsViewModelGotResults(self)
   }
 
   func userDidSelectAlbum(_ indexPath: IndexPath) {
-    let album = albums[indexPath.row]
+    let album = cellViewModels[indexPath.row].album
     coordinatorDelegate?.topAlbumsUserDidSelectAlbum(album)
   }
 

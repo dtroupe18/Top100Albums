@@ -11,7 +11,7 @@ import UIKit
 
 /// Test viewModel for UI snapshot) testing only.
 final class AlbumTableViewCellTestViewModel: AlbumTableViewCellViewModelProtocol {
-  private let album: Album
+  let album: Album
 
   var albumName: String {
     return album.name

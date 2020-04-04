@@ -107,14 +107,14 @@ extension TopAlbumsViewController: UITableViewDelegate {
 
 extension TopAlbumsViewController: TopAlbumsViewModelViewDelegate {
   func topAlbumsViewModel(_ viewModel: TopAlbumsViewModelProtocol, gotError error: Error) {
-    DispatchQueue.main.async {
+    performUIUpdate {
       self.hideActivityIndicator()
       self.showErrorAlert(msg: error.localizedDescription)
     }
   }
 
   func topAlbumsViewModelGotResults(_ viewModel: TopAlbumsViewModelProtocol) {
-    DispatchQueue.main.async {
+    performUIUpdate {
       self.hideActivityIndicator()
 
       // MARK: UITableViewDiffableDataSource

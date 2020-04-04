@@ -41,4 +41,15 @@ class BaseViewController: UIViewController {
       activityIndicator.removeFromSuperview()
     }
   }
+
+  // Function to help reduce test flakiness. Since tests run on the main thread
+  // the async dispatch can cause intermitent issues.
+  public func performUIUpdate(using closure: @escaping () -> Void) {
+    // If we are already on the main thread, execute the closure directly.
+    if Thread.isMainThread {
+      closure()
+    } else {
+      DispatchQueue.main.async(execute: closure)
+    }
+  }
 }
