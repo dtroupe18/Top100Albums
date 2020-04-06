@@ -26,7 +26,7 @@ final class AlbumDetailsVcSnapshotTests: BaseSnapshotTests, StubLoading {
         return
       }
 
-      let viewModel = AlbumDetialsTestViewModel(album: album)
+      let viewModel = AlbumDetailsTestViewModel(album: album)
 
       for device in self.snapshotDevices {
         let viewController = AlbumDetailsViewController(viewModel: viewModel)
