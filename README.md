@@ -38,7 +38,7 @@ Top100 Albums is an [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%8
 
 ## Cocoapods
 
-Cocoapods were added to version control so you should need to install them. 
+Cocoapods were added to version control so you shouldn't need to install them. 
 
 Pods used:
 
