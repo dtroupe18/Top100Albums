@@ -112,7 +112,7 @@ extension TopAlbumsViewController: TopAlbumsViewModelViewDelegate {
   func topAlbumsViewModelGotResults(_ viewModel: TopAlbumsViewModelProtocol) {
     DispatchQueue.main.async {
       self.hideActivityIndicator()
-      self.tableView.reloadData()
+      self.tableView.reloadWithAnimation()
     }
   }
 }

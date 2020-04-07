@@ -46,6 +46,7 @@
 		553725B524353A65009018A8 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553725B424353A65009018A8 /* Factory.swift */; };
 		5558E42B24361BF2001A45E8 /* UIButton+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558E42A24361BF2001A45E8 /* UIButton+Utils.swift */; };
 		5558E42D24361C5D001A45E8 /* HapticCapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558E42C24361C5D001A45E8 /* HapticCapsuleButton.swift */; };
+		5579C658243CD6D500520631 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5579C657243CD6D500520631 /* UITableView.swift */; };
 		558D061A24369177003E7ED8 /* AnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D061924369177003E7ED8 /* AnimationCircleStrokeSpin.swift */; };
 		558D061C24369192003E7ED8 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D061B24369192003E7ED8 /* ActivityIndicatorView.swift */; };
 		5599858D2435401C00DB1E51 /* AlbumResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599858C2435401C00DB1E51 /* AlbumResponse.swift */; };
@@ -129,6 +130,7 @@
 		553725B424353A65009018A8 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		5558E42A24361BF2001A45E8 /* UIButton+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Utils.swift"; sourceTree = "<group>"; };
 		5558E42C24361C5D001A45E8 /* HapticCapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCapsuleButton.swift; sourceTree = "<group>"; };
+		5579C657243CD6D500520631 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		558D061924369177003E7ED8 /* AnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
 		558D061B24369192003E7ED8 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		5599858C2435401C00DB1E51 /* AlbumResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumResponse.swift; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 				5558E42A24361BF2001A45E8 /* UIButton+Utils.swift */,
 				5501D9CD24369C18002EAFB0 /* UIImage+Utils.swift */,
 				5599859524355AA800DB1E51 /* UIStackView+Utils.swift */,
+				5579C657243CD6D500520631 /* UITableView.swift */,
 				5537259E24353273009018A8 /* URLRequest+Utils.swift */,
 			);
 			path = Extensions;
@@ -754,6 +757,7 @@
 				5599859F243608C300DB1E51 /* AlbumDetailsCoordinator.swift in Sources */,
 				5599859D2436053200DB1E51 /* AlbumDetailsViewModel.swift in Sources */,
 				5599858D2435401C00DB1E51 /* AlbumResponse.swift in Sources */,
+				5579C658243CD6D500520631 /* UITableView.swift in Sources */,
 				5558E42D24361C5D001A45E8 /* HapticCapsuleButton.swift in Sources */,
 				553725B3243537AB009018A8 /* BaseViewController.swift in Sources */,
 				55998592243548D300DB1E51 /* ApiRoute.swift in Sources */,
