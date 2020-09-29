@@ -19,17 +19,17 @@ private enum ChildCoordinator {
 }
 
 final class TopAlbumsCoordinator: TopAlbumsCoordinatorProtocol {
-  private let apiClient: ApiClientProtocol
+  private let albumNetworkClient: AlbumNetworkClientProtocol
   private let navigationController: UINavigationController
   private var childCoordinators: [ChildCoordinator: CoordinatorProtocol] = [:]
 
-  init(apiClient: ApiClientProtocol, navigationController: UINavigationController) {
-    self.apiClient = apiClient
+  init(albumNetworkClient: AlbumNetworkClientProtocol, navigationController: UINavigationController) {
+    self.albumNetworkClient = albumNetworkClient
     self.navigationController = navigationController
   }
 
   func start() {
-    let viewModel = TopAlbumsViewModel(apiClient: self.apiClient)
+    let viewModel = TopAlbumsViewModel(albumNetworkClient: albumNetworkClient)
     viewModel.coordinatorDelegate = self
     let viewController = TopAlbumsViewController(viewModel: viewModel)
     navigationController.pushViewController(viewController, animated: true)

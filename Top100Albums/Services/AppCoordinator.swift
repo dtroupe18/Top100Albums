@@ -26,7 +26,7 @@ final class AppCoordinator: AppCoordinatorProtocol {
     self.window = window
 
     self.topAlbumsCoordinator = TopAlbumsCoordinator(
-      apiClient: factory.apiClient,
+      albumNetworkClient: factory.albumNetworkClient,
       navigationController: navigationController
     )
   }
