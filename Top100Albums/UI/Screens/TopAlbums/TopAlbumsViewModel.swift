@@ -21,8 +21,6 @@ protocol TopAlbumsViewModelProtocol: UITableViewDataSourcePrefetching {
   var numberOfSections: Int { get }
   var numberOfRows: Int { get }
 
-  init(apiClient: ApiClientProtocol)
-
   func fetchTopAlbums()
   func userDidSelectAlbum(_ indexPath: IndexPath)
 }

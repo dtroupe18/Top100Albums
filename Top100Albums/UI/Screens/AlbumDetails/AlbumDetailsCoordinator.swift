@@ -14,7 +14,6 @@ protocol AlbumDetailsCoordinatorDelegate: AnyObject {
 
 protocol AlbumDetailsCoordinatorProtocol: CoordinatorProtocol {
   var parentCoordinatorDelegate: AlbumDetailsCoordinatorDelegate? { get set }
-  init(album: Album, navigationController: UINavigationController)
 }
 
 final class AlbumDetailsCoordinator: AlbumDetailsCoordinatorProtocol {

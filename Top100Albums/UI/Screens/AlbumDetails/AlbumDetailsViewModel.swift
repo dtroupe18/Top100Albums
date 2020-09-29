@@ -20,8 +20,6 @@ protocol AlbumDetailsViewModelProtocol: AnyObject {
   var imageUrl: URL? { get }
   var placeholder: UIImage? { get }
 
-  init(album: Album)
-
   func didFinish()
 }
 
