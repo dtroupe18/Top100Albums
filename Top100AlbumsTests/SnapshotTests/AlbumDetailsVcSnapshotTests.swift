@@ -21,12 +21,12 @@ final class AlbumDetailsVcSnapshotTests: BaseSnapshotTests, Stubable {
 
   func testAlbumDetailsSnapshots() {
     do {
-      guard let album = try makeSingleAlbum(callingClass: self) else {
+      guard let album = try makeSingleAlbum() else {
         fail(message: "Failed to load album from stub.")
         return
       }
 
-      let viewModel = AlbumDetailsTestViewModel(album: album)
+      let viewModel = AlbumDetailsMockViewModel(album: album)
 
       for device in self.snapshotDevices {
         let viewController = AlbumDetailsViewController(viewModel: viewModel)

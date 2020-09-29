@@ -49,8 +49,7 @@ extension Stubable {
   func parseDataFrom<T: Decodable>(
     decodableType: T.Type,
     filename: FileName,
-    fileType: FileType,
-    callingClass: AnyObject
+    fileType: FileType
   ) throws -> T {
     do {
       let data = try loadDataFrom(filename: filename, fileType: fileType)
@@ -60,21 +59,19 @@ extension Stubable {
     }
   }
 
-  func makeSingleAlbum(callingClass: AnyObject) throws -> Album? {
+  func makeSingleAlbum() throws -> Album? {
     return try parseDataFrom(
       decodableType: AlbumResponse.self,
       filename: .oneAlbumStub,
-      fileType: .json,
-      callingClass: callingClass
+      fileType: .json
     ).feed.results.first
   }
 
-  func make100Albums(callingClass: AnyObject) throws -> [Album] {
+  func make100Albums() throws -> [Album] {
     return try parseDataFrom(
       decodableType: AlbumResponse.self,
       filename: .fullStub,
-      fileType: .json,
-      callingClass: callingClass
+      fileType: .json
     ).feed.results
   }
 }

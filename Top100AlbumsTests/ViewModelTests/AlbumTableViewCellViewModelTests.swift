@@ -20,7 +20,7 @@ final class AlbumTableViewCellViewModelTests: Top100AlbumsTests, Stubable {
 
   func testPublicVariableValues() {
     do {
-      guard let album = try makeSingleAlbum(callingClass: self) else {
+      guard let album = try makeSingleAlbum() else {
         fail(message: "Failed to create album from stub.")
         return
       }
@@ -29,6 +29,7 @@ final class AlbumTableViewCellViewModelTests: Top100AlbumsTests, Stubable {
       XCTAssertEqual(viewModel.albumName, album.name)
       XCTAssertEqual(viewModel.artistName, album.artistName)
       XCTAssertNotNil(viewModel.artworkUrl)
+      XCTAssertEqual(viewModel.artworkUrl?.absoluteString, album.artworkUrl100)
       XCTAssertNotNil(viewModel.placeholderImage)
     } catch let err {
       fail(message: err.localizedDescription)

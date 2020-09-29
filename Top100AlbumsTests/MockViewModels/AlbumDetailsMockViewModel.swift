@@ -1,5 +1,5 @@
 //
-//  AlbumDetailsTestViewModel.swift
+//  AlbumDetailsMockViewModel.swift
 //  Top100AlbumsTests
 //
 //  Created by Dave Troupe on 4/3/20.
@@ -10,7 +10,7 @@
 import UIKit
 
 /// Test viewModel for UI snapshot) testing only.
-final class AlbumDetailsTestViewModel: AlbumDetailsViewModelProtocol {
+final class AlbumDetailsMockViewModel: AlbumDetailsViewModelProtocol {
   weak var coordinatorDelegate: AlbumDetialsViewModelCoordinatorDelegate?
   private let album: Album
 

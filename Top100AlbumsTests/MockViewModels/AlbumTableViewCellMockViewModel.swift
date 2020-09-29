@@ -1,5 +1,5 @@
 //
-//  AlbumTableViewCellTestViewModel.swift
+//  AlbumTableViewCellMockViewModel.swift
 //  Top100AlbumsTests
 //
 //  Created by Dave Troupe on 4/3/20.
@@ -10,7 +10,7 @@
 import UIKit
 
 /// Test viewModel for UI snapshot) testing only.
-final class AlbumTableViewCellTestViewModel: AlbumTableViewCellViewModelProtocol {
+final class AlbumTableViewCellMockViewModel: AlbumTableViewCellViewModelProtocol {
   private let album: Album
 
   var albumName: String {

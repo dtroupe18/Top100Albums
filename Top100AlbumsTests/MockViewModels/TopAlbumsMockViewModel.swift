@@ -24,9 +24,9 @@ final class TopAlbumsMockViewModel: NSObject, TopAlbumsViewModelProtocol, Stubab
 
   func fetchTopAlbums() {
     do {
-      let albums = try make100Albums(callingClass: self)
+      let albums = try make100Albums()
       self.albums = albums
-      cellViewModels = albums.map { AlbumTableViewCellTestViewModel(album: $0) }
+      cellViewModels = albums.map { AlbumTableViewCellMockViewModel(album: $0) }
       viewDelegate?.topAlbumsViewModelGotResults(self)
     } catch let err {
       Logger.logError(err)
