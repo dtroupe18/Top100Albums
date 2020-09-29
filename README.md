@@ -40,14 +40,21 @@ Top100 Albums is an [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%8
 
 Cocoapods were added to version control so you shouldn't need to install them. 
 
-Pods used:
+Pods:
 
-1. [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
-2. [KingFisher](https://github.com/onevcat/Kingfisher)
-3. [SnapKit](https://github.com/SnapKit/SnapKit)
-4. [SwiftLint](https://github.com/realm/SwiftLint)
-5. [OHHTTPStubs](https://github.com/AliSoftware/OHHTTPStubs)
-6. [SnapshotTesting](https://github.com/pointfreeco/swift-snapshot-testing)
+1. [Alamofire](https://github.com/Alamofire/Alamofire)
+2. [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
+3. [DeviceKit](https://github.com/devicekit/DeviceKit)
+4. [KingFisher](https://github.com/onevcat/Kingfisher)
+5. [PromiseKit](https://github.com/mxcl/PromiseKit)
+6. [SnapKit](https://github.com/SnapKit/SnapKit)
+7. [SwiftFormat](https://github.com/nicklockwood/SwiftFormat)
+8. [SwiftLint](https://github.com/realm/SwiftLint)
+
+Testing Pods:
+
+1. [OHHTTPStubs](https://github.com/AliSoftware/OHHTTPStubs)
+2. [SnapshotTesting](https://github.com/pointfreeco/swift-snapshot-testing)
 
 
 ## Snapshot Testing
