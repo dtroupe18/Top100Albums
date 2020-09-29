@@ -6,9 +6,9 @@
 //  Copyright © 2020 DavidTroupe. All rights reserved.
 //
 
-import XCTest
 import SnapshotTesting
 @testable import Top100Albums
+import XCTest
 
 final class TopAlbumsVcSnapshotTests: BaseSnapshotTests {
   override func setUp() {
@@ -20,8 +20,7 @@ final class TopAlbumsVcSnapshotTests: BaseSnapshotTests {
   }
 
   func testTopAlbumsSnapshots() {
-    let mockApiClient = MockApiClient(urlSession: URLSession(configuration: .default))
-    let viewModel = TopAlbumsTestViewModel(apiClient: mockApiClient)
+    let viewModel = TopAlbumsMockViewModel()
 
     for device in self.snapshotDevices {
       let viewController = TopAlbumsViewController(viewModel: viewModel)

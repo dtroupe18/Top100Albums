@@ -8,12 +8,14 @@
 
 import Foundation
 
-enum ApiRoute: String {
+enum ApiRoute: String, CaseIterable {
   // Normally you would paginate this call instead of requesting all 100 values at once. However, it doesn't
   // seem like this feed always for pagination.
   case topAlbums = "https://rss.itunes.apple.com/api/v1/us/apple-music/top-albums/all/100/explicit.json"
 
-  var url: URL? {
-    return URL(string: self.rawValue)
+  var url: URL {
+    // Ok to force unwrap because we test this.
+    // swiftlint:disable:next force_unwrapping
+    return URL(string: self.rawValue)!
   }
 }

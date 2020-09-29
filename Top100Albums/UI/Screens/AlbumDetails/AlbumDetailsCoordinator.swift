@@ -8,13 +8,12 @@
 
 import UIKit
 
-protocol AlbumDetailsCoordinatorDelegate: class {
+protocol AlbumDetailsCoordinatorDelegate: AnyObject {
   func albumDetailsCoordinatorDidFinish(_: AlbumDetailsCoordinatorProtocol)
 }
 
 protocol AlbumDetailsCoordinatorProtocol: CoordinatorProtocol {
   var parentCoordinatorDelegate: AlbumDetailsCoordinatorDelegate? { get set }
-  init(album: Album, navigationController: UINavigationController)
 }
 
 final class AlbumDetailsCoordinator: AlbumDetailsCoordinatorProtocol {

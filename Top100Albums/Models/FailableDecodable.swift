@@ -10,7 +10,8 @@ import Foundation
 
 /**
  Use this when decoding an array of a Type so that if one
- element in the array cannot be decoded the entire decode doesn't fail.
+ element in the array cannot be decoded the entire decode doesn't fail. Just that
+ element fails.
  */
 struct FailableDecodable<T: Decodable>: Decodable {
   let optionalType: T?

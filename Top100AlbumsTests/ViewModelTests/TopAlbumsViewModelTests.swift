@@ -6,11 +6,11 @@
 //  Copyright © 2020 DavidTroupe. All rights reserved.
 //
 
-import XCTest
 import OHHTTPStubs
 @testable import Top100Albums
+import XCTest
 
-final class TopAlbumsViewModelTests: Top100AlbumsTests, StubLoading {
+final class TopAlbumsViewModelTests: Top100AlbumsTests, Stubable {
   override func setUp() {
     super.setUp()
   }
@@ -22,7 +22,7 @@ final class TopAlbumsViewModelTests: Top100AlbumsTests, StubLoading {
   func testFetchTopAlbums() {
     do {
       let factory = DependencyContainer()
-      let viewModel = TopAlbumsViewModel(apiClient: factory.apiClient)
+      let viewModel = TopAlbumsViewModel(albumNetworkClient: factory.albumNetworkClient)
       let expectation = self.expectation(description: "Wait for stubbed response")
       let spyDelegate = TopAlbumsViewModelSpyViewDelegate(asyncExpectation: expectation)
       viewModel.viewDelegate = spyDelegate
@@ -34,10 +34,10 @@ final class TopAlbumsViewModelTests: Top100AlbumsTests, StubLoading {
       XCTAssertTrue(viewModel.numberOfSections == 1)
 
       let urlString = ApiRoute.topAlbums.rawValue
-      let stubbedData = try loadDataFrom(filename: .fullStub, fileType: .json, callingClass: self)
+      let stubbedData = try loadDataFrom(filename: .fullStub)
 
       let httpStub = stub(condition: isAbsoluteURLString(urlString)) { _ in
-        return HTTPStubsResponse(data: stubbedData, statusCode: 200, headers: nil)
+        HTTPStubsResponse(data: stubbedData, statusCode: 200, headers: nil)
       }
 
       viewModel.fetchTopAlbums()

@@ -9,7 +9,7 @@
 import UIKit
 
 /// Parent class for all UIViewControllers.
-class BaseViewController: UIViewController {
+class BaseViewController: UIViewController, UIUpdatable {
   private lazy var activityIndicator = ActivityIndicatorView()
 
   public final func showErrorAlert(title: String = "Error", msg: String) {

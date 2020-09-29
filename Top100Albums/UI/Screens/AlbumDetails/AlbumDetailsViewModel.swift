@@ -20,12 +20,10 @@ protocol AlbumDetailsViewModelProtocol: AnyObject {
   var imageUrl: URL? { get }
   var placeholder: UIImage? { get }
 
-  init(album: Album)
-
   func didFinish()
 }
 
-protocol AlbumDetialsViewModelCoordinatorDelegate: class {
+protocol AlbumDetialsViewModelCoordinatorDelegate: AnyObject {
   func albumDetialsViewModelDidFinish(_: AlbumDetailsViewModelProtocol)
 }
 
@@ -83,7 +81,7 @@ final class AlbumDetialsViewModel: AlbumDetailsViewModelProtocol {
   }
 
   var placeholder: UIImage? {
-    return UIImage(imageName: .albumArtPlaceholder)
+    return Image.albumArtPlaceholder.value
   }
 
   init(album: Album) {

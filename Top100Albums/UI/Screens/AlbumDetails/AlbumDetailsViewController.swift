@@ -11,6 +11,8 @@ import SnapKit
 import UIKit
 
 final class AlbumDetailsViewController: BaseViewController {
+  private let viewModel: AlbumDetailsViewModelProtocol
+
   private let imageView: UIImageView = {
     let imageView = UIImageView()
     imageView.contentMode = .scaleAspectFit
@@ -25,22 +27,23 @@ final class AlbumDetailsViewController: BaseViewController {
     return stackView
   }()
 
-  private lazy var itunesButton: HapticCapsuleButton = {
-    let button = HapticCapsuleButton()
+  private lazy var itunesButton: Button = {
+    let button = Button()
+    button.isCapsule = true
+    button.shouldSendHapticFeedback = true
     button.backgroundColor = UIColor.systemBlue
     button.setTitle("View in Apple Music", for: .normal)
     button.addTarget(self, action: #selector(self.itunesButtonPressed), for: .touchUpInside)
     return button
   }()
 
-  private lazy var backButton: AnimatedButton = {
-    let button = AnimatedButton(type: .custom)
+  private lazy var backButton: Button = {
+    let button = Button()
+    button.shouldAnimateOnPress = true
     button.addTarget(self, action: #selector(self.backPressed), for: .touchUpInside)
     button.contentHorizontalAlignment = .left
     return button
   }()
-
-  private let viewModel: AlbumDetailsViewModelProtocol
 
   init(viewModel: AlbumDetailsViewModelProtocol) {
     self.viewModel = viewModel
@@ -64,7 +67,7 @@ final class AlbumDetailsViewController: BaseViewController {
   }
 
   private func addBackButton() {
-    let backArrowImg = UIImage(sfSymbolName: .chevronLeft)
+    let backArrowImg = Image.chevronLeft.value
     backButton.setImage(backArrowImg, for: .normal)
 
     let barButton = UIBarButtonItem(customView: backButton)
@@ -77,20 +80,20 @@ final class AlbumDetailsViewController: BaseViewController {
   private func addImageView() {
     imageView.kf.setImage(with: viewModel.imageUrl, placeholder: viewModel.placeholder)
     view.addSubview(imageView)
-    imageView.snp.makeConstraints({ make in
+    imageView.snp.makeConstraints { make in
       make.top.equalTo(view.safeAreaLayoutGuide).offset(8)
       make.centerX.equalTo(view)
       make.width.height.equalTo(200)
-    })
+    }
   }
 
   private func addButton() {
     view.addSubview(itunesButton)
-    itunesButton.snp.makeConstraints({ make in
+    itunesButton.snp.makeConstraints { make in
       make.left.equalTo(view).offset(20)
       make.right.equalTo(view).offset(-20)
       make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-20)
-    })
+    }
   }
 
   private func addStackView() {
@@ -106,11 +109,11 @@ final class AlbumDetailsViewController: BaseViewController {
     verticalStackView.addArrangedSubviews([albumLabel, artistLabel, genreLabel, releaseDateLabel, copyrightLabel])
 
     view.addSubview(verticalStackView)
-    verticalStackView.snp.makeConstraints({ make in
+    verticalStackView.snp.makeConstraints { make in
       make.top.equalTo(imageView.snp.bottom).offset(16)
       make.left.right.equalTo(imageView)
       make.bottom.lessThanOrEqualTo(itunesButton).offset(-16)
-    })
+    }
   }
 
   @objc private func itunesButtonPressed() {

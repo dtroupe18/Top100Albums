@@ -9,7 +9,7 @@
 import Kingfisher
 import UIKit
 
-protocol TopAlbumsViewModelViewDelegate: class {
+protocol TopAlbumsViewModelViewDelegate: AnyObject {
   func topAlbumsViewModel(_ viewModel: TopAlbumsViewModelProtocol, gotError error: Error)
   func topAlbumsViewModelGotResults(_ viewModel: TopAlbumsViewModelProtocol)
 }
@@ -21,8 +21,6 @@ protocol TopAlbumsViewModelProtocol: UITableViewDataSourcePrefetching {
   var numberOfSections: Int { get }
   var numberOfRows: Int { get }
 
-  init(apiClient: ApiClientProtocol)
-
   func fetchTopAlbums()
   func userDidSelectAlbum(_ indexPath: IndexPath)
 }
@@ -31,7 +29,7 @@ final class TopAlbumsViewModel: NSObject, TopAlbumsViewModelProtocol {
   weak var coordinatorDelegate: TopAlbumsCoordinatorDelegate?
   weak var viewDelegate: TopAlbumsViewModelViewDelegate?
 
-  private let apiClient: ApiClientProtocol
+  private let albumNetworkClient: AlbumNetworkClientProtocol
   private var albums: [Album] = []
   private(set) var cellViewModels: [AlbumTableViewCellViewModelProtocol] = []
   let numberOfSections: Int = 1
@@ -40,23 +38,19 @@ final class TopAlbumsViewModel: NSObject, TopAlbumsViewModelProtocol {
     return cellViewModels.count
   }
 
-  init(apiClient: ApiClientProtocol) {
-    self.apiClient = apiClient
+  init(albumNetworkClient: AlbumNetworkClientProtocol) {
+    self.albumNetworkClient = albumNetworkClient
     super.init()
   }
 
   func fetchTopAlbums() {
-    self.apiClient.fetchTopAlbums(onSuccess: { [weak self] albumResponse in
-      guard let self = self else { return }
-
-      self.albums = albumResponse.feed.results
+    albumNetworkClient.fetchTopAlbums().done { response in
+      self.albums = response.feed.results
       self.cellViewModels = self.albums.map { AlbumTableViewCellViewModel(album: $0) }
       self.viewDelegate?.topAlbumsViewModelGotResults(self)
-      }, onError: { [weak self] error in
-        guard let self = self else { return }
-
-        self.viewDelegate?.topAlbumsViewModel(self, gotError: error)
-    })
+    }.catch { error in
+      self.viewDelegate?.topAlbumsViewModel(self, gotError: error)
+    }
   }
 
   func userDidSelectAlbum(_ indexPath: IndexPath) {

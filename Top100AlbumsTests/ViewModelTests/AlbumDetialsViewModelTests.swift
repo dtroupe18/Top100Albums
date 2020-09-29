@@ -6,10 +6,10 @@
 //  Copyright © 2020 DavidTroupe. All rights reserved.
 //
 
-import XCTest
 @testable import Top100Albums
+import XCTest
 
-final class AlbumDetialsViewModelTests: Top100AlbumsTests, StubLoading {
+final class AlbumDetialsViewModelTests: Top100AlbumsTests, Stubable {
   override func setUp() {
     super.setUp()
   }
@@ -20,7 +20,7 @@ final class AlbumDetialsViewModelTests: Top100AlbumsTests, StubLoading {
 
   func testPublicVariableValues() {
     do {
-      guard let album = try makeSingleAlbum(callingClass: self) else {
+      guard let album = try makeSingleAlbum() else {
         fail(message: "Failed to create album from stub.")
         return
       }
@@ -36,7 +36,9 @@ final class AlbumDetialsViewModelTests: Top100AlbumsTests, StubLoading {
       XCTAssertEqual(viewModel.releaseDateStr, "Feb 28, 2020")
       XCTAssertEqual(viewModel.copyright, album.copyright)
       XCTAssertNotNil(viewModel.itunesUrl)
+      XCTAssertEqual(viewModel.itunesUrl?.absoluteString, album.url)
       XCTAssertNotNil(viewModel.imageUrl)
+      XCTAssertEqual(viewModel.imageUrl?.absoluteString, album.artworkUrl100)
       XCTAssertNotNil(viewModel.placeholder)
     } catch let err {
       fail(message: err.localizedDescription)

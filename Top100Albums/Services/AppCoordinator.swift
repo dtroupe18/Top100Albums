@@ -12,9 +12,7 @@ protocol CoordinatorProtocol: AnyObject {
   func start()
 }
 
-protocol AppCoordinatorProtocol: CoordinatorProtocol {
-  init(factory: Factory, navigationController: UINavigationController, window: UIWindow)
-}
+protocol AppCoordinatorProtocol: CoordinatorProtocol {}
 
 final class AppCoordinator: AppCoordinatorProtocol {
   private let factory: Factory
@@ -28,7 +26,7 @@ final class AppCoordinator: AppCoordinatorProtocol {
     self.window = window
 
     self.topAlbumsCoordinator = TopAlbumsCoordinator(
-      apiClient: factory.apiClient,
+      albumNetworkClient: factory.albumNetworkClient,
       navigationController: navigationController
     )
   }

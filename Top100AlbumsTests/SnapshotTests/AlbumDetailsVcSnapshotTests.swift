@@ -6,11 +6,11 @@
 //  Copyright © 2020 DavidTroupe. All rights reserved.
 //
 
-import XCTest
 import SnapshotTesting
 @testable import Top100Albums
+import XCTest
 
-final class AlbumDetailsVcSnapshotTests: BaseSnapshotTests, StubLoading {
+final class AlbumDetailsVcSnapshotTests: BaseSnapshotTests, Stubable {
   override func setUp() {
     super.setUp()
   }
@@ -21,12 +21,12 @@ final class AlbumDetailsVcSnapshotTests: BaseSnapshotTests, StubLoading {
 
   func testAlbumDetailsSnapshots() {
     do {
-      guard let album = try makeSingleAlbum(callingClass: self) else {
+      guard let album = try makeSingleAlbum() else {
         fail(message: "Failed to load album from stub.")
         return
       }
 
-      let viewModel = AlbumDetailsTestViewModel(album: album)
+      let viewModel = AlbumDetailsMockViewModel(album: album)
 
       for device in self.snapshotDevices {
         let viewController = AlbumDetailsViewController(viewModel: viewModel)
