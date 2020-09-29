@@ -22,7 +22,7 @@ final class TopAlbumsViewModelTests: Top100AlbumsTests, Stubable {
   func testFetchTopAlbums() {
     do {
       let factory = DependencyContainer()
-      let viewModel = TopAlbumsViewModel(apiClient: factory.apiClient)
+      let viewModel = TopAlbumsViewModel(albumNetworkClient: factory.albumNetworkClient)
       let expectation = self.expectation(description: "Wait for stubbed response")
       let spyDelegate = TopAlbumsViewModelSpyViewDelegate(asyncExpectation: expectation)
       viewModel.viewDelegate = spyDelegate

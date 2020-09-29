@@ -6,12 +6,11 @@
 //  Copyright © 2020 DavidTroupe. All rights reserved.
 //
 
-import CocoaLumberjack
 @testable import Top100Albums
 import UIKit
 
 /// Test viewModel for UI snapshot) testing only.
-final class TopAlbumsTestViewModel: NSObject, TopAlbumsViewModelProtocol, Stubable {
+final class TopAlbumsMockViewModel: NSObject, TopAlbumsViewModelProtocol, Stubable {
   weak var coordinatorDelegate: TopAlbumsCoordinatorDelegate?
   weak var viewDelegate: TopAlbumsViewModelViewDelegate?
 
@@ -23,10 +22,6 @@ final class TopAlbumsTestViewModel: NSObject, TopAlbumsViewModelProtocol, Stubab
     return cellViewModels.count
   }
 
-  init(apiClient: ApiClientProtocol) {
-    // No apiClient.
-  }
-
   func fetchTopAlbums() {
     do {
       let albums = try make100Albums(callingClass: self)
@@ -34,7 +29,7 @@ final class TopAlbumsTestViewModel: NSObject, TopAlbumsViewModelProtocol, Stubab
       cellViewModels = albums.map { AlbumTableViewCellTestViewModel(album: $0) }
       viewDelegate?.topAlbumsViewModelGotResults(self)
     } catch let err {
-      DDLogError("🚨 ERROR: \(err.localizedDescription)")
+      Logger.logError(err)
     }
   }
 

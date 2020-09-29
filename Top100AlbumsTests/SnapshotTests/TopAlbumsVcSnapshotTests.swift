@@ -20,8 +20,7 @@ final class TopAlbumsVcSnapshotTests: BaseSnapshotTests {
   }
 
   func testTopAlbumsSnapshots() {
-    let mockApiClient = MockApiClient(urlSession: URLSession(configuration: .default))
-    let viewModel = TopAlbumsTestViewModel(apiClient: mockApiClient)
+    let viewModel = TopAlbumsMockViewModel()
 
     for device in self.snapshotDevices {
       let viewController = TopAlbumsViewController(viewModel: viewModel)

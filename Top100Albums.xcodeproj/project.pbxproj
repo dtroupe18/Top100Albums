@@ -12,13 +12,12 @@
 		5501D9D82436AFC6002EAFB0 /* OneAlbumStub.json in Resources */ = {isa = PBXBuildFile; fileRef = 5501D9D72436AFC6002EAFB0 /* OneAlbumStub.json */; };
 		5501D9DC2436B039002EAFB0 /* MissingAlbumDataStub.json in Resources */ = {isa = PBXBuildFile; fileRef = 5501D9DB2436B039002EAFB0 /* MissingAlbumDataStub.json */; };
 		5501D9DE2436B1EB002EAFB0 /* AlbumResponseDecodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D9DD2436B1EB002EAFB0 /* AlbumResponseDecodeTests.swift */; };
-		5501D9E124374FFD002EAFB0 /* ApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D9E024374FFD002EAFB0 /* ApiClientTests.swift */; };
+		5501D9E124374FFD002EAFB0 /* AlbumNetworkClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D9E024374FFD002EAFB0 /* AlbumNetworkClientTests.swift */; };
 		5501D9E324375542002EAFB0 /* TopAlbumsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D9E224375542002EAFB0 /* TopAlbumsViewModelTests.swift */; };
 		5521C0832437A24A00DD329B /* AlbumDetialsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C0822437A24A00DD329B /* AlbumDetialsViewModelTests.swift */; };
 		5521C0872437A70900DD329B /* BaseSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C0862437A70900DD329B /* BaseSnapshotTests.swift */; };
 		5521C0892437A78A00DD329B /* TopAlbumsVcSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C0882437A78A00DD329B /* TopAlbumsVcSnapshotTests.swift */; };
-		5521C08C2437A90000DD329B /* TopAlbumsTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C08B2437A90000DD329B /* TopAlbumsTestViewModel.swift */; };
-		5521C08F2437AB3000DD329B /* MockApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C08E2437AB3000DD329B /* MockApiClient.swift */; };
+		5521C08C2437A90000DD329B /* TopAlbumsMockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C08B2437A90000DD329B /* TopAlbumsMockViewModel.swift */; };
 		5521C0912437AE8900DD329B /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C0902437AE8900DD329B /* Image.swift */; };
 		5521C0942437B43A00DD329B /* AlbumTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C0932437B43A00DD329B /* AlbumTableViewCellViewModel.swift */; };
 		5521C0962437B47A00DD329B /* AlbumTableViewCellTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C0952437B47A00DD329B /* AlbumTableViewCellTestViewModel.swift */; };
@@ -96,13 +95,12 @@
 		5501D9D72436AFC6002EAFB0 /* OneAlbumStub.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OneAlbumStub.json; sourceTree = "<group>"; };
 		5501D9DB2436B039002EAFB0 /* MissingAlbumDataStub.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MissingAlbumDataStub.json; sourceTree = "<group>"; };
 		5501D9DD2436B1EB002EAFB0 /* AlbumResponseDecodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumResponseDecodeTests.swift; sourceTree = "<group>"; };
-		5501D9E024374FFD002EAFB0 /* ApiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientTests.swift; sourceTree = "<group>"; };
+		5501D9E024374FFD002EAFB0 /* AlbumNetworkClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumNetworkClientTests.swift; sourceTree = "<group>"; };
 		5501D9E224375542002EAFB0 /* TopAlbumsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsViewModelTests.swift; sourceTree = "<group>"; };
 		5521C0822437A24A00DD329B /* AlbumDetialsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetialsViewModelTests.swift; sourceTree = "<group>"; };
 		5521C0862437A70900DD329B /* BaseSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSnapshotTests.swift; sourceTree = "<group>"; };
 		5521C0882437A78A00DD329B /* TopAlbumsVcSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsVcSnapshotTests.swift; sourceTree = "<group>"; };
-		5521C08B2437A90000DD329B /* TopAlbumsTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsTestViewModel.swift; sourceTree = "<group>"; };
-		5521C08E2437AB3000DD329B /* MockApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApiClient.swift; sourceTree = "<group>"; };
+		5521C08B2437A90000DD329B /* TopAlbumsMockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsMockViewModel.swift; sourceTree = "<group>"; };
 		5521C0902437AE8900DD329B /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		5521C0932437B43A00DD329B /* AlbumTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCellViewModel.swift; sourceTree = "<group>"; };
 		5521C0952437B47A00DD329B /* AlbumTableViewCellTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCellTestViewModel.swift; sourceTree = "<group>"; };
@@ -230,12 +228,12 @@
 			path = SpyDelegates;
 			sourceTree = "<group>";
 		};
-		5501D9E624375643002EAFB0 /* ApiTests */ = {
+		5501D9E624375643002EAFB0 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				5501D9E024374FFD002EAFB0 /* ApiClientTests.swift */,
+				5501D9E024374FFD002EAFB0 /* AlbumNetworkClientTests.swift */,
 			);
-			path = ApiTests;
+			path = Network;
 			sourceTree = "<group>";
 		};
 		5501D9E724375650002EAFB0 /* ModelTests */ = {
@@ -261,17 +259,9 @@
 			children = (
 				5521C0A12437BA5700DD329B /* AlbumDetailsTestViewModel.swift */,
 				5521C0952437B47A00DD329B /* AlbumTableViewCellTestViewModel.swift */,
-				5521C08B2437A90000DD329B /* TopAlbumsTestViewModel.swift */,
+				5521C08B2437A90000DD329B /* TopAlbumsMockViewModel.swift */,
 			);
 			path = TestViewModels;
-			sourceTree = "<group>";
-		};
-		5521C08D2437AB1A00DD329B /* MockObjects */ = {
-			isa = PBXGroup;
-			children = (
-				5521C08E2437AB3000DD329B /* MockApiClient.swift */,
-			);
-			path = MockObjects;
 			sourceTree = "<group>";
 		};
 		5521C0922437B42600DD329B /* Components */ = {
@@ -349,8 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				5537258124340C66009018A8 /* Top100AlbumsTests.swift */,
-				5501D9E624375643002EAFB0 /* ApiTests */,
-				5521C08D2437AB1A00DD329B /* MockObjects */,
+				5501D9E624375643002EAFB0 /* Network */,
 				5501D9E724375650002EAFB0 /* ModelTests */,
 				5521C0842437A68D00DD329B /* SnapshotTests */,
 				5501D9E52437562D002EAFB0 /* SpyDelegates */,
@@ -792,20 +781,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5521C0962437B47A00DD329B /* AlbumTableViewCellTestViewModel.swift in Sources */,
-				5521C08C2437A90000DD329B /* TopAlbumsTestViewModel.swift in Sources */,
+				5521C08C2437A90000DD329B /* TopAlbumsMockViewModel.swift in Sources */,
 				5501D9DE2436B1EB002EAFB0 /* AlbumResponseDecodeTests.swift in Sources */,
 				5521C0872437A70900DD329B /* BaseSnapshotTests.swift in Sources */,
 				5501D9D42436AF08002EAFB0 /* Stubable.swift in Sources */,
 				5521C0892437A78A00DD329B /* TopAlbumsVcSnapshotTests.swift in Sources */,
 				5534CD08252372D900576D89 /* ImageTests.swift in Sources */,
 				5501D9E324375542002EAFB0 /* TopAlbumsViewModelTests.swift in Sources */,
-				5521C08F2437AB3000DD329B /* MockApiClient.swift in Sources */,
 				5521C0832437A24A00DD329B /* AlbumDetialsViewModelTests.swift in Sources */,
 				55D216F4243756D000B455F9 /* TopAlbumsViewModelSpyViewDelegate.swift in Sources */,
 				5534CCFD25236FA700576D89 /* ApiRouteTests.swift in Sources */,
 				5537258224340C66009018A8 /* Top100AlbumsTests.swift in Sources */,
 				5521C09A2437B78400DD329B /* AlbumTableViewCellViewModelTests.swift in Sources */,
-				5501D9E124374FFD002EAFB0 /* ApiClientTests.swift in Sources */,
+				5501D9E124374FFD002EAFB0 /* AlbumNetworkClientTests.swift in Sources */,
 				5521C09E2437B88300DD329B /* AlbumDetailsVcSnapshotTests.swift in Sources */,
 				5521C0A22437BA5700DD329B /* AlbumDetailsTestViewModel.swift in Sources */,
 			);
