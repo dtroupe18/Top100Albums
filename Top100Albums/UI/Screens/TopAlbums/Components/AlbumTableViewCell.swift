@@ -40,26 +40,26 @@ final class AlbumTableViewCell: UITableViewCell {
     backgroundColor = UIColor.systemBackground
 
     contentView.addSubview(albumImageView)
-    albumImageView.snp.makeConstraints({ make in
+    albumImageView.snp.makeConstraints { make in
       make.top.equalTo(contentView).offset(8)
       make.height.width.equalTo(50)
       make.left.equalTo(contentView).offset(8)
       make.bottom.equalTo(contentView).offset(-8)
-    })
+    }
 
     contentView.addSubview(albumTitleLabel)
-    albumTitleLabel.snp.makeConstraints({ make in
+    albumTitleLabel.snp.makeConstraints { make in
       make.top.equalTo(contentView).offset(8)
       make.left.equalTo(albumImageView.snp.right).offset(10)
       make.right.equalTo(contentView).offset(-10)
-    })
+    }
 
     contentView.addSubview(artistNameLabel)
-    artistNameLabel.snp.makeConstraints({ make in
+    artistNameLabel.snp.makeConstraints { make in
       make.top.equalTo(albumTitleLabel.snp.bottom).offset(4)
       make.left.right.equalTo(albumTitleLabel)
       make.bottom.equalTo(contentView).offset(-8)
-    })
+    }
   }
 
   @available(*, unavailable)

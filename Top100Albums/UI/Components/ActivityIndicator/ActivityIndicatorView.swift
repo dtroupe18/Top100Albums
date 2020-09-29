@@ -11,11 +11,11 @@ import UIKit
 final class ActivityIndicatorView: UIView {
   private(set) var isAnimating: Bool = false
 
-  public override var intrinsicContentSize: CGSize {
+  override public var intrinsicContentSize: CGSize {
     return CGSize(width: self.bounds.width, height: self.bounds.height)
   }
 
-  public override var bounds: CGRect {
+  override public var bounds: CGRect {
     didSet {
       // setup the animation again for the new bounds
       if oldValue != self.bounds, self.isAnimating {

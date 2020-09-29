@@ -6,9 +6,9 @@
 //  Copyright © 2020 DavidTroupe. All rights reserved.
 //
 
-import XCTest
 import OHHTTPStubs
 @testable import Top100Albums
+import XCTest
 
 final class ApiClientTests: Top100AlbumsTests, Stubable {
   override func setUp() {
@@ -28,7 +28,7 @@ final class ApiClientTests: Top100AlbumsTests, Stubable {
       let stubbedData = try loadDataFrom(filename: .fullStub)
 
       let httpStub = stub(condition: isAbsoluteURLString(urlString)) { _ in
-        return HTTPStubsResponse(data: stubbedData, statusCode: 200, headers: nil)
+        HTTPStubsResponse(data: stubbedData, statusCode: 200, headers: nil)
       }
 
       let expectation = self.expectation(description: "Wait for stubbed response")
@@ -64,7 +64,7 @@ final class ApiClientTests: Top100AlbumsTests, Stubable {
       let stubbedData = try loadDataFrom(filename: .missingAlbumDataStub)
 
       let httpStub = stub(condition: isAbsoluteURLString(urlString)) { _ in
-        return HTTPStubsResponse(data: stubbedData, statusCode: 200, headers: nil)
+        HTTPStubsResponse(data: stubbedData, statusCode: 200, headers: nil)
       }
 
       let expectation = self.expectation(description: "Wait for stubbed response")

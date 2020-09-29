@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import XCTest
 @testable import Top100Albums
+import XCTest
 
 final class TopAlbumsViewModelSpyViewDelegate: TopAlbumsViewModelViewDelegate {
   public var error: Error?

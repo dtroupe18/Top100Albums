@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol AlbumDetailsCoordinatorDelegate: class {
+protocol AlbumDetailsCoordinatorDelegate: AnyObject {
   func albumDetailsCoordinatorDidFinish(_: AlbumDetailsCoordinatorProtocol)
 }
 

@@ -25,7 +25,7 @@ protocol AlbumDetailsViewModelProtocol: AnyObject {
   func didFinish()
 }
 
-protocol AlbumDetialsViewModelCoordinatorDelegate: class {
+protocol AlbumDetialsViewModelCoordinatorDelegate: AnyObject {
   func albumDetialsViewModelDidFinish(_: AlbumDetailsViewModelProtocol)
 }
 

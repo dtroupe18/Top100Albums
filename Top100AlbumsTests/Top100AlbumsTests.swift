@@ -6,12 +6,11 @@
 //  Copyright © 2020 DavidTroupe. All rights reserved.
 //
 
-import XCTest
 @testable import Top100Albums
+import XCTest
 
 /// Base class for unit tests.
 class Top100AlbumsTests: XCTestCase {
-
   override func setUp() {
     super.setUp()
   }

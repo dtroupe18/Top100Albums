@@ -23,6 +23,6 @@ final class DependencyContainer: DependencyContainerProtocol {
   }()
 
   private(set) lazy var apiClient: ApiClientProtocol = {
-    return ApiClient(urlSession: self.urlSession)
+    ApiClient(urlSession: self.urlSession)
   }()
 }

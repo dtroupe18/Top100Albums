@@ -40,7 +40,7 @@ extension Stubable {
     let testBundle = Bundle(for: type(of: self))
 
     guard let path = testBundle.path(forResource: filename.rawValue, ofType: fileType.rawValue) else {
-      throw(self.makeFileMissingError(filename: filename))
+      throw (self.makeFileMissingError(filename: filename))
     }
 
     return try Data(contentsOf: URL(fileURLWithPath: path))
@@ -56,7 +56,7 @@ extension Stubable {
       let data = try loadDataFrom(filename: filename, fileType: fileType)
       return try JSONDecoder().decode(decodableType, from: data)
     } catch let err {
-      throw(err)
+      throw (err)
     }
   }
 

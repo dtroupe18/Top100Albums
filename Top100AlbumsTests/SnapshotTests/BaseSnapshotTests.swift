@@ -6,9 +6,9 @@
 //  Copyright © 2020 DavidTroupe. All rights reserved.
 //
 
-import XCTest
 import SnapshotTesting
 @testable import Top100Albums
+import XCTest
 
 public struct PhoneForSnapshotTesting {
   let name: String

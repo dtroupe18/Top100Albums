@@ -6,9 +6,9 @@
 //  Copyright © 2020 DavidTroupe. All rights reserved.
 //
 
-import UIKit
 import CocoaLumberjack
 @testable import Top100Albums
+import UIKit
 
 /// Test viewModel for UI snapshot) testing only.
 final class TopAlbumsTestViewModel: NSObject, TopAlbumsViewModelProtocol, Stubable {

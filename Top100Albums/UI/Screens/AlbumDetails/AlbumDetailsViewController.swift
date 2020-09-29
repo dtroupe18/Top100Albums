@@ -77,20 +77,20 @@ final class AlbumDetailsViewController: BaseViewController {
   private func addImageView() {
     imageView.kf.setImage(with: viewModel.imageUrl, placeholder: viewModel.placeholder)
     view.addSubview(imageView)
-    imageView.snp.makeConstraints({ make in
+    imageView.snp.makeConstraints { make in
       make.top.equalTo(view.safeAreaLayoutGuide).offset(8)
       make.centerX.equalTo(view)
       make.width.height.equalTo(200)
-    })
+    }
   }
 
   private func addButton() {
     view.addSubview(itunesButton)
-    itunesButton.snp.makeConstraints({ make in
+    itunesButton.snp.makeConstraints { make in
       make.left.equalTo(view).offset(20)
       make.right.equalTo(view).offset(-20)
       make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-20)
-    })
+    }
   }
 
   private func addStackView() {
@@ -106,11 +106,11 @@ final class AlbumDetailsViewController: BaseViewController {
     verticalStackView.addArrangedSubviews([albumLabel, artistLabel, genreLabel, releaseDateLabel, copyrightLabel])
 
     view.addSubview(verticalStackView)
-    verticalStackView.snp.makeConstraints({ make in
+    verticalStackView.snp.makeConstraints { make in
       make.top.equalTo(imageView.snp.bottom).offset(16)
       make.left.right.equalTo(imageView)
       make.bottom.lessThanOrEqualTo(itunesButton).offset(-16)
-    })
+    }
   }
 
   @objc private func itunesButtonPressed() {

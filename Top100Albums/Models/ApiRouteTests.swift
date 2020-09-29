@@ -6,8 +6,8 @@
 //  Copyright © 2020 DavidTroupe. All rights reserved.
 //
 
-import XCTest
 @testable import Top100Albums
+import XCTest
 
 final class ApiRouteTests: XCTestCase {
   func testApiRouteUrlsAreNotNil() {

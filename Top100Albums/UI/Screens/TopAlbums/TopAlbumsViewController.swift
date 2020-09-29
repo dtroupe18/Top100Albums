@@ -6,8 +6,8 @@
 //  Copyright © 2020 DavidTroupe. All rights reserved.
 //
 
-import UIKit
 import SnapKit
+import UIKit
 
 final class TopAlbumsViewController: BaseViewController {
   private let cellIdentifier: String = "Cell"
@@ -54,11 +54,11 @@ final class TopAlbumsViewController: BaseViewController {
 
   private func addTableView() {
     view.addSubview(tableView)
-    tableView.snp.makeConstraints({ make in
+    tableView.snp.makeConstraints { make in
       make.top.equalTo(view.safeAreaLayoutGuide)
       make.left.right.equalTo(view)
       make.bottom.equalTo(view.safeAreaLayoutGuide)
-    })
+    }
   }
 }
 
@@ -89,8 +89,9 @@ extension TopAlbumsViewController: UITableViewDataSource {
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     guard let cell = tableView.dequeueReusableCell(
       withIdentifier: self.cellIdentifier,
-      for: indexPath) as? AlbumTableViewCell else {
-        return UITableViewCell()
+      for: indexPath
+    ) as? AlbumTableViewCell else {
+      return UITableViewCell()
     }
 
     cell.accessoryType = .disclosureIndicator

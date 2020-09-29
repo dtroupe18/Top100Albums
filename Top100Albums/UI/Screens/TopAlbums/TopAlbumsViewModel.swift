@@ -9,7 +9,7 @@
 import Kingfisher
 import UIKit
 
-protocol TopAlbumsViewModelViewDelegate: class {
+protocol TopAlbumsViewModelViewDelegate: AnyObject {
   func topAlbumsViewModel(_ viewModel: TopAlbumsViewModelProtocol, gotError error: Error)
   func topAlbumsViewModelGotResults(_ viewModel: TopAlbumsViewModelProtocol)
 }
@@ -52,10 +52,10 @@ final class TopAlbumsViewModel: NSObject, TopAlbumsViewModelProtocol {
       self.albums = albumResponse.feed.results
       self.cellViewModels = self.albums.map { AlbumTableViewCellViewModel(album: $0) }
       self.viewDelegate?.topAlbumsViewModelGotResults(self)
-      }, onError: { [weak self] error in
-        guard let self = self else { return }
+    }, onError: { [weak self] error in
+      guard let self = self else { return }
 
-        self.viewDelegate?.topAlbumsViewModel(self, gotError: error)
+      self.viewDelegate?.topAlbumsViewModel(self, gotError: error)
     })
   }
 

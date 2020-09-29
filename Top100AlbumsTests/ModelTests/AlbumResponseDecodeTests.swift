@@ -6,11 +6,10 @@
 //  Copyright © 2020 DavidTroupe. All rights reserved.
 //
 
-import XCTest
 @testable import Top100Albums
+import XCTest
 
 final class AlbumResponseDecodeTests: Top100AlbumsTests, Stubable {
-
   override func setUp() {
     super.setUp()
   }

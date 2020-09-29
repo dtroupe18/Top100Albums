@@ -10,8 +10,8 @@ import UIKit
 
 final class AnimationCircleStrokeSpin {
   private func layerWith(size: CGSize, color: UIColor) -> CALayer {
-    let layer: CAShapeLayer = CAShapeLayer()
-    let path: UIBezierPath = UIBezierPath()
+    let layer = CAShapeLayer()
+    let path = UIBezierPath()
 
     path.addArc(
       withCenter: CGPoint(x: size.width / 2, y: size.height / 2),
