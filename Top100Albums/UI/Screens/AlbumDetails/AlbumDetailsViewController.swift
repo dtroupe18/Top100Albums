@@ -11,6 +11,8 @@ import SnapKit
 import UIKit
 
 final class AlbumDetailsViewController: BaseViewController {
+  private let viewModel: AlbumDetailsViewModelProtocol
+
   private let imageView: UIImageView = {
     let imageView = UIImageView()
     imageView.contentMode = .scaleAspectFit
@@ -25,22 +27,23 @@ final class AlbumDetailsViewController: BaseViewController {
     return stackView
   }()
 
-  private lazy var itunesButton: HapticCapsuleButton = {
-    let button = HapticCapsuleButton()
+  private lazy var itunesButton: Button = {
+    let button = Button()
+    button.isCapsule = true
+    button.shouldSendHapticFeedback = true
     button.backgroundColor = UIColor.systemBlue
     button.setTitle("View in Apple Music", for: .normal)
     button.addTarget(self, action: #selector(self.itunesButtonPressed), for: .touchUpInside)
     return button
   }()
 
-  private lazy var backButton: AnimatedButton = {
-    let button = AnimatedButton(type: .custom)
+  private lazy var backButton: Button = {
+    let button = Button()
+    button.shouldAnimateOnPress = true
     button.addTarget(self, action: #selector(self.backPressed), for: .touchUpInside)
     button.contentHorizontalAlignment = .left
     return button
   }()
-
-  private let viewModel: AlbumDetailsViewModelProtocol
 
   init(viewModel: AlbumDetailsViewModelProtocol) {
     self.viewModel = viewModel

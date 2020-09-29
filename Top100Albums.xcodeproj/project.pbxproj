@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5501D9D124369CC1002EAFB0 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D9D024369CC1002EAFB0 /* AnimatedButton.swift */; };
 		5501D9D42436AF08002EAFB0 /* Stubable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D9D32436AF08002EAFB0 /* Stubable.swift */; };
 		5501D9D62436AF85002EAFB0 /* FullAlbumStub.json in Resources */ = {isa = PBXBuildFile; fileRef = 5501D9D52436AF85002EAFB0 /* FullAlbumStub.json */; };
 		5501D9D82436AFC6002EAFB0 /* OneAlbumStub.json in Resources */ = {isa = PBXBuildFile; fileRef = 5501D9D72436AFC6002EAFB0 /* OneAlbumStub.json */; };
@@ -30,6 +29,7 @@
 		5534CD08252372D900576D89 /* ImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534CD07252372D900576D89 /* ImageTests.swift */; };
 		5534CD3025237FF500576D89 /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = 5534CD2F25237FF500576D89 /* .swiftformat */; };
 		5534CD352523801700576D89 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 5534CD342523801700576D89 /* .swift-version */; };
+		5534CD442523837000576D89 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534CD432523837000576D89 /* Button.swift */; };
 		5537256B24340C63009018A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5537256A24340C63009018A8 /* AppDelegate.swift */; };
 		5537256D24340C63009018A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5537256C24340C63009018A8 /* SceneDelegate.swift */; };
 		5537257424340C65009018A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5537257324340C65009018A8 /* Assets.xcassets */; };
@@ -46,8 +46,6 @@
 		553725B0243536AA009018A8 /* TopAlbumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553725AF243536AA009018A8 /* TopAlbumsViewModel.swift */; };
 		553725B3243537AB009018A8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553725B2243537AB009018A8 /* BaseViewController.swift */; };
 		553725B524353A65009018A8 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553725B424353A65009018A8 /* Factory.swift */; };
-		5558E42B24361BF2001A45E8 /* UIButton+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558E42A24361BF2001A45E8 /* UIButton+Utils.swift */; };
-		5558E42D24361C5D001A45E8 /* HapticCapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558E42C24361C5D001A45E8 /* HapticCapsuleButton.swift */; };
 		5579C658243CD6D500520631 /* UITableView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5579C657243CD6D500520631 /* UITableView+Utils.swift */; };
 		558D061A24369177003E7ED8 /* AnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D061924369177003E7ED8 /* AnimationCircleStrokeSpin.swift */; };
 		558D061C24369192003E7ED8 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D061B24369192003E7ED8 /* ActivityIndicatorView.swift */; };
@@ -87,7 +85,6 @@
 /* Begin PBXFileReference section */
 		364AE739FA338B46378E7F3B /* Pods-Top100Albums-Top100AlbumsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top100Albums-Top100AlbumsUITests.release.xcconfig"; path = "Target Support Files/Pods-Top100Albums-Top100AlbumsUITests/Pods-Top100Albums-Top100AlbumsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4810CE2849C621CFDBDF2AD1 /* Pods-Top100Albums-Top100AlbumsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top100Albums-Top100AlbumsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Top100Albums-Top100AlbumsUITests/Pods-Top100Albums-Top100AlbumsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5501D9D024369CC1002EAFB0 /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
 		5501D9D32436AF08002EAFB0 /* Stubable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stubable.swift; sourceTree = "<group>"; };
 		5501D9D52436AF85002EAFB0 /* FullAlbumStub.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FullAlbumStub.json; sourceTree = "<group>"; };
 		5501D9D72436AFC6002EAFB0 /* OneAlbumStub.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OneAlbumStub.json; sourceTree = "<group>"; };
@@ -110,6 +107,7 @@
 		5534CD07252372D900576D89 /* ImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTests.swift; sourceTree = "<group>"; };
 		5534CD2F25237FF500576D89 /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
 		5534CD342523801700576D89 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		5534CD432523837000576D89 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		5537256724340C63009018A8 /* Top100Albums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Top100Albums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5537256A24340C63009018A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5537256C24340C63009018A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,8 +130,6 @@
 		553725AF243536AA009018A8 /* TopAlbumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsViewModel.swift; sourceTree = "<group>"; };
 		553725B2243537AB009018A8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		553725B424353A65009018A8 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
-		5558E42A24361BF2001A45E8 /* UIButton+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Utils.swift"; sourceTree = "<group>"; };
-		5558E42C24361C5D001A45E8 /* HapticCapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticCapsuleButton.swift; sourceTree = "<group>"; };
 		5579C657243CD6D500520631 /* UITableView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Utils.swift"; sourceTree = "<group>"; };
 		558D061924369177003E7ED8 /* AnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
 		558D061B24369192003E7ED8 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
@@ -188,8 +184,7 @@
 		5501D9CF24369C88002EAFB0 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				5501D9D024369CC1002EAFB0 /* AnimatedButton.swift */,
-				5558E42C24361C5D001A45E8 /* HapticCapsuleButton.swift */,
+				5534CD432523837000576D89 /* Button.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -358,7 +353,6 @@
 			children = (
 				553725A2243532A3009018A8 /* Data+Utils.swift */,
 				553725A02435328A009018A8 /* Dictionary+Utils.swift */,
-				5558E42A24361BF2001A45E8 /* UIButton+Utils.swift */,
 				5599859524355AA800DB1E51 /* UIStackView+Utils.swift */,
 				5579C657243CD6D500520631 /* UITableView+Utils.swift */,
 				5537259E24353273009018A8 /* URLRequest+Utils.swift */,
@@ -725,13 +719,11 @@
 			files = (
 				553725A8243533B0009018A8 /* TopAlbumsViewController.swift in Sources */,
 				5537256B24340C63009018A8 /* AppDelegate.swift in Sources */,
-				5501D9D124369CC1002EAFB0 /* AnimatedButton.swift in Sources */,
 				5599859624355AA800DB1E51 /* UIStackView+Utils.swift in Sources */,
 				5599859F243608C300DB1E51 /* AlbumDetailsCoordinator.swift in Sources */,
 				5599859D2436053200DB1E51 /* AlbumDetailsViewModel.swift in Sources */,
 				5599858D2435401C00DB1E51 /* AlbumResponse.swift in Sources */,
 				5579C658243CD6D500520631 /* UITableView+Utils.swift in Sources */,
-				5558E42D24361C5D001A45E8 /* HapticCapsuleButton.swift in Sources */,
 				553725B3243537AB009018A8 /* BaseViewController.swift in Sources */,
 				55998592243548D300DB1E51 /* ApiRoute.swift in Sources */,
 				559985A224360EF100DB1E51 /* TopAlbumsCoordinator.swift in Sources */,
@@ -746,8 +738,8 @@
 				558D061C24369192003E7ED8 /* ActivityIndicatorView.swift in Sources */,
 				553725B524353A65009018A8 /* Factory.swift in Sources */,
 				553725AE24353440009018A8 /* NetworkError.swift in Sources */,
-				5558E42B24361BF2001A45E8 /* UIButton+Utils.swift in Sources */,
 				559985902435465A00DB1E51 /* FailableDecodable.swift in Sources */,
+				5534CD442523837000576D89 /* Button.swift in Sources */,
 				5537259C24353227009018A8 /* ApiClient.swift in Sources */,
 				5599859B2436050800DB1E51 /* AlbumDetailsViewController.swift in Sources */,
 				558D061A24369177003E7ED8 /* AnimationCircleStrokeSpin.swift in Sources */,

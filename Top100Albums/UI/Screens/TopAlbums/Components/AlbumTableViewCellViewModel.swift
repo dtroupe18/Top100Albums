@@ -13,8 +13,6 @@ protocol AlbumTableViewCellViewModelProtocol: AnyObject {
   var artistName: String { get }
   var artworkUrl: URL? { get }
   var placeholderImage: UIImage? { get }
-
-  init(album: Album)
 }
 
 final class AlbumTableViewCellViewModel: AlbumTableViewCellViewModelProtocol {

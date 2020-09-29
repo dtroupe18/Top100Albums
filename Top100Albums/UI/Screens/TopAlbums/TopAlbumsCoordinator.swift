@@ -8,18 +8,20 @@
 
 import UIKit
 
-protocol TopAlbumsCoordinatorProtocol: CoordinatorProtocol {
-  init(apiClient: ApiClientProtocol, navigationController: UINavigationController)
-}
+protocol TopAlbumsCoordinatorProtocol: CoordinatorProtocol {}
 
 protocol TopAlbumsCoordinatorDelegate: AnyObject {
   func topAlbumsUserDidSelectAlbum(_ album: Album)
 }
 
+private enum ChildCoordinator {
+  case albumDetails
+}
+
 final class TopAlbumsCoordinator: TopAlbumsCoordinatorProtocol {
   private let apiClient: ApiClientProtocol
   private let navigationController: UINavigationController
-  private var albumDetailsCoordinator: AlbumDetailsCoordinatorProtocol?
+  private var childCoordinators: [ChildCoordinator: CoordinatorProtocol] = [:]
 
   init(apiClient: ApiClientProtocol, navigationController: UINavigationController) {
     self.apiClient = apiClient
@@ -36,9 +38,11 @@ final class TopAlbumsCoordinator: TopAlbumsCoordinatorProtocol {
 
 extension TopAlbumsCoordinator: TopAlbumsCoordinatorDelegate {
   func topAlbumsUserDidSelectAlbum(_ album: Album) {
-    albumDetailsCoordinator = AlbumDetailsCoordinator(album: album, navigationController: navigationController)
-    albumDetailsCoordinator?.parentCoordinatorDelegate = self
-    albumDetailsCoordinator?.start()
+    let coordinator = AlbumDetailsCoordinator(album: album, navigationController: navigationController)
+    coordinator.parentCoordinatorDelegate = self
+    childCoordinators[.albumDetails] = coordinator
+
+    coordinator.start()
   }
 }
 
@@ -47,6 +51,6 @@ extension TopAlbumsCoordinator: AlbumDetailsCoordinatorDelegate {
     navigationController.popViewController(animated: true)
 
     // Release this coordinator from memory.
-    albumDetailsCoordinator = nil
+    childCoordinators[.albumDetails] = nil
   }
 }
