@@ -11,7 +11,6 @@ import OHHTTPStubs
 @testable import Top100Albums
 
 final class ApiClientTests: Top100AlbumsTests, Stubable {
-
   override func setUp() {
     super.setUp()
   }

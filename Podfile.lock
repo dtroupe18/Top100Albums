@@ -1,10 +1,11 @@
 PODS:
-  - CocoaLumberjack/Core (3.6.1)
-  - CocoaLumberjack/Swift (3.6.1):
+  - Alamofire (5.2.2)
+  - CocoaLumberjack/Core (3.6.2)
+  - CocoaLumberjack/Swift (3.6.2):
     - CocoaLumberjack/Core
-  - Kingfisher (5.13.1):
-    - Kingfisher/Core (= 5.13.1)
-  - Kingfisher/Core (5.13.1)
+  - Kingfisher (5.15.5):
+    - Kingfisher/Core (= 5.15.5)
+  - Kingfisher/Core (5.15.5)
   - OHHTTPStubs/Core (9.0.0)
   - OHHTTPStubs/Default (9.0.0):
     - OHHTTPStubs/Core
@@ -18,35 +19,54 @@ PODS:
   - OHHTTPStubs/OHPathHelpers (9.0.0)
   - OHHTTPStubs/Swift (9.0.0):
     - OHHTTPStubs/Default
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
   - SnapKit (5.0.1)
-  - SnapshotTesting (1.7.2)
-  - SwiftLint (0.39.1)
+  - SnapshotTesting (1.8.2)
+  - SwiftFormat/CLI (0.46.3)
+  - SwiftLint (0.40.3)
 
 DEPENDENCIES:
+  - Alamofire
   - CocoaLumberjack/Swift
-  - Kingfisher (~> 5.0)
+  - Kingfisher
   - OHHTTPStubs/Swift
-  - SnapKit (~> 5.0.0)
-  - SnapshotTesting (~> 1.7.2)
+  - PromiseKit
+  - SnapKit
+  - SnapshotTesting
+  - SwiftFormat/CLI
   - SwiftLint
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - CocoaLumberjack
     - Kingfisher
     - OHHTTPStubs
+    - PromiseKit
     - SnapKit
     - SnapshotTesting
+    - SwiftFormat
     - SwiftLint
 
 SPEC CHECKSUMS:
-  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
-  Kingfisher: f33a848445e33c543620812158dc5d47f6bf90df
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
+  Kingfisher: e3ec347a5ab8817b7585ef46923a2d2b9a7d8fbe
   OHHTTPStubs: cb29d2a9d09a828ecb93349a2b0c64f99e0db89f
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
-  SnapshotTesting: 8caa6661fea7c8019d5b46de77c16bab99c36c5c
-  SwiftLint: 55e96a4a4d537d4a3156859fc1c54bd24851a046
+  SnapshotTesting: 38947050d13960d57a4a9c166fcf51bca7d56970
+  SwiftFormat: b639417da9e024b9e782f917bc9a080cf75bcb37
+  SwiftLint: dfd554ff0dff17288ee574814ccdd5cea85d76f7
 
-PODFILE CHECKSUM: 187ce4d465ffdba043cba427d2ea292fed676b07
+PODFILE CHECKSUM: 9385718227749c3f29e982831a5673de85426b05
 
 COCOAPODS: 1.9.0

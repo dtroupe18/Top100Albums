@@ -12,8 +12,6 @@ typealias ErrorCallback = (Error) -> Void
 typealias DecodableCallback<T: Decodable> = (T) -> Void
 
 protocol ApiClientProtocol: AnyObject {
-  init(urlSession: URLSession)
-
   func fetchTopAlbums(onSuccess: DecodableCallback<AlbumResponse>?, onError: ErrorCallback?)
 }
 

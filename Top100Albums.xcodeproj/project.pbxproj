@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,6 +28,8 @@
 		5521C0A22437BA5700DD329B /* AlbumDetailsTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C0A12437BA5700DD329B /* AlbumDetailsTestViewModel.swift */; };
 		5534CCFD25236FA700576D89 /* ApiRouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534CCFC25236FA700576D89 /* ApiRouteTests.swift */; };
 		5534CD08252372D900576D89 /* ImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534CD07252372D900576D89 /* ImageTests.swift */; };
+		5534CD3025237FF500576D89 /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = 5534CD2F25237FF500576D89 /* .swiftformat */; };
+		5534CD352523801700576D89 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 5534CD342523801700576D89 /* .swift-version */; };
 		5537256B24340C63009018A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5537256A24340C63009018A8 /* AppDelegate.swift */; };
 		5537256D24340C63009018A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5537256C24340C63009018A8 /* SceneDelegate.swift */; };
 		5537257424340C65009018A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5537257324340C65009018A8 /* Assets.xcassets */; };
@@ -106,6 +108,8 @@
 		5521C0A12437BA5700DD329B /* AlbumDetailsTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsTestViewModel.swift; sourceTree = "<group>"; };
 		5534CCFC25236FA700576D89 /* ApiRouteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouteTests.swift; sourceTree = "<group>"; };
 		5534CD07252372D900576D89 /* ImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTests.swift; sourceTree = "<group>"; };
+		5534CD2F25237FF500576D89 /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
+		5534CD342523801700576D89 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		5537256724340C63009018A8 /* Top100Albums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Top100Albums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5537256A24340C63009018A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5537256C24340C63009018A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -282,6 +286,8 @@
 				55751E28EA4457D28841D21A /* Pods */,
 				AC5FF4F7F17BCE9782CF4F63 /* Frameworks */,
 				55C9BFAF24353D640053774A /* .swiftlint.yml */,
+				5534CD2F25237FF500576D89 /* .swiftformat */,
+				5534CD342523801700576D89 /* .swift-version */,
 			);
 			sourceTree = "<group>";
 		};
@@ -482,7 +488,6 @@
 				5537256324340C63009018A8 /* Sources */,
 				5537256424340C63009018A8 /* Frameworks */,
 				5537256524340C63009018A8 /* Resources */,
-				D305A49BD96B0FB8965929D8 /* [CP] Embed Pods Frameworks */,
 				5599858A24353E3400DB1E51 /* Run SwiftLint */,
 			);
 			buildRules = (
@@ -502,7 +507,7 @@
 				5537257924340C66009018A8 /* Sources */,
 				5537257A24340C66009018A8 /* Frameworks */,
 				5537257B24340C66009018A8 /* Resources */,
-				70DC6C504EE3F67AE0971A44 /* [CP] Embed Pods Frameworks */,
+				5534CD3F2523803F00576D89 /* Run Swift Format */,
 			);
 			buildRules = (
 			);
@@ -522,7 +527,6 @@
 				5537258424340C66009018A8 /* Sources */,
 				5537258524340C66009018A8 /* Frameworks */,
 				5537258624340C66009018A8 /* Resources */,
-				A96558F82B6CD4A98D075190 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -582,9 +586,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5534CD3025237FF500576D89 /* .swiftformat in Resources */,
 				55C9BFB024353D650053774A /* .swiftlint.yml in Resources */,
 				5537257724340C65009018A8 /* LaunchScreen.storyboard in Resources */,
 				5537257424340C65009018A8 /* Assets.xcassets in Resources */,
+				5534CD352523801700576D89 /* .swift-version in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +614,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5534CD3F2523803F00576D89 /* Run Swift Format */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Swift Format";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Done here because it clears the clipboard\n\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"${SRCROOT}/Top100Albums\" \"${SRCROOT}/Top100AlbumsTests\"\n";
+		};
 		5599858A24353E3400DB1E51 /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -670,23 +694,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		70DC6C504EE3F67AE0971A44 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Top100AlbumsTests/Pods-Top100AlbumsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Top100AlbumsTests/Pods-Top100AlbumsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Top100AlbumsTests/Pods-Top100AlbumsTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		728DAC91F740AC76C671FED7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -707,40 +714,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A96558F82B6CD4A98D075190 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Top100Albums-Top100AlbumsUITests/Pods-Top100Albums-Top100AlbumsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Top100Albums-Top100AlbumsUITests/Pods-Top100Albums-Top100AlbumsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Top100Albums-Top100AlbumsUITests/Pods-Top100Albums-Top100AlbumsUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D305A49BD96B0FB8965929D8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Top100Albums/Pods-Top100Albums-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Top100Albums/Pods-Top100Albums-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Top100Albums/Pods-Top100Albums-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
