@@ -25,9 +25,9 @@ enum FileType: String {
   case json = ".json"
 }
 
-protocol StubLoading {}
+protocol Stubable: AnyObject {}
 
-extension StubLoading {
+extension Stubable {
   private func makeFileMissingError(filename: FileName) -> Error {
     return NSError(
       domain: "",
@@ -36,8 +36,8 @@ extension StubLoading {
     )
   }
 
-  public func loadDataFrom(filename: FileName, fileType: FileType, callingClass: AnyObject) throws -> Data {
-    let testBundle = Bundle(for: type(of: callingClass))
+  public func loadDataFrom(filename: FileName, fileType: FileType = .json) throws -> Data {
+    let testBundle = Bundle(for: type(of: self))
 
     guard let path = testBundle.path(forResource: filename.rawValue, ofType: fileType.rawValue) else {
       throw(self.makeFileMissingError(filename: filename))
@@ -53,7 +53,7 @@ extension StubLoading {
     callingClass: AnyObject
   ) throws -> T {
     do {
-      let data = try loadDataFrom(filename: filename, fileType: fileType, callingClass: callingClass)
+      let data = try loadDataFrom(filename: filename, fileType: fileType)
       return try JSONDecoder().decode(decodableType, from: data)
     } catch let err {
       throw(err)

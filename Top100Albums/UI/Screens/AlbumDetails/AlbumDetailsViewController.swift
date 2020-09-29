@@ -64,7 +64,7 @@ final class AlbumDetailsViewController: BaseViewController {
   }
 
   private func addBackButton() {
-    let backArrowImg = UIImage(sfSymbolName: .chevronLeft)
+    let backArrowImg = Image.chevronLeft.value
     backButton.setImage(backArrowImg, for: .normal)
 
     let barButton = UIBarButtonItem(customView: backButton)

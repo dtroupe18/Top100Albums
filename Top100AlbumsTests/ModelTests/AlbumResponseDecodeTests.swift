@@ -9,7 +9,7 @@
 import XCTest
 @testable import Top100Albums
 
-final class AlbumResponseDecodeTests: Top100AlbumsTests, StubLoading {
+final class AlbumResponseDecodeTests: Top100AlbumsTests, Stubable {
 
   override func setUp() {
     super.setUp()
@@ -21,11 +21,11 @@ final class AlbumResponseDecodeTests: Top100AlbumsTests, StubLoading {
 
   func testAlbumResponseDecodeWorks() {
     do {
-      let jsonData = try loadDataFrom(filename: .fullStub, fileType: .json, callingClass: self)
+      let jsonData = try loadDataFrom(filename: .fullStub)
       let albumResponse = try JSONDecoder().decode(AlbumResponse.self, from: jsonData)
       let albumCount = albumResponse.feed.results.count
 
-      XCTAssertTrue(albumCount == 100, "Expected to decode 100 albums decoded: \(albumCount) albums")
+      XCTAssertTrue(albumCount == 100, "Expected to decode 100 albums, but only decoded: \(albumCount) albums")
 
     } catch let err {
       fail(message: err.localizedDescription)
@@ -34,7 +34,7 @@ final class AlbumResponseDecodeTests: Top100AlbumsTests, StubLoading {
 
   func testAlbumResponseWithMissingAlbumDataDecodeWorks() {
     do {
-      let jsonData = try loadDataFrom(filename: .missingAlbumDataStub, fileType: .json, callingClass: self)
+      let jsonData = try loadDataFrom(filename: .missingAlbumDataStub)
       let albumResponse = try JSONDecoder().decode(AlbumResponse.self, from: jsonData)
       let albumCount = albumResponse.feed.results.count
 
@@ -47,7 +47,7 @@ final class AlbumResponseDecodeTests: Top100AlbumsTests, StubLoading {
 
   func testAlbumResponseValuesAreDecodedCorrectly() {
     do {
-      let jsonData = try loadDataFrom(filename: .oneAlbumStub, fileType: .json, callingClass: self)
+      let jsonData = try loadDataFrom(filename: .oneAlbumStub)
       let albumResponse = try JSONDecoder().decode(AlbumResponse.self, from: jsonData)
 
       let albumCount = albumResponse.feed.results.count

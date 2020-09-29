@@ -27,7 +27,7 @@ final class AlbumTableViewCellTestViewModel: AlbumTableViewCellViewModelProtocol
   }
 
   var placeholderImage: UIImage? {
-    return UIImage(imageName: .albumArtPlaceholder)
+    return Image.albumArtPlaceholder.value
   }
 
   init(album: Album) {

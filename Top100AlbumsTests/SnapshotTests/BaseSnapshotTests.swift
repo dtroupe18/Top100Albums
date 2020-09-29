@@ -38,7 +38,7 @@ class BaseSnapshotTests: XCTestCase {
   override func setUp() {
     super.setUp()
     // If you have ksDiff you can use that to diff your snapshots and see what changed :]
-    // diffTool = "ksdiff"
+    diffTool = "ksdiff"
   }
 
   override func tearDown() {

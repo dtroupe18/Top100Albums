@@ -10,7 +10,7 @@ import XCTest
 import SnapshotTesting
 @testable import Top100Albums
 
-final class AlbumDetailsVcSnapshotTests: BaseSnapshotTests, StubLoading {
+final class AlbumDetailsVcSnapshotTests: BaseSnapshotTests, Stubable {
   override func setUp() {
     super.setUp()
   }

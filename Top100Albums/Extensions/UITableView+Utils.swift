@@ -25,7 +25,7 @@ extension UITableView {
         initialSpringVelocity: 0,
         options: .curveEaseInOut, animations: {
           cell.transform = CGAffineTransform.identity
-      }, completion: nil)
+        }, completion: nil)
     }
   }
 }

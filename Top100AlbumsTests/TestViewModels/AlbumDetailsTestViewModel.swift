@@ -65,7 +65,7 @@ final class AlbumDetailsTestViewModel: AlbumDetailsViewModelProtocol {
   }
 
   var placeholder: UIImage? {
-    return UIImage(imageName: .albumArtPlaceholder)
+    return Image.albumArtPlaceholder.value
   }
 
   init(album: Album) {

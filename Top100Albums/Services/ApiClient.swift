@@ -81,12 +81,7 @@ final class ApiClient: ApiClientProtocol {
   }
 
   public func fetchTopAlbums(onSuccess: DecodableCallback<AlbumResponse>?, onError: ErrorCallback?) {
-    guard let url = ApiRoute.topAlbums.url else {
-      onError?(NetworkError.urlCreation)
-      return
-    }
-
-    let request = URLRequest(url: url)
+    let request = URLRequest(url: ApiRoute.topAlbums.url)
     self.makeRequest(request: request, decodableType: AlbumResponse.self, onSuccess: onSuccess, onError: onError)
   }
 }

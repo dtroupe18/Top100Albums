@@ -9,7 +9,7 @@
 import XCTest
 @testable import Top100Albums
 
-final class AlbumTableViewCellViewModelTests: Top100AlbumsTests, StubLoading {
+final class AlbumTableViewCellViewModelTests: Top100AlbumsTests, Stubable {
   override func setUp() {
     super.setUp()
   }
